@@ -1,0 +1,951 @@
+header{
+	background: url('../img/morning-niagara-fall-wallpaper.jpg') 50% no-repeat;
+	height: 700px;
+	background-size: cover;
+	font-family: 'Exo 2', sans-serif;
+}
+header img{
+	max-width: 100%;
+}
+.tourney{
+	background: url('../img/registration.jpg') 100% no-repeat;
+	height: 700px;
+	background-size: cover;
+	font-family: 'Exo 2', sans-serif;
+}
+.infopage{
+	background: url('../img/net.jpg') 75% no-repeat;
+	height: 700px;
+	background-size: cover;
+	font-family: 'Exo 2', sans-serif;
+}
+.registration{
+		background: url('../img/hockeyrink.jpg') 100% no-repeat;
+		height: 700px;
+		background-size: cover;
+		font-family: 'Exo 2', sans-serif;
+	}
+	
+.tourney1{
+	background: url('../img/net.jpg') 50% no-repeat;
+	height: 700px;
+	background-size: cover;
+	font-family: 'Exo 2', sans-serif;
+	
+}
+
+nav{
+	width: 100%;
+	height: 53px;
+	background: rgba(0,0,0,0.6);
+}
+nav ul{
+	text-align: center;
+	line-height: 3;
+	font-weight: bold;
+	font-size:14px;
+}
+
+nav li{
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	padding: 5.5px;
+	
+}
+nav a {
+	color: white;
+	text-shadow: 3px 3px 3px black;
+	text-decoration: none;
+}
+nav li:hover{
+	text-shadow: none;
+	text-decoration: none;
+	background: rgba(215, 44, 44, 0.8);
+	width: auto;
+	height: inherit;
+
+}
+.logo{
+	text-align: center;
+	margin: 100px auto;
+}
+.logo a{
+	background: url('../img/NSTlogogif') 50% no-repeat;
+	width: 300px;
+	height: 300px;
+	margin: 200px auto;
+	width: 100%;
+	
+}
+h2{
+	color: white;
+	font-size: 30px;
+	font-family: 'Exo 2',sans-serif;
+	font-weight: bold;
+	text-shadow: 3px 3px 3px black;
+	text-align: center;
+}
+.tournament-schedule h3{
+	padding: 20px;
+}
+.tournament-schedule ul{
+	background: rgba(215, 44, 44, 0.8);
+	text-align: center;
+	padding: 30px;
+	max-width: 600px;
+	margin: 0 auto;
+	margin-top: 50px;
+	border-radius: 5px 5px 5px;
+	font-family: 'Exo 2', sans-serif;
+	text-shadow: 2px 2px 2px black;
+	box-shadow: 2px 2px 13px white;
+	
+}
+.tournament-schedule li{
+	padding: 20px;
+	text-align: center;
+}
+.tournament-schedule a{
+	text-decoration: none;
+	color: white;
+}
+.tournament-schedule a:hover{
+	color: black;
+	text-shadow: 2px 2px 2px white;
+}
+
+.tabs-nav li:first-child a{
+	border-right:0;
+
+	}
+	.tabs-nav li:last-child a{
+	
+		}
+.tabs-nav a{
+	background:#f5f7f5;
+	border:1px solid #c6c9cc;
+	color:#8c9198;
+	display:block;
+	font-size:11px;
+	font-weight:bold;
+	height:40px;
+	line-height:44px;
+	text-align:center;
+	text-transform:uppercase;
+	width:140px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	}
+
+.tabs-nav .tab-active a{
+	background:#fff;
+	border-bottom-color:transparent;
+	color:#8ec63f;
+	cursor:default
+	}
+	
+.tabs-stage{
+	-webkit-border-radius:0 0 6px 6px;
+	-moz-border-radius:0 0 6px 6px;
+	-ms-border-radius:0 0 6px 6px;
+	-o-border-radius:0 0 6px 6px;
+	border-radius:0 0 6px 6px;
+	border-top:0;
+	clear:both;
+	position:relative;
+	top:-1px;
+	width:100%;
+	}
+.tabs-stage a{
+	text-decoration: none;
+	color: white;
+	text-shadow: 2px 2px 2px black;
+}
+.tabs-stage a:hover{
+	opacity: 0.9;
+}
+.tabs-stage p{
+	margin:0;
+	padding:20px
+	}
+.tabs-nav{
+	display: inline-flex;
+}
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+.INFO{
+	position: absolute;
+	background: black;
+	width: 100%;
+}
+
+#tab-2, #tab-3 h3{
+	font-size: 30px;
+	padding-top: 40px;
+	color: white;
+	text-align: center;
+	font-family: 'Exo 2', sans-serif;
+	font-weight: bold;
+	padding-bottom: 20px;
+	
+}
+
+#tab-2 h6{
+	font-size: 18px;
+	padding: 10px;
+	color: white;
+	text-align: center;
+	font-family: 'Exo 2', sans-serif;
+	font-weight: bold;
+	
+}
+#tab-2 p{
+	font-size: 13px;
+	padding: 20px;
+	color: white;
+	text-align: center;
+	font-family: 'Exo 2', sans-serif;
+	font-weight: bold;
+}
+
+.application{
+	background: black;	
+	padding: 30px;
+	height: 1500px;
+	
+}
+.application2{
+	background: black;	
+	padding: 30px;
+
+}
+.application h1 {
+		font-size: 30px;
+		padding: 40px;
+		color: white;
+		text-align: center;
+		font-family: 'Exo 2', sans-serif;
+		font-weight: bold;
+	}
+	
+.application2 h1{
+	font-size: 30px;
+	padding: 40px;
+	color: white;
+	text-align: center;
+	font-family: 'Exo 2', sans-serif;
+	font-weight: bold;
+}
+.application2{
+	margin: 0 auto;
+}
+#customButton{
+	padding: 40px;
+	text-shadow: 2px 2px 2px red;
+	color: white;
+	text-align: center;
+	font-family: 'Exo 2', sans-serif;
+	font-weight: bold;
+	margin-top: 20px;
+}
+.paybutton{
+	margin: 0 auto;
+	text-align: center;
+}
+.paybutton h6{
+	padding: 20px;
+	color: white;
+	text-align: center;
+	font-family: 'Exo 2', sans-serif;
+	font-weight: bold;
+	
+}
+.why_NST{
+	background: black;
+	text-align: center;
+	font-family: 'Exo 2', sans-serif;
+	color: white;
+	margin: 0 auto;
+	padding: 40px;
+}
+.features{
+	margin: 0 auto;
+	max-width: 600px;
+	background: rgba(215, 44, 44, 0.8);
+	padding: 20px;
+	border-radius: 6px 6px 6px;
+	box-shadow: 2px 2px 13px white;
+	
+}
+.why_NST h1{
+	font-size: 28px;
+	padding: 20px;
+	text-shadow: 2px 2px 2px black;
+}
+.why_NST li{
+	padding: 10px;
+	text-shadow: 2px 2px 2px black;
+}
+
+.tournament{
+	background: black;
+	height: inherit;
+	color: white;
+	font-family: 'Exo 2', sans-serif;
+	text-align: center;	
+	}
+.tournament h1{
+	font-weight: bold;
+	font-size: 32px;
+	text-align: center;
+	padding: 10px;
+}
+.tournament li{
+	padding: 20px;
+}
+.NST-Registration{
+	background: black;
+	height: inherit;
+	color: white;
+	font-family: 'Exo 2', sans-serif;
+}
+.NST-Registration h1{
+	font-weight: bold;
+	font-size: 32px;
+	text-align: center;
+	padding: 10px;
+}
+.NST-Registration p{
+	padding: 20px;
+}
+
+.NST-Registration li{
+	padding: 20px;
+}
+.attractions{
+	text-align: center;
+	margin-top: 40px;
+	
+}
+.attractions li{
+	padding: 10px;
+}
+.attractions h6{
+	text-decoration: none;
+	font-family: 'Exo 2', sans-serif;
+	color: white;
+	text-shadow: 2px 2px 2px black;
+}
+
+.attractions a{
+	text-decoration: none;
+	font-family: 'Exo 2', sans-serif;
+	color: white;
+	text-shadow: 2px 2px 2px black;
+	font-size:14px;
+}
+.attractions a:hover{
+	color: black;
+	text-shadow: 2px 2px 2px white;
+}
+.food{
+	height: 400px;
+	width: 250px;
+	background: rgba(215, 44, 44, 0.8);
+	border-radius: 3px 3px 3px;
+	margin-right: 10px;
+	display: inline-block;
+	padding-top: 60px;
+	box-shadow: 2px 2px 13px white;
+
+}
+.hotels{
+	height: 400px;
+	width: 250px;
+	background: rgba(215, 44, 44, 0.8);
+	border-radius: 3px 3px 3px;
+	margin-right: 10px;
+	display: inline-block;
+	padding-top: 60px;
+	box-shadow: 2px 2px 13px white;
+	
+	
+	
+}
+.sights{
+	height: 400px;
+	width: 250px;
+	background: rgba(215, 44, 44, 0.8);
+	border-radius: 3px 3px 3px;
+	display: inline-block;
+	padding-top: 60px;	
+	box-shadow: 2px 2px 13px white;
+	
+}
+
+/*form styles*/
+#msform {
+	margin: 50px auto;
+	text-align: center;
+	position: relative;
+	font-family: 'Exo 2', sans-serif;	
+}
+#msform p{
+	text-align: center;
+	color: white;
+	font-family: 'Exo 2', sans-serif;
+	padding: 10px;
+}
+#msform fieldset {
+	background: white;
+	border: 0 none;
+	border-radius: 3px;
+	box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+	padding: 20px 30px;
+	font-family: 'Exo 2', sans-serif;
+	box-sizing: border-box;
+	/*stacking fieldsets above each other*/
+	position: absolute;
+	background: rgba(215, 44, 44, 0.8);
+}
+fieldset:nth-child(3){
+text-align: center;
+width: 90%;
+}
+
+/*Hide all except first fieldset*/
+#msform fieldset:not(:first-of-type) {
+	display: none;
+}
+/*inputs*/
+#msform input, #msform textarea {
+	padding: 15px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	margin-bottom: 10px;
+	width: 85%;
+	box-sizing: border-box;
+	font-family: 'Exo 2', sans-serif;
+	color: #2C3E50;
+	font-size: 20px;
+}
+/*buttons*/
+#msform .action-button {
+	width: 120px;
+	background: gray;
+	font-weight: bold;
+	color: white;
+	border: 0 none;
+	border-radius: 5px;
+	cursor: pointer;
+	padding: 20px 10px;
+	margin: 22px auto;
+	font-size: 20px;
+	font-family: 'Exo 2', sans-serif;
+	display: inline-block;
+	
+}
+#msform .action-button:hover, #msform .action-button:focus {
+	box-shadow: 0 0 0 2px white, 0 0 0 3px rgba(68,188,218, 1);
+}
+
+/*headings*/
+.fs-title {
+	font-size: 25px;
+	text-transform: uppercase;
+	color: white;
+	margin-bottom: 10px;
+	font-family: 'Exo 2', sans-serif;
+
+}
+.fs-subtitle {
+	font-weight: normal;
+	font-family: 'Exo 2', sans-serif;
+	font-size: 22px;
+	color: white;
+	margin-bottom: 20px;
+}
+/*progressbar*/
+#progressbar {
+	margin-bottom: 30px;
+	overflow: hidden;
+	/*CSS counters to number the steps*/
+	counter-reset: step;
+	color: white;
+	width: 100%;
+	
+}
+#progressbar li {
+	list-style-type: none;
+	color: white;
+	text-transform: uppercase;
+	width: 17.33%;
+	float: left;
+	position: relative;
+	margin-left: 20px;
+	font-family: 'Exo 2', sans-serif;
+}
+#progressbar li:before {
+	content: counter(step);
+	counter-increment: step;
+	width: 20px;
+	line-height: 20px;
+	display: block;
+	font-size: 18px;
+	color: white;
+	background: rgba(215, 44, 44, 1);
+	border-radius: 3px;
+	margin: 0 auto 5px auto;
+}
+/*progressbar connectors*/
+#progressbar li:after {
+	content: '';
+	width: 105%;
+	height: 2px;
+	color: white;
+	position: absolute;
+	left: -58%;
+	top: 10px;
+	background: rgba(215, 44, 44, 1);
+	z-index: -1;
+
+	
+}
+#progressbar li:first-child:after {
+	/*connector not needed before the first step*/
+	content: none; 
+	background: rgba(215, 44, 44, 1);
+	color: white;
+}
+
+#progressbar li.active:before, #progressbar li.active:after {
+background: rgba(215, 44, 44, 1);
+color: white;
+z-index: 1;
+}
+.fileUpload btn btn-primary{
+	position: relative;
+	overflow: hidden;
+	margin: 10px;
+	background: blue;
+	padding: 30px;
+	
+}
+.fileUpload input.upload {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	cursor: pointer;
+	opacity: 0.9;
+}
+
+select{
+		position: relative;
+		-webkit-appearance: button;
+		-webkit-border-radius: 5px;
+		-webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+		-webkit-user-select: none;
+		background-image: -webkit-linear-gradient(#FAFAFA, #F4F4F4 40%, #E5E5E5);
+		background-position: center right;
+		background-repeat: no-repeat;
+		border: 1px solid #AAA;
+		color: #555;
+		overflow: hidden;
+		padding: 13px;
+		border: 1px solid #ccc;
+		border-radius: 3px;
+		width: 85%;
+		box-sizing: border-box;
+		font-family: 'Exo 2', sans-serif;		
+		color: #2C3E50;
+		font-size: 16px;
+		
+}
+
+input{
+		-webkit-border-radius: 5px;
+		-webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+		-webkit-padding-end: 20px;
+		-webkit-padding-start: 2px;
+		-webkit-user-select: none;
+		background-image: url(../images/select-arrow.png), -webkit-linear-gradient(#FAFAFA, #F4F4F4 40%, #E5E5E5);
+		background-position: center right;
+		background-repeat: no-repeat;
+		border: 1px solid #AAA;
+		color: #555;
+		font-size: inherit;
+		margin: 5px;
+		overflow: hidden;
+		padding: 15px;
+		border: 1px solid #ccc;
+		border-radius: 3px;
+		margin-bottom: 10px;
+		width: 85%;
+		box-sizing: border-box;
+		font-family: 'Exo 2', sans-serif;
+		color: #2C3E50;
+		font-size: 16px;
+		text-align: center;
+		top: 50%;
+		left: 50%;
+		margin-top: 12px;
+}
+
+button{
+	padding: 30px;
+	margin: 0 auto;
+	background: gray;
+	border-radius: 5px 5px 5px;
+	color: white;
+	box-shadow: 2px 2px 13px white;
+	font-family: 'Exo 2', sans-serif;
+	transition: background-color 0.5s ease;	
+}
+button:hover{
+	background: rgba(215, 44, 44, 0.8);
+	cursor: pointer;
+	
+
+}
+.meettheteam{
+	background: black;
+	width: 100%;
+	height: 1550px;
+}
+.meettheteam h3{
+		font-size: 30px;
+		margin: 0 0 30px 0;
+		padding: 20px 0 0 0;
+		color: white;
+		text-align: center;
+		font-family: 'Exo 2', sans-serif;
+		font-weight: bold;
+
+	}
+
+#map-canvas {
+   height: 400px;
+   margin: 0 auto;
+   width: 100%;
+   background-color: #ccc;
+ }
+
+#teamphoto{
+	background: url('../img/newstaff.jpg') 100% center no-repeat;
+	height: 700px;
+	margin: 0 auto;
+	width: 606px;
+	
+}
+
+.directionsubmit{
+	width: 500px;
+	display: block;
+	margin: 30px auto;
+	
+}
+.clicker{
+	text-decoration: none;
+	color: white;
+}
+.clicker:hover{
+	color:red;
+}
+button a{
+	text-decoration: none;
+	color: white;
+}
+.signup-button{
+	background: black;
+	text-align: center;
+	padding: 40px;
+}
+.signup-button a:hover{
+	opacity: 0.9;
+
+}
+.social{
+	text-align: center;
+	background: black;
+}
+.social a:hover{
+	opacity: 0.9;	
+}
+
+.email{
+	background:url('../img/NSTmail.png');
+	background-size: 65px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-clip: border-box;
+	display: inline-block;
+	width: 82px;
+	height: 82px;
+	text-decoration: none;
+	cursor: pointer;
+	padding: 20px;	
+}
+
+.facebook {
+	background:url('../img/NSTfb.png');
+	background-size: 65px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-clip: border-box;
+	display: inline-block;
+	width: 82px;
+	height: 82px;
+	text-decoration: none;
+	cursor: pointer;
+	padding: 20px;	
+}
+
+.phone{
+	background:url('../img/NSTphone.png');
+	background-size: 65px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-clip: border-box;
+	display: inline-block;
+	width: 82px;
+	height: 82px;
+	text-decoration: none;
+	cursor: pointer;
+	padding: 20px;	
+}
+
+footer{
+	font-family: 'Exo 2', sans-serif;
+	text-align: center;
+	background: black;
+	padding: 20px;
+	color: white;
+	text-shadow: 1px 1px 1px red;
+}
+
+footer p{
+	color: white;
+}
+
+@media only screen and (min-width:581px) and (max-width: 768px) {
+	nav ul {
+		font-size: 13px;
+	}
+		
+	.sights, .hotels, .food {
+		height: 300px;
+		background: rgba(215, 44, 44, 0.8);	
+		border-radius: 3px 3px 3px;
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 20px;	
+	}
+	
+	.attractions a {
+		font-size: 20px;
+	}
+	
+	.attractions h6 {
+		padding: 10px;
+		font-size: 24px;
+	}
+	
+	.attractions li {
+		padding: 3px;
+	}
+	
+	#progressbar ul {
+		width: 16%;
+		}
+	#progressbar li {
+		width: 15%;
+		font-size: 9px;
+		}
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media screen and (min-device-width: 320px) and (max-device-width: 580px) {
+	   nav {
+		height: 345px;
+		}
+		nav ul { 
+			width: 100%;
+		}
+		nav li {
+			display: block;
+			font-size: 13px;
+			padding: 15px;
+		}
+		nav li:hover {
+			color: red;
+		}
+		header, .tourney, .registration {
+			height: 800px;
+		}
+
+		.logo {
+			background-size: 50% auto;
+			width: 300px;
+			height: 300px;
+			margin: 20px auto;
+		}
+		.logo h1 {
+				font-size: 20px;
+				font-family: 'Exo 2',sans-serif;
+				font-weight: bold;
+		}
+		.INFO h3 {
+			font-size: 20px;
+			font-family: 'Exo 2',sans-serif;
+			font-weight: bold;
+		}
+		.INFO h6 {
+			font-size: 14px;
+			font-family: 'Exo 2',sans-serif;
+			font-weight: bold;
+		}
+		.tabs-nav {
+			width: 100%;
+			margin-left: -10px;
+		}
+		.tabs-nav a {
+			background:#f5f7f5;
+			border:1px solid #c6c9cc;
+			color:#8c9198;
+			display:block;
+			font-size:8px;
+			font-weight:bold;
+			height:40px;
+			line-height:44px;
+			text-align:center;
+			text-transform:uppercase;
+			width:70px;
+			border-top-left-radius: 15px;
+			border-top-right-radius: 15px;
+			}
+
+		.tabs-nav .tab-active a {
+			background:#fff;
+			border-bottom-color:transparent;
+			color:#8ec63f;
+			cursor:default;
+			}
+		
+		.tournament-schedule ul {
+			width: 200px;
+		}
+		.phone, .email, .facebook {
+			padding: 0;
+		}
+		.registration {
+			width: 100%;
+		}
+		.application { 
+			width: auto;
+			height: 1740px;
+		}
+		#msform {
+			width: auto;
+		}
+		#progressbar ul {
+			width: 16%;
+		}
+		#progressbar li {
+			width: 15%;
+			font-size: 9px;
+		}
+		form#msform {
+			text-align:center;
+			width: auto;
+		}
+		#msform {
+			text-align: center;
+			width: auto;
+		}
+		#msform .action-button {
+			width: 80px;
+			height: 32px;
+			padding: 8px 5px;
+			font-size: 13px;
+		}
+	   	#msform input, #msform textarea {
+			padding: 7px;
+			font-size: 13px;
+		}
+		.food, .hotels, .sights {
+				height: 400px;
+				background: none repeat scroll 0% 0% rgba(215, 44, 44, 0.8);
+				border-radius: 3px;
+				display: block;
+				text-align: center;
+				margin: 0px auto 20px;
+				}
+				
+		.features {
+				margin: 0 auto;
+				width: 200px;
+				background: rgba(215, 44, 44, 0.8);
+				padding: 10px;
+				border-radius: 6px 6px 6px;
+				font-size: 14px;
+				}
+				
+		.attractions a {
+				font-size: 20px;
+			}
+		.attractions h6 {
+				padding: 10px;
+				font-size: 24px;
+			}
+		fieldset {
+				text-align:center;
+				width: auto;
+			}
+		.attractions li {
+				padding: 3px;
+			}
+		.teamphoto { 
+				width: 50%;
+			}
+		#map-canvas {
+				width: 71%;
+			}
+		.directionsubmit{
+				width:50%;
+			}
+		#teamphoto{
+				width: inherit;
+				max-width: 100%;	
+			}
+		.meettheteam h3{
+				font-size: 18px;
+			}
+}
+
+
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) , (max-device-width : 1024px) {
+/* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+/* Styles */
+}
+
