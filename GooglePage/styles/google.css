@@ -1,0 +1,106 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	text-align: center;
+	font-family: 'Verdana';
+	margin: 0 auto;
+}
+
+h1{
+	background: url('../img/google.png') 100% center;
+	margin-top: 100px;
+	margin-bottom: 20px;
+	height: 190px;
+}
+.Main{
+	clear:both;
+	height: inherit;	
+	width: 40%;
+	margin: 0 auto;
+	height: 500px;
+}
+input{
+	width: 100%;
+	margin-bottom: 40px;
+	height: 30px;
+	
+}
+input:hover{
+	border: 1px solid blue;
+
+}
+.span{
+	margin-top: 15px;
+	display: inline-block;
+}
+.icon{
+	background: url('../img/grid.png') 30% 46%;
+}
+button{
+	height: 30px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+}
+button a{
+	text-decoration: none;
+	color:black;
+	padding: 15px;
+	font-weight: bold;
+}
+button:hover{
+	box-shadow: 1px 1px 1px gray;
+}
+
+li{
+	list-style-type: none;
+	padding: -10px;
+	display: inline;
+}
+.gplus{
+	background: url('http://lh3.googleusercontent.com/-HKvda3jsZw0/AAAAAAAAAAI/AAAAAAAAAAA/NlqhAojXx1Q/s64-c/photo.jpg');
+	width: 50px;
+	height: 32px;
+	border-radius: 50%;
+}
+li.gplus{
+	width: 50px;
+}
+.social{
+	float: right;
+	padding: 20px;
+}
+.social ul{
+	margin: 15px 40px;
+	font-size: 12px;
+	height: 100px;
+}
+.social li{
+	padding: 14px;
+}
+.footer{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background: #E4E4E4;
+	height: 40px;
+	line-height: 40px;
+	clear: both;
+	color: #666;
+
+}
+.footer-left{
+	float: left;
+	
+}
+.footer-left li, .footer-right li{
+	padding: 10px;
+	line-height: -20;
+	font-size: 12px;
+}
+.footer-right{
+	float: right;
+	
+}
+.footer{
+	clear: both;
+}
