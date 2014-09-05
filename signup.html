@@ -8,191 +8,52 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-		<title>Niagara Sports Tournaments</title>
-		<meta name="author" content="Greg Pfaff">
-		<link rel="stylesheet" href="styles/reset.css" type="text/css" media="all">
-		<link rel="stylesheet" href="styles/bxslider.css" type="text/css" media="all">		
-		<link rel="stylesheet" href="styles/styles.css" type="text/css" media="all">
-		<link rel="stylesheet" href="styles/animate.css" type="text/css" media="screen" title="no title" charset="utf-8">
-		
-		<link href='http://fonts.googleapis.com/css?family=Exo+2' rel='stylesheet' type='text/css'>	
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>	
-		<script src="js/bxslider.min.js" type="text/javascript" charset="utf-8"></script>
-		<script type="text/javascript" src="https://js.stripe.com/v2/"></script>
-		<script src="js/wow.min.js" type="text/javascript" charset="utf-8"></script>
+		    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		    <meta name="author" content="Greg Pfaff">
+        <!-- WebPage Title -->
+        <title>Niagara Sports Tournaments</title>
+		    <!-- Stylesheets -->
+        <link rel="stylesheet" href="styles/reset.css" type="text/css" media="all">
+		    <link rel="stylesheet" href="styles/styles.css" type="text/css" media="all">
+		    <link rel="stylesheet" href="styles/animate.css" type="text/css" media="screen" title="no title" charset="utf-8">
+		    <link href='http://fonts.googleapis.com/css?family=Exo+2' rel='stylesheet' type='text/css'>	
+		    <!-- JavaScript tags -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		    <script src="js/index.js" type="text/javascript" charset="utf-8"></script>	
+		    <script src="js/bxslider.min.js" type="text/javascript" charset="utf-8"></script>
+		    <script type="text/javascript" src="https://js.stripe.com/v2/"></script>
+		    <script src="js/wow.min.js" type="text/javascript" charset="utf-8"></script>
 	
 	<!-- Date: 2013-12-29 -->
 </head>
 <body>
 
 <header class="registration">
-
-<nav>
-    <ul>
-          <li><a href="index.html"> Home </a></li>
-      		<li><a href="tournament.html"> Tournament Rules & Information </a></li>
-      		<li><a href="registration.html"> Registration  </a></li>
-      		<li><a href="signup.html"> Sign Up </a></li>
-      		<li><a href="whoarewe.html">Meet the Team </a></li>
-    </ul>
-</nav>
-
-<div class="logo animated wow bounceInLeft">  <a href="index.html"><img src="img/NSTlogo.gif" width="300" height="300" alt="NSTlogo"></a>
-</div>
-<h2>Niagara Sports Tournaments </h2>
+              <!-- Navigation Bar -->
+              <nav>
+                  <ul>
+                    <li><a href="index.html"> Home </a></li>
+      		          <li><a href="tournament.html"> Tournament Rules & Information </a></li>
+      		          <li><a href="form.html"> Sign Up </a></li>
+      		          <li><a href="whoarewe.html">Meet the Team </a></li>
+                  </ul>
+              </nav>
+              <!-- Animated Logo -->
+              <div class="logo animated wow bounceInLeft">  <a href="index.html"><img src="img/NSTlogo.png" width="300" height="300" alt="NSTlogo"></a>
+              </div>
+        <h2>Niagara Sports Tournaments </h2>
 </header>
 
+<!-- Main Content Area -->
 <div class="application">
   <h1> Application Form </h1>
   
- 
-    <form id="msform">
-      <!-- progressbar -->
-       	<ul id="progressbar">
-       		<li class="active">Account</li>
-       		<li>Team</li>
-       		<li>Contact</li>
-       		<li>Roster</li>
-       		<li>Confirm </li>
-       	</ul>
-       	<!-- fieldsets -->
-       	<fieldset>
-       		<h2 class="fs-title">Sign-up</h2>
-       		<h3 class="fs-subtitle">Niagara Sports Tournaments</h3>
-       		<input type="text" name="name" placeholder="Enter your name" />
-       		<input type="text" name="email" placeholder="Email@Email.com" />
-       
-       		<p> Tournament: </p> <br>
-       		<select> 
-            <option value="Columbus Day">Columbus Day</option>
-            <option value="FL">Festival of Lights</option>
-            <option value="Blizzard Challenge">Blizzard Challenge</option>
-            <option value="PD">Presidents Day</option>
-            <option value="NFC">Niagara Falls Championship</option>
-            <br>
-            </select>
-            <p> Division: </p> <br>
-            <select> 
-              <option value="Mite">Mite/Novice</option>
-              <option value="Squirt">Squirt/Atom</option>
-              <option value="Pee Wee">Pee Wee</option>
-              <option value="Bantam">Bantam</option>
-              <option value="Midget">Midget</option>
-              <br>
-              </select>
-
-               <p> Requested Playing Level: </p> <br>
-                <select> 
-                  <option value="A Major">A Major</option>
-                  <option value="A Minor">A Minor</option>
-                  <option value="A Mixed">A Mixed Ages</option>
-                  <option value="AA Major">AA Major</option>
-                  <option value="AA Minor">AA Minor</option>
-                  <option value="AA Mixed">AA Mixed</option>
-                  <option value="B Major">B Major</option>
-                  <option value="B Minor">B Minor</option>
-                  <option value="House">House Select</option>
-                  <option value="AAA Major">AAA Major</option>
-                  <option value="AAA Minor">AAA Minor</option>
-                  <option value="AAA Mixed">AAA Mixed</option>
-                  <option value="JV">Junior Varsity</option>
-                  <br>
-                  </select>
-                  
-              
-               		<input type="text" name="name" placeholder="Home Association" />
-               		<input type="text" name="name" placeholder="League" />
-               		<input type="text" name="name" placeholder="Roster Level" />
-               		<input type="text" name="name" placeholder="Playing Class" />
-               		
-               		 <p> Hotel Accommodations: We offer discounted rates! </p> <br>
-                      <select> 
-                        <option value="Sheraton Niagara Falls">Sheraton Niagara Falls - 109.00 per night </option>
-                        <option value="Four Points Sheraton Buffalo">Four Points Sheraton Buffalo - 131.00 per night</option>
-                        <option value="Adams Mark">Adam's Mark Buffalo - 125.00 per night</option>
-                        <option value="Holiday Inn Niagara Falls">Holiday Inn Niagara Falls - 115.00 per night</option>
-                        <option value="Byblos Spa & Resort">Bylbos Spa & Resort - 159.00 per night</option>
-                        <option value="Days Inn at the Falls">Days Inn at the Falls - 134.00 per night</option>
-                        <br>
-                      </select>
-                        
-                   <p> Hotel Accommodations: 2nd choice </p> <br>
-                      <select> 
-                              <option value="Sheraton Niagara Falls">Sheraton Niagara Falls - 109.00 per night </option>
-                              <option value="Four Points Sheraton Buffalo">Four Points Sheraton Buffalo - 131.00 per night</option>
-                              <option value="Adams Mark">Adam's Mark Buffalo - 125.00 per night</option>
-                              <option value="Holiday Inn Niagara Falls">Holiday Inn Niagara Falls - 115.00 per night</option>
-                              <option value="Byblos Spa & Resort">Bylbos Spa & Resort - 159.00 per night</option>
-                              <option value="Days Inn at the Falls">Days Inn at the Falls - 134.00 per night</option>
-                              <br>
-                              
-                      </select>
-                      
-       		<input type="button" name="next" class="next action-button" value="Next" />
-       	</fieldset>
-        
-        <fieldset>
-          	<h2 class="fs-title">Team Information</h2>
-        <p> Team name:<br> <input type="text" placeholder="Type Here" name="Team Name" /></p>
-        <p> Coach: <br>  <input type="text" placeholder="Type Here" name="Last Name" /></p>
-        <p> Assistant Coach: <br>  <input type="text" placeholder="Type Here" name="Last Name" /></p>
-        <p> Coaches Phone:      <br> <input type="text" placeholder="Type Here" name="Phone 1" /></p>
-        <p> Assistant Coaches Phone:      <br> <input type="text" placeholder="Type Here" name="Phone 2" /></p>
-        <p> Fax:      <br> <input type="text" placeholder="716-555-5555" name="Fax" /></p>
-        <p> Street Address:      <br> <input type="Address" placeholder="123 Front Street" name="Phone 1" /></p>
-        <p> City:      <br> <input type="text" placeholder="Type Here" name="City" /></p>
-        <p> State:     <br> <input type="text" placeholder="Type Here" name="State" /></p>
-        <p> Zip Code:      <br> <input type="text" placeholder="Type Here" name="Zip" /></p>
-
-       		<input type="button" name="previous" class="previous action-button" value="Previous" />
-       		<input type="button" name="next" class="next action-button" value="Next" />
-       	</fieldset>
-
-       	<fieldset>
-       		<h2 class="fs-title">Personal Details</h2>
-       		<h3 class="fs-subtitle">Let's play some hockey!</h3>
-       		<input type="text" name="fname" placeholder="Team Manager Name" />
-       		<input type="text" name="Assistant" placeholder="Assistant Coaches Name" />
-       		<input type="text" name="Acceptance Policy" placeholder="Address" />
-       		<input type="text" name="postalcode" placeholder="Postal Code">
-       		<input type="text" name="name" placeholder="Team Name" />
-       		<input type="text" name="name" placeholder="Website" />
-       		<input type="text" name="name" placeholder="Roster Size" />
-       		<input type="button" name="previous" class="previous action-button" value="Previous" />
-       		<input type="button" name="next" class="next action-button" value="Next" />
-       </fieldset>
-
-       <fieldset>
-         <h2 class="fs-title">Team Roster </h2>
-         <h3 class="fs-subtitle">Who's got next!?</h3>
-         <h3 class="fs-subtitle">Enter Roster Name and Age or Upload your roster below </h3>
-         	<input type="text" name="fname" placeholder="Team Manager Name" /> <input type="text" name="fname" placeholder="Team Manager Name" />
-       		
-      	  <input type="text" name="fname" placeholder="Player Name and Age" />
-       		<input type="text" name="fname" placeholder="Player Name and Age" />
-       		<input type="text" name="fname" placeholder="Player Name and Age" />
-       		<input type="text" name="fname" placeholder="Player Name and Age" />
-       		<input type="text" name="fname" placeholder="Player Name and Age" />
-       		<input type="text" name="fname" placeholder="Player Name and Age" />
-       		<input type="text" name="fname" placeholder="Player Name and Age" />
-       		
-      
-       		<div class="fileUpload-primary">
-       		     <p> Upload your Team's roster </p>
-              <input type="file" class="upload" placeholder="Upload Your Roster" />
-          </div>
-       
-       			<input type="button" name="previous" class="previous action-button" value="Previous" />
-         		<input type="button" name="next" class="next action-button" value="Next" />
-       		</fieldset>
-
-
+  
       <fieldset>
+         <h1> Thank you!  Your information has been saved, we will be in touch soon!</h1>
      		<h2 class="fs-title">Confirm Information</h2>
-     		<h3 class="fs-subtitle">Acceptance Policy</h3>
-     		<input type="text" name="fname" placeholder="Team Manager Name" />
+     		<h3 class="fs-subtitle">Acceptance Policy
+     		<input id="Go-Action-Button" type="text" name="fname" placeholder="Team Manager Name" /></h3>
      		<p>Submission of this application by e-mail does not constitute acceptance. Applications will not be processed until full payment is received. Deposits and phone reservations will not be accepted. No exceptions. Teams will not receive a refund if they withdraw from the tournament for any reason after initial acceptance.
 
         If accepted, teams will be required to submit 13 game sheet labels so that we can prefabricate your game sheets.</p>
@@ -203,35 +64,29 @@
 
          <p>By submitting go you accept these terms and conditions</p>
      		
-     		<input type="button" onclick="window.location = 'signup2.html'"  class="GO action-button" value="GO" />
+        <h3 class="fs-subtitle">
+     		<input id="Go-Action-Button" type="submit" onclick="window.location = 'signup2.html'" value="GO" /></h3>
    
 
      </fieldset>
 
+  <div class="social">
+    <a href="mailto:mikecarella@niagaratournaments.com?subject=Niagara Sports Tournaments" class="email"></a>
+    <a href="tel:+17167914068" class="phone"></a>
+    <a href="#" class="facebook"></a>
+    <a href="#" class="twitter"></a>
+  </div>
 
+<footer>
+  <p> &copy; Niagara Sports Tournaments 2013</p>  
+</footer>
 
-</form>
      
 
 </div>
 
   <script>
-       var current_fs, next_fs, previous_fs; //fieldsets
-       var left, opacity, scale; //fieldset properties which we will animate
-       var animating; //flag to prevent quick multi-click glitches
 
-       $(".next, .previous").click(function(){
-         if(animating) return false;
-         animating = true;
-
-         current_fs = $(this).parent();
-         if($(this).hasClass("next")){
-           next_fs = $(this).parent().next();
-         }
-         else{
-           next_fs= $(this).parent().prev();
-         }
-         
          
 
          //activate next step on progressbar using the index of next_fs
@@ -269,39 +124,10 @@
          });
        });
 
-       $(".submit").click(function(){
-         return false;
-       })
-
-       </script>
-
-      
+  </script>
     
- </div>    
-    
-    
-      
 
-
-<!--
-  
-
-<div class="signup-button">
-  <button> <input type="submit"><a href="signup.html"> TOURNAMENT APPLICATION</a> </button>
-</div>
--->
-
-  <div class="social">
-    <a href="mailto:mikecarella@niagaratournaments.com?subject=Niagara Sports Tournaments" class="email"></a>
-	  <a href="tel:+17167914068" class="phone"></a>
-	  <a href="#" class="facebook"></a>
-	  <a href="#" class="twitter"></a>
-	</div>
-
-<footer>
-  <p> &copy; Niagara Sports Tournaments 2013</p>	
-</footer>
-
+ 
 
 <script type="text/javascript">
 

@@ -8,100 +8,80 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-		<title>Niagara Sports Tournaments</title>
-		<meta name="author" content="Greg Pfaff">
-		<link rel="stylesheet" href="styles/reset.css" type="text/css" media="all">
-		<link rel="stylesheet" href="styles/bxslider.css" type="text/css" media="all">		
-		<link rel="stylesheet" href="styles/styles.css" type="text/css" media="all">
-		<link rel="stylesheet" href="styles/animate.css" type="text/css" media="screen" title="no title" charset="utf-8">
-		
-		<link href='http://fonts.googleapis.com/css?family=Exo+2' rel='stylesheet' type='text/css'>	
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>	
-		<script src="js/bxslider.min.js" type="text/javascript" charset="utf-8"></script>
-		<script type="text/javascript" src="https://js.stripe.com/v2/"></script>
-		<script src="js/wow.min.js" type="text/javascript" charset="utf-8"></script>
-	
-	<!-- Date: 2013-12-29 -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Niagara Sports Tournaments</title>
+    <meta name="author" content="Greg Pfaff">
+    <link rel="stylesheet" href="styles/reset.css" type="text/css" media="all">
+    <link rel="stylesheet" href="styles/bxslider.css" type="text/css" media="all">    
+    <link rel="stylesheet" href="styles/styles.css" type="text/css" media="all">
+    <link rel="stylesheet" href="styles/animate.css" type="text/css" media="all">
+    
+    <link href='http://fonts.googleapis.com/css?family=Exo+2' rel='stylesheet' type='text/css'> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="js/index.js" type="text/javascript" charset="utf-8"></script>  
+    <script src="js/bxslider.min.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript" src="https://js.stripe.com/v2/"></script>
+    <script src="js/wow.min.js" type="text/javascript" charset="utf-8"></script>
+    
+
+  
+  
+  <!-- Date: 2013-12-29 -->
 </head>
 <body>
 
-<header class="registration">
+<!-- Begin Logo, Nav and Header Picture -->
+<header>
 
 <nav>
-	<ul>
-	  <li><a href="index.html"> Home </a></li>
-	  <li><a href="tournament.html"> Tournament Rules & Information </a></li>
-		<li><a href="registration.html"> Registration </a></li>
-		<li><a href="signup.html"> Sign Up </a></li>
-		<li><a href="whoarewe.html">Meet the Team </a></li>
-		
-	</ul>
+  <ul>
+    <li><a href="index.html"> Home </a></li>
+    <li><a href="tournament.html"> Tournament Rules & Information </a></li>
+    <li><a href="form.html"> Sign Up </a></li>
+    <li><a href="whoarewe.html">Meet the Team </a></li>
+    
+  </ul>
 </nav>
 
-<div class="logo animated wow bounceInLeft">  <a href="index.html"><img src="img/NSTlogo.gif" width="300" height="300" alt="NSTlogo"></a>
+
+<!-- Animated Logo and Home Index -->
+
+<div class="logo animated wow bounceInLeft">
+  <a href="index.html"><img src="img/NSTlogo.png" width="300" height="300" alt="NSTlogo"></a>
 </div>
 <h2>Niagara Sports Tournaments </h2>
 </header>
 
-<div class="application2">
-  <h1> Payments Page </h1>
-  <script src="https://checkout.stripe.com/checkout.js"></script>
-<div class="paybutton">
-  <h6> We're almost done.  Please click the pay button below to be securely pay for your tournament! </h6>
-  <button id="customButton">Purchase</button>
-</div>
 
-  <script>
-    var handler = StripeCheckout.configure({
-      key: 'pk_test_6pRNASCoBOKtIshFeQd4XMUh',
-      image: '/square-image.png',
-      token: function(token, args) {
-        // Use the token to create the charge with a server-side script.
-      }
-    });
-
-    document.getElementById('customButton').addEventListener('click', function(e) {
-      // Open Checkout with further options
-      handler.open({
-        name: 'Niagara Sports Tournaments',
-        description: '1 Tournament ($750.00)',
-        amount: 75000
-      });
-      e.preventDefault();
-    });
-  </script>
-  </div>
-     
-</div>
-     
-      
-    
- </div>    
-    
-    
-      
-
-
-<!--
+<!-- Begin Text Info -->
+<section class="INFO">
+  <h3> Pay for your tournament today!</h3>
+  <h6> Click below to pay through Paypal </h6>
   
+<section class="tournament-schedule">
+      <ul>
+       <li> <a href="NFCD.html"> Niagara Falls Columbus Day Early Bird - Oct 11th - 13th, 2014</a></li>
+       <li> <a href="FSLT.html"> Festival of Lights Tournament - Nov 28th - 30th, 2014</a></li>
+       <li> <a href="blizzardchallenge.html"> Niagara Falls Blizzard Challenge - Jan 18th - 20th, 2015</a></li>
+       <li> <a href="presidentsday.html"> Niagara Falls Presidents Day Tournament - Feb 15th - 17th, 2015</a></li>
+       <li> <a href="champions.html"> Niagara Falls Championship Cup - Mar 14th - 16th, 2015</a></li>
+    </ul>
+</section>
 
-<div class="signup-button">
-  <button> <input type="submit"><a href="signup.html"> TOURNAMENT APPLICATION</a> </button>
-</div>
--->
+
 
   <div class="social">
     <a href="mailto:mikecarella@niagaratournaments.com?subject=Niagara Sports Tournaments" class="email"></a>
-	  <a href="tel:+17167914068" class="phone"></a>
-	  <a href="#" class="facebook"></a>
-	  <a href="#" class="twitter"></a>
-	</div>
+    <a href="tel:+17167914068" class="phone"></a>
+    <a href="#" class="facebook"></a>
+    <a href="#" class="twitter"></a>
+  </div>
+
 
 <footer>
-  <p> &copy; Niagara Sports Tournaments 2013</p>	
+  <p> &copy; Niagara Sports Tournaments 2013</p>  
 </footer>
+
 
 
 <script type="text/javascript">
@@ -118,25 +98,9 @@
 
 </script>
 
-<script type="text/javascript">
-  // This identifies your website in the createToken call below
-  Stripe.setPublishableKey('pk_test_6pRNASCoBOKtIshFeQd4XMUh');
-  // ...
+<script>
+ new WOW().init();
 </script>
-
-<script> jQuery(function($) {
-  $('#payment-form').submit(function(event) {
-    var $form = $(this);
-
-    // Disable the submit button to prevent repeated clicks
-    $form.find('button').prop('disabled', true);
-
-    Stripe.card.createToken($form, stripeResponseHandler);
-
-    // Prevent the form from submitting with the default action
-    return false;
-  });
-});
-</script>
+s
 </body>
 </html>
