@@ -8,32 +8,32 @@ html, body{
 	padding: 0;
 }
 header{
-	background: url('../img/morning-niagara-fall-wallpaper.jpg') 50% no-repeat;
+	background: url('../img/morning-niagara-fall-wallpaper.jpg') center top no-repeat;
 	height: 700px;
 	background-size: cover;
 	font-family: 'Exo 2', sans-serif;
 }
 
 .tourney{
-	background: url('../img/hockeyshot.png') 50% no-repeat;
+	background: url('../img/hockeyshot.png') center top no-repeat;
 	height: 700px;
 	background-size: cover;
 	font-family: 'Exo 2', sans-serif;
 }
 .infopage{
-	background: url('../img/net.jpg') 50% no-repeat;
+	background: url('../img/net.jpg') center top no-repeat;
 	height: 700px;
 	background-size: cover;
 	font-family: 'Exo 2', sans-serif;
 }
 .registration{
-		background: url('../img/hockeypic04.jpg') 50% no-repeat;
+		background: url('../img/hockeypic04.jpg') center top no-repeat;
 		height: 700px;
 		background-size: cover;
 		font-family: 'Exo 2', sans-serif;
 }
 .tourney{
-	background: url('../img/hockeyshot.png') 50% no-repeat;
+	background: url('../img/hockeyshot.png') center top no-repeat;
 	height: 700px;
 	background-size: cover;
 	font-family: 'Exo 2', sans-serif;
@@ -182,7 +182,7 @@ h2{
 	top:-3px;
 	width:100%;
 	border: solid 12px rgba(215, 44, 44, 0.8);
-	padding: 50px;
+	padding: 10px;
 	}
 .tabs-stage a{
 	text-decoration: none;
@@ -814,7 +814,7 @@ footer p{
 			background-position: center center;}
 
 		header{
-		background: url('../img/morning-niagara-fall-wallpaper_2x.jpg') 100% center center ;
+		background: url('../img/morning-niagara-fall-wallpaper.jpg') center top no-repeat;
 		height: 800px;
 		background-size: cover;
 		font-family: 'Exo 2', sans-serif;
@@ -823,8 +823,9 @@ footer p{
 		}
 	
 	.registration{
-		background: url('../img/hockeypic04_2x.jpg') 100% no-repeat;
-		max-width: 580px;
+		background: url('../img/hockeypic04.jpg') center top no-repeat;
+		background-size: cover;
+		
 	}
 
 		.logo {
