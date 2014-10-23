@@ -101,6 +101,7 @@ h2{
 }
 .tournament-schedule ul{
 	background: rgba(215, 44, 44, 0.8);
+	background-color: #000;
 	text-align: center;
 	padding: 30px;
 	max-width: 600px;
@@ -169,6 +170,7 @@ h2{
 	background:#fff;
 	border-bottom-color:transparent;
 	color:rgba(215, 44, 44, 0.8);
+	color: #000;
 	cursor:default
 	}
 	
@@ -184,6 +186,7 @@ h2{
 	top:-3px;
 	width:100%;
 	border: solid 12px rgba(215, 44, 44, 0.8);
+	borer: solid 12px #000;
 	padding: 10px;
 	}
 .tabs-stage a{
@@ -321,6 +324,7 @@ li.tabs-nav{
 	margin: 0 auto;
 	max-width: 600px;
 	background: rgba(215, 44, 44, 0.8);
+	background-color: #000;
 	padding: 20px;
 	border-radius: 6px 6px 6px;
 	box-shadow: 0px 0px 13px white;
@@ -399,6 +403,7 @@ li.tabs-nav{
 	height: 250px;
 	width: 250px;
 	background: rgba(215, 44, 44, 0.8);
+	background-color: #000;
 	border-radius: 3px 3px 3px;
 	margin-right: 10px;
 	display: inline-block;
@@ -457,6 +462,7 @@ li.tabs-nav{
 	font-size: 18px;
 	color: white;
 	background: rgba(215, 44, 44, 1);
+	background-color: #000;
 	border-radius: 3px;
 	margin: 0 auto 5px auto;
 }
@@ -470,6 +476,7 @@ li.tabs-nav{
 	left: -58%;
 	top: 10px;
 	background: rgba(215, 44, 44, 1);
+	background-color: #000;
 	z-index: -1;
 
 	
@@ -506,6 +513,7 @@ z-index: 1;
 }
 .ss-form-container{
 	background: rgba(215, 44, 44, 0.8);
+	background-color: #000;
 	width: 50%;
 	margin: 0 auto;
 	border-radius: 3px 3px 3px;
@@ -597,6 +605,7 @@ button{
 }
 button:hover{
 	background: rgba(215, 44, 44, 0.8);
+	background-color: #000;
 	cursor: pointer;
 	
 
@@ -618,6 +627,7 @@ button:hover{
 fieldset{
 	width: 50%;
 	background: rgba(215,44,44,0.8);
+	background-color: #000;
 	margin: 0 auto;
 	padding: 10px;
 	border-radius: 3px 3px 3px;
@@ -663,6 +673,7 @@ h3.fs-subtitle{
 }
 .clicker:hover{
 	color: rgba(215, 44, 44, 0.8);
+	color: #000;
 }
 button a{
 	text-decoration: none;
@@ -763,6 +774,7 @@ footer p{
 		text-shadow: none;
 		text-decoration: none;
 		background: rgba(215, 44, 44, 0.8);
+		background-color: #000;
 		width: auto;
 		height: 53px;
 	}
@@ -770,6 +782,7 @@ footer p{
 			height: 278px;
 			width: 348px;
 			background: none repeat scroll 0% 0% rgba(215, 44, 44, 0.8);
+			background-color: #000;
 			border-radius: 3px;
 			display: block;
 			text-align: center;
@@ -813,6 +826,7 @@ footer p{
 		}
 		nav li:hover {
 			color: rgba(215, 44, 44, 0.8);
+			color: #000;
 		}
 		header, .tourney, .registration {
 			height: 800px;
@@ -878,6 +892,7 @@ footer p{
 			background:#fff;
 			border-bottom-color:transparent;
 			color: rgba(215, 44, 44, 0.8);
+			color: #000;
 			cursor:default;
 			}
 		
@@ -943,6 +958,7 @@ footer p{
 				margin: 0 auto;
 				width: 200px;
 				background: rgba(215, 44, 44, 0.8);
+				background-color: #000;
 				padding: 10px;
 				border-radius: 6px 6px 6px;
 				font-size: 14px;
