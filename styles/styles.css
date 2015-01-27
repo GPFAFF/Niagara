@@ -13,12 +13,8 @@ header{
 	height: 700px;
 	background-size: cover;
 	font-family: 'Exo 2', sans-serif;
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
-	src='../img/morning-niagara-fall-wallpaper.jpg',
-	sizingMethod='scale');
-	-ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
-	src='../img/morning-niagara-fall-wallpaper.jpg',
-	sizingMethod='scale');
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/morning-niagara-fall-wallpaper.jpg', sizingMethod='scale');
+-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/morning-niagara-fall-wallpaper.jpg', sizingMethod='scale')";
 }
 
 .tourney{
@@ -27,12 +23,8 @@ header{
 	height: 700px;
 	background-size: cover;
 	font-family: 'Exo 2', sans-serif;
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
-	src='../img/hockeyshot.jpg',
-	sizingMethod='scale');
-	-ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
-	src='../img/hockeyshot.jpg',
-	sizingMethod='scale');
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/hockeyshot.png', sizingMethod='scale');
+-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/hockeyshot.png', sizingMethod='scale')";
 }
 .infopage{
 	background: url('../img/net.jpg') center top no-repeat;
@@ -40,12 +32,8 @@ header{
 	height: 700px;
 	background-size: cover;
 	font-family: 'Exo 2', sans-serif;
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
-	src='../img/net.jpg',
-	sizingMethod='scale');
-	-ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
-	src='../img/net.jpg',
-	sizingMethod='scale');
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/net.jpg', sizingMethod='scale');
+-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/net.jpg', sizingMethod='scale')";
 }
 .registration{
 		background: url('../img/hockeypic04.jpg') center top no-repeat;
@@ -53,12 +41,8 @@ header{
 		height: 700px;
 		background-size: cover;
 		font-family: 'Exo 2', sans-serif;
-		filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
-		src='../img/hockeypic04.jpg',
-		sizingMethod='scale');
-		-ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
-		src='../img/hockeypic04.jpg',
-		sizingMethod='scale');
+		filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/hockeypic04.jpg', sizingMethod='scale');
+		-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/hockeypic04.jpg', sizingMethod='scale')";
 }
 nav{
 	width: 100%;
