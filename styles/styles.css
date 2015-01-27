@@ -7,6 +7,18 @@ html, body{
 	margin: 0;
 	padding: 0;
 }
+.IE-IMG{
+	 border:     0;
+	  height:     auto;
+	  left:       0;
+	  min-height: 100%;
+	  min-width:  1024px;
+	  padding:    0;
+	  position:   fixed;
+	  top:        0;
+	  width:      100%;
+	  z-index:    -1001;
+}
 header{
 	background: url('../img/morning-niagara-fall-wallpaper.jpg') center top no-repeat;
 	background-size: 100% 100%;
