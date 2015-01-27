@@ -178,7 +178,6 @@ h2{
 	color:rgba(215, 44, 44, 0.8);
 	cursor:default
 	}
-	
 .tabs-stage{
 	-webkit-border-radius:0 0 6px 6px;
 	-moz-border-radius:0 0 6px 6px;
@@ -661,6 +660,9 @@ h3.fs-subtitle{
 #teamphoto img{
 	height: auto;
 	max-width: 100%;	
+}
+.lt-ie9 #teamphoto img {
+	width:100%;
 }
 
 .directionsubmit{
