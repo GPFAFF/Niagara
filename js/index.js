@@ -20,3 +20,4 @@ $('.tabs-nav a').on('click', function(event){
   $('.tabs-stage div').hide();
   $($(this).attr('href')).show();
 });
+

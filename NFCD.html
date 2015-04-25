@@ -71,11 +71,44 @@
 
 <!-- Begin Text Info -->
 <section class="INFO">
-  <h3> Pay for your tournament today!</h3>
-  <h6> Click below to pay through Paypal </h6>
+  <h3> We are more than just hockey</h3>
+  <h6> Specializing in family fun & entertianment, hosting international tournaments since 1999 </h6>
+
+ <!-- PayPal Buy Button -->
+ <section class="buyButton">
+     <h3> Pay for your Tournament Dues today! </h3>
+          <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="R7NFR2N7RQHMQ">
+        
+        <table>
+          <tr>
+            <td>
+              <input class="buyButton" type="hidden" name="on0" value="Tournament Cost">Tournament Cost
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <select name="os0">
+                  <option class="buyButton" value="Option 1">Option 1 $800.00 USD</option>
+                  <option class="buyButton" value="Option 2">Option 2 $825.00 USD</option>
+                  <option class="buyButton" value="Option 3">Option 3 $850.00 USD</option>
+              </select> 
+            </td>
+          </tr>
+        </table>
+
+          <input type="hidden" name="currency_code" value="USD">
+          <input class="buyButton" type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+              <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">  
+      </form>
+    </section>
   
 <section class="tournament-schedule">
-      <ul>
+   <h3> Upcoming Tournament Opportunities </h3>
+     <h6> Click below for more info!</h6>
+     <ul>
        <li> <a href="NFCD.html"> Niagara Falls Columbus Day Early Bird - Oct 11th - 13th, 2014</a></li>
        <li> <a href="FSLT.html"> Festival of Lights Tournament - Nov 28th - 30th, 2014</a></li>
        <li> <a href="blizzardchallenge.html"> Niagara Falls Blizzard Challenge - Jan 18th - 20th, 2015</a></li>
@@ -83,8 +116,8 @@
        <li> <a href="champions.html"> Niagara Falls Championship Cup - Mar 14th - 16th, 2015</a></li>
     </ul>
 </section>
-
-
+    
+      
 
   <div class="social">
     <a href="mailto:mikecarella@niagaratournaments.com?subject=Niagara Sports Tournaments" class="email"></a>
@@ -92,13 +125,13 @@
     <a href="#" class="facebook"></a>
     <a href="#" class="twitter"></a>
   </div>
-
+</section>
 
 <footer>
   <p> &copy; Niagara Sports Tournaments 2013</p>  
 </footer>
 
-
+</section>
 
 <script type="text/javascript">
 
@@ -117,6 +150,6 @@
 <script>
  new WOW().init();
 </script>
-s
+
 </body>
 </html>
