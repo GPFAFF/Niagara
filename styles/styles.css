@@ -773,12 +773,11 @@ button a{
 	background-position: center;
 	background-clip: border-box;
 	display: inline-block;
-	width: 82px;
+	width: 120px;
 	height: 75px;
 	text-decoration: none;
 	cursor: pointer;
 	padding: 10px;
-	margin-left: 4px;	
 }
 
 .ss-q-title{
