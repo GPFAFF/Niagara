@@ -224,6 +224,7 @@ h2{
 }
 .tabs-stage a:hover{
 	opacity: 0.9;
+	color: black;
 }
 .tabs-stage p{
 	margin:0;
