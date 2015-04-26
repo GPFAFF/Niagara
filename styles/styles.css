@@ -449,7 +449,7 @@ li.tabs-nav{
 .fs-title {
 	font-size: 25px;
 	text-transform: uppercase;
-	margin-bottom: 10px;
+X	margin-bottom: 10px;
 	font-family: 'Exo 2', sans-serif;
 
 }
@@ -1004,6 +1004,10 @@ footer p{
 				text-align:center;
 				width: auto;
 			}
+		fieldset h1{
+			padding: 0 !important;
+			margin-bottom: 30px;
+		}
 		.attractions li {
 				padding: 3px;
 			}
