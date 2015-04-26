@@ -13,8 +13,8 @@ header{
 	height: 700px;
 	background-size: cover;
 	font-family: 'Exo 2', sans-serif;
-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/morning-niagara-fall-wallpaper.jpg', sizingMethod='scale');
--ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/morning-niagara-fall-wallpaper.jpg', sizingMethod='scale')";
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/morning-niagara-fall-wallpaper.jpg', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/morning-niagara-fall-wallpaper.jpg', sizingMethod='scale')";
 }
 #bg {
   position: fixed; 
@@ -866,7 +866,7 @@ footer p{
 			color: red;
 			color: rgba(215, 44, 44, 0.8);
 		}
-		header, .tourney, .registration {
+		header, .tourney, .registration, .who {
 			height: 800px;
 			background-size: 100%;
 			background-size: cover;
