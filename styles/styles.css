@@ -8,13 +8,9 @@ html, body{
 	padding: 0;
 }
 header{
-	background: url('../img/morning-niagara-fall-wallpaper.jpg') center top no-repeat;
 	background-size: 100% 100%;
 	height: 700px;
-	background-size: cover;
 	font-family: 'Exo 2', sans-serif;
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/morning-niagara-fall-wallpaper.jpg', sizingMethod='scale');
-	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/morning-niagara-fall-wallpaper.jpg', sizingMethod='scale')";
 }
 #bg {
   position: fixed; 
@@ -41,45 +37,35 @@ header{
     margin-left: -512px;   /* 50% */
   }
 }
-
-.tourney{
-	background: url('../img/hockeyshot.png') center top no-repeat;
-	background-size: 100% 100%;
-	height: 700px;
+.main{
+	background: url('../img/morning-niagara-fall-wallpaper.jpg') no-repeat;
 	background-size: cover;
-	font-family: 'Exo 2', sans-serif;
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/hockeyshot.png', sizingMethod='scale');
--ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/hockeyshot.png', sizingMethod='scale')";
+
+
 }
-.tourney.lt-ie9{
-	background
+.tourney{
+	background: url('../img/hockeyshot.png') no-repeat;
+	background-size: cover;
+
 }
 .infopage{
-	background: url('../img/net.jpg') center top no-repeat;
-	background-size: 100% 100%;
-	height: 700px;
+	background: url('../img/net.jpg') no-repeat;
 	background-size: cover;
-	font-family: 'Exo 2', sans-serif;
-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/net.jpg', sizingMethod='scale');
--ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/net.jpg', sizingMethod='scale')";
+
 }
 .registration{
-		background: url('../img/hockeypic04.jpg') center top no-repeat;
-		background-size: 100% 100%;
-		height: 700px;
-		background-size: cover;
-		font-family: 'Exo 2', sans-serif;
-		filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/hockeypic04.jpg', sizingMethod='scale');
-		-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/hockeypic04.jpg', sizingMethod='scale')";
+	background: url('../img/hockeypic04.jpg') no-repeat;
+	background-size: cover;
+
 }
 .who{
-		background: url('../img/registration.jpg') center top no-repeat;
-		background-size: 100% 100%;
-		height: 700px;
-		background-size: cover;
-		font-family: 'Exo 2', sans-serif;
-		filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/hockeypic04.jpg', sizingMethod='scale');
-		-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/hockeypic04.jpg', sizingMethod='scale')";
+	background: url('../img/registration.jpg') no-repeat;
+	background-size: cover;
+
+}
+.Signup-page{
+	background: url('../img/Hockey.png') no-repeat;
+	background-size: cover;
 }
 nav{
 	width: 100%;
@@ -239,6 +225,7 @@ h2{
 .tabs-stage a:hover{
 	opacity: 0.9;
 	color: black;
+	text-shadow: 1px 1px 1px gray;
 }
 .tabs-stage p{
 	margin:0;
