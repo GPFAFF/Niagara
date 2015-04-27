@@ -1018,8 +1018,12 @@ h1.ss-form-title {
     left: 3px;
     background: none repeat scroll 0% 0% rgba(80, 80, 80, 0.75);
     width: 98%;
-
-
+}
+.ss-choice-item{
+     	text-align: left;
+		margin-left: 18%;
+     }
+ }
 
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 768px) , (max-device-width : 1024px) {
