@@ -1019,6 +1019,9 @@ h1.ss-form-title {
     background: none repeat scroll 0% 0% rgba(80, 80, 80, 0.75);
     width: 98%;
 }
+.ss-choices{
+	width: 100%;
+}
 .ss-choice-item{
      	text-align: left;
 		margin-left: 18%;
