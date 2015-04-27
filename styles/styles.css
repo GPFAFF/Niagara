@@ -9,7 +9,7 @@ html, body{
 }
 header{
 	background-size: 100% 100%;
-	height: 700px;
+	height: 400px;
 	font-family: 'Exo 2', sans-serif;
 }
 #bg {
@@ -103,12 +103,12 @@ nav a:hover{
 }
 .logo{
 	text-align: center;
-	margin: 100px auto;
+	margin: 40px auto;
 }
 .logo a{
-	width: 300px;
-	height: 300px;
-	margin: 200px auto;
+	width: 150px;
+	height: 150px;
+	margin: 100px auto;
 	width: 100%;
 }
 h2{
@@ -441,102 +441,6 @@ li.tabs-nav{
 
 }
 
-.required-message, .ss-q-title, .ss-form-heading{
-	font-family: 'Exo 2', sans-serif;
-	text-align: center;
-
-}
-/*headings*/
-.fs-title {
-	font-size: 25px;
-	text-transform: uppercase;
-X	margin-bottom: 10px;
-	font-family: 'Exo 2', sans-serif;
-
-}
-.fs-subtitle {
-	font-weight: normal;
-	font-family: 'Exo 2', sans-serif;
-	font-size: 22px;
-	color: white;
-	margin-bottom: 20px;
-}
-/*progressbar*/
-#progressbar {
-	margin-bottom: 30px;
-	overflow: hidden;
-	/*CSS counters to number the steps*/
-	counter-reset: step;
-	color: white;
-	width: 100%;
-	
-}
-#progressbar li {
-	list-style-type: none;
-	color: white;
-	text-transform: uppercase;
-	width: 17.33%;
-	float: left;
-	position: relative;
-	margin-left: 20px;
-	font-family: 'Exo 2', sans-serif;
-}
-#progressbar li:before {
-	content: counter(step);
-	counter-increment: step;
-	width: 20px;
-	line-height: 20px;
-	display: block;
-	font-size: 18px;
-	color: white;
-	background: rgba(215, 44, 44, 1);
-	border-radius: 3px;
-	margin: 0 auto 5px auto;
-}
-/*progressbar connectors*/
-#progressbar li:after {
-	content: '';
-	width: 105%;
-	height: 2px;
-	color: white;
-	position: absolute;
-	left: -58%;
-	top: 10px;
-	background: rgba(215, 44, 44, 1);
-	z-index: -1;
-
-	
-}
-#progressbar li:first-child:after {
-	/*connector not needed before the first step*/
-	content: none; 
-	background: rgba(215, 44, 44, 1);
-	color: white;
-}
-
-#progressbar li.active:before, #progressbar li.active:after {
-background: rgba(215, 44, 44, 1);
-color: white;
-z-index: 1;
-}
-.fileUpload btn btn-primary{
-	position: relative;
-	overflow: hidden;
-	margin: 10px;
-	background: blue;
-	padding: 30px;
-	
-}
-.fileUpload input.upload {
-	position: absolute;
-	top: 0;
-	right: 0;
-	margin: 0;
-	padding: 0;
-	font-size: 20px;
-	cursor: pointer;
-	opacity: 0.9;
-}
 .ss-form-container{
 	background: red;
 	background: rgba(215, 44, 44, 0.8);
@@ -561,13 +465,13 @@ h1.ss-form-title {
 }
 .ss-form-desc {
 	color: white;
-	margin-bottom: 30px;
+	margin: 30px auto 30px;
 	text-shadow: 2px 2px 2px black;
 }
 div.ss-form-entry{
 	padding: 10px;
 }
-select{
+select, textarea{
 		position: relative;
 		-webkit-appearance: button;
 		-webkit-border-radius: 5px;
@@ -592,7 +496,6 @@ select{
 
 input{
 		-webkit-border-radius: 5px;
-		-webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
 		-webkit-padding-end: 20px;
 		-webkit-padding-start: 2px;
 		-webkit-user-select: initial;
@@ -600,13 +503,11 @@ input{
 		background-repeat: no-repeat;
 		border: 1px solid #AAA;
 		color: #555;
-		font-size: inherit;
-		margin: 5px;
+		margin: 5px auto 10px;
 		overflow: hidden;
 		padding: 15px;
 		border: 1px solid #ccc;
 		border-radius: 3px;
-		margin-bottom: 10px;
 		width: 85%;
 		box-sizing: border-box;
 		font-family: 'Exo 2', sans-serif;
@@ -615,7 +516,31 @@ input{
 		text-align: center;
 		top: 50%;
 		left: 50%;
-		margin-top: 12px;
+		 -webkit-border-radius: 5px;
+  /* -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1); */
+ /* -webkit-padding-end: 20px;
+  -webkit-padding-start: 2px;
+  -webkit-user-select: initial;
+  background-position: center right;
+  background-repeat: no-repeat;
+  /* border: 1px solid #AAA; */
+ /* color: #555;
+  font-size: inherit;
+  margin: 5px;
+  overflow: hidden;
+  padding: 15px;
+  /* border: 1px solid #ccc; */
+ /* border-radius: 3px;
+  margin-bottom: 10px;
+  width: 85%;
+  box-sizing: border-box;
+  font-family: 'Exo 2', sans-serif;
+  color: #2C3E50;
+  font-size: 16px;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  margin-top: 12px;*//*/*/
 }
 input, input:before, input:after {
       -webkit-user-select: initial;
@@ -624,6 +549,14 @@ input, input:before, input:after {
       -ms-user-select: initial;
       user-select: initial;
      } 
+
+     .ss-q-checkbox{
+     	width: 30px;
+     }
+     .ss-choice-item{
+     	text-align: left;
+		margin-left: 30%;
+     }
 
 button{
 	padding: 30px;
@@ -782,12 +715,19 @@ button a{
 	padding: 10px;
 }
 
-.ss-q-title{
+.ss-q-title, p, .required-message, .ss-q-title, .ss-form-heading, .ss-q-help, .ss-choice-label{
 	color: white;
 	text-shadow: 2px 2px 2px black;
 	padding: 12px;
+	font-family: 'Exo 2', sans-serif;
+	text-align: center;
 }
 
+.ss-choices{
+	margin: 0 auto;
+	width: 70%;
+	text-align: left;
+}
 table#navigation-table{
 	margin: 0 auto;
 }
@@ -887,11 +827,14 @@ footer p{
 		background-size: cover;
 		
 	}
+	h2{
+		margin-top: 105px;
+	}
 
 		.logo {
 			background-size: 50% auto;
-			width: 300px;
-			height: 300px;
+			width: 150px;
+			height: 150px;
 			margin: 40px auto;
 		}
 		.logo h1 {
