@@ -341,6 +341,9 @@ li.tabs-nav{
 	font-weight: bold;
 	
 }
+#payPal-select{
+	width: 100%;
+}
 .why_NST{
 	background: black;
 	text-align: center;
