@@ -693,6 +693,7 @@ input#Go-Action-Button{
 	margin-top: 20px;
 	-webkit-appearance: none;
 	background-color: white;
+	color: black;
 }
 h3.fs-subtitle{
 	text-shadow: 2px 2px 2px black;
