@@ -753,7 +753,7 @@ button a{
 .social a:hover{
 	opacity: 0.9;	
 }
-.social:first-child{
+.social a:first-child{
 	margin-left: -10px;
 }
 
