@@ -872,7 +872,9 @@ footer p{
 			font-family: 'Exo 2',sans-serif;
 			font-weight: bold;
 		}
-		
+		.tabs-nav li{
+			padding: 0;
+		}
 		.tabs-nav a {
 			  font-size: 7px;
 			  width: 49px;
