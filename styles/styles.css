@@ -423,7 +423,7 @@ i{
 
 }
 .fa{
-	font-size: 50px !important;
+	font-size: 30px !important;
 	padding: 20px;
 }
 .fa-phone:hover, .fa-envelope:hover, .fa-facebook:hover {
@@ -645,6 +645,7 @@ button{
 #ss-submit{
 	background-color: gray;
 	color: white;
+	-webkit-appearance: none;
 }
 .ss-checkbox{
 	text-align: center;
@@ -716,6 +717,7 @@ h3.fs-subtitle{
 	display: block;
 	margin: 30px auto;
 	background-color: white;
+	-webkit-appearance: none;
 	
 }
 .clicker{
