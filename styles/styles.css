@@ -201,9 +201,6 @@ h2{
 	text-decoration: none;
 	color: white;
 }
-.tournament-schedule a:hover{
-	opacity: 0.9;
-}
 .tournament-schedule h1, h3, h6, {
 	color: white;
 	text-align: center;
@@ -274,7 +271,7 @@ h2{
 	color: white;
 	text-shadow: 2px 2px 2px black;
 }
-.tabs-stage a:hover{
+.tabs-stage a:hover, .tournament-schedule a:hover{
 	opacity: 0.9;
 	color: black;
 	text-shadow: 1px 1px 1px gray;
