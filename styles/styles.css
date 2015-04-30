@@ -688,6 +688,7 @@ button a{
 	background: black;
 	text-align: center;
 	padding: 40px;
+	background: rgba(215, 44, 44, 0.8);	
 }
 .signup-button a:hover{
 	opacity: 0.9;
