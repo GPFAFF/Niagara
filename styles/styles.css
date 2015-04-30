@@ -691,6 +691,7 @@ fieldset p{
 input#Go-Action-Button{
 	padding: 20px;
 	margin-top: 20px;
+	-webkit-appearance: none;
 }
 h3.fs-subtitle{
 	text-shadow: 2px 2px 2px black;
@@ -751,6 +752,9 @@ button a{
 }
 .social a:hover{
 	opacity: 0.9;	
+}
+.social:first-child{
+	margin-left: -10px;
 }
 
 .email{
