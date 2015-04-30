@@ -873,13 +873,13 @@ footer p{
 			font-weight: bold;
 		}
 		.tabs-nav li{
-			padding: 0;
+			padding: 4px;
 		}
 		.tabs-nav a {
 			  font-size: 6px;
 			  width: 49px;
 			  color: black;
-			  padding: 2px;
+			  padding: 4px;
 			  
 			}
 
