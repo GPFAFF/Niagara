@@ -872,22 +872,11 @@ footer p{
 			font-family: 'Exo 2',sans-serif;
 			font-weight: bold;
 		}
-		.tabs-nav{
-			width:;
-		}
+		
 		.tabs-nav a {
-			background: #f5f7f5;
-			border: 1px solid #c6c9cc;
-			display:block;
-			font-size:8px;
-			font-weight:bold;
-			height:40px;
-			line-height:44px;
-			text-align:center;
-			text-transform:uppercase;
-			width:70px;
-			border-top-left-radius: 15px;
-			border-top-right-radius: 15px;
+			  font-size: 7px;
+			  width: 49px;
+			  
 			}
 
 		.tabs-nav .tab-active a {
