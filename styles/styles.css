@@ -103,6 +103,7 @@ nav li:hover{
 	background: rgba(215, 44, 44, 0.8);
 	width: auto;
 	height: inherit;
+	transition: 0.7s ease;
 }
 nav a:hover{
 	opacity: 0.9;
