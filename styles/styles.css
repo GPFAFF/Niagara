@@ -375,7 +375,19 @@ li.tabs-nav{
 	padding: 10px;
 	text-shadow: 2px 2px 2px black;
 }
+i{
+	color: white;
 
+}
+.fa{
+	font-size: 50px !important;
+	padding: 20px;
+}
+.fa-phone:hover, .fa-envelope:hover, .fa-facebook:hover {
+	color: red;
+	color: rgba(215, 44, 44, 0.8);
+	transition: 0.6s ease;
+}
 .tournament{
 	background: black;
 	height: inherit;
