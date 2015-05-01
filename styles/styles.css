@@ -370,9 +370,8 @@ li.tabs-nav{
 	margin: 0 auto;
 }
 .buyButton input{
-	width: 50%;
+	width: 40%;
 	text-align: center;
-	margin: 25px;
 
 }
 .buyButton input:hover{
@@ -384,6 +383,7 @@ li.tabs-nav{
 }
 .buyButton table{
 	margin: 20px auto;
+	width: 40%;
 }
 .paybutton{
 	margin: 0 auto;
