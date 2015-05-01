@@ -400,7 +400,11 @@ input.placeholder, input.value{
 	text-align: center;
 }
 #payPal-select{
-	width: 100%;
+	  text-align: center;
+	  width: 50%;
+	  display: block;
+	  margin: 0 auto 30px;
+}
 }
 .why_NST{
 	background: black;
