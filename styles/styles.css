@@ -642,7 +642,7 @@ button{
 .tournament-schedule a, .features p{
 	font-size: 16px;
 }
-#ss-submit, input#Go-Action-Button{
+#ss-submit, .Go-Action-Button{
 	background-color: gray;
 	color: white;
 	-webkit-appearance: none;
@@ -651,7 +651,7 @@ button{
 	text-align: center;
 	margin: 0 auto;
 }
-button:hover, #ss-submit:hover, input#Go-Action-Button:hover{
+button:hover, #ss-submit:hover, .Go-Action-Button:hover{
 	box-shadow: 0px 0px 23px white;
 	cursor: pointer;
 	transition: 0.4s ease;
@@ -691,8 +691,9 @@ fieldset p{
 input#Go-Action-Button{
 	padding: 20px;
 	margin-top: 20px;
-	background-color: gray;
 	-webkit-appearance: none;
+	background-color: white;
+	color: black;
 }
 h3.fs-subtitle{
 	text-shadow: 2px 2px 2px black;
