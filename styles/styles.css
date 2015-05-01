@@ -4425,6 +4425,9 @@ ul.bx-slider{
 			color: red;
 			color: rgba(215, 44, 44, 0.8);
 		}
+		nav a{
+			font-size: 8px;
+		}
 		header, .tourney, .registration, .who {
 			height: 800px;
 			background-size: 100%;
