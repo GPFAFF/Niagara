@@ -371,7 +371,7 @@ li.tabs-nav{
 	margin-top: 25px;
 
 }
-.buyButton:hover{
+.buyButton input:hover{
 	 box-shadow: 0px -1px 30px white;
 	 transition: 0.6s ease;
 }
