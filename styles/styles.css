@@ -4407,6 +4407,7 @@ ul.bx-slider{
 	   	height: 150px;
 	   }
 	   nav {
+		height: 345px;
 		background: gray;
 		background: rgba(0,0,0,0.6)
 		}
