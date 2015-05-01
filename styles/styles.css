@@ -4418,7 +4418,7 @@ ul.bx-slider{
 		nav li {
 			display: inline;
 			font-size: 13px;
-			padding: 2px;
+			padding: 5px;
 		}
 		nav li:hover {
 			color: red;
