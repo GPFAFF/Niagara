@@ -368,15 +368,18 @@ li.tabs-nav{
 .buyButton input{
 	width: 50%;
 	text-align: center;
+	margin-top: 25px;
 
 }
+.buyButton:hover{
+	 box-shadow: 0px -1px 30px white;
+	 transition: 0.6s ease;
+}
 .buyButton form{
-	text-align: center;
 	margin-bottom: 20px;
 }
 .buyButton table{
-	margin: 0 auto;
-	margin-top: 20px;
+	margin: 20px auto;
 }
 .paybutton{
 	margin: 0 auto;
@@ -389,6 +392,9 @@ li.tabs-nav{
 	font-family: 'Exo 2', sans-serif;
 	font-weight: bold;
 	
+}
+input.placeholder, input.value{
+	text-align: center;
 }
 #payPal-select{
 	width: 100%;
