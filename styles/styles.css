@@ -401,9 +401,9 @@ input.placeholder, input.value{
 }
 #payPal-select{
 	  text-align: center;
-	  width: 50%;
-	  display: block;
-	  margin: 0 auto 30px;
+  width: 50%;
+  display: block;
+  margin: 0 auto 30px;
 }
 }
 .why_NST{
@@ -4731,9 +4731,6 @@ h1.ss-form-title {
  }
  .tournament-schedule li{
  	padding: 10px;
- }
- footer p, .clicker{
- 	font-size: 14px;
  }
 }
 
