@@ -4728,6 +4728,9 @@ h1.ss-form-title {
  .tournament-schedule li{
  	padding: 10px;
  }
+ footer p, .clicker{
+ 	font-size: 14px;
+ }
 }
 
 /* iPads (portrait and landscape) ----------- */
