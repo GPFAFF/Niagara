@@ -452,6 +452,10 @@ i{
 	text-align: center;	
 	height: auto;
 	}
+	strong{
+		color: red;
+		color: rgba(215, 44, 44, 0.8);
+	}
 .tournament h1{
 	font-weight: bold;
 	font-size: 32px;
