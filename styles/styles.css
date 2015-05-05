@@ -279,6 +279,7 @@ h2{
 	margin:0;
 	padding:20px;
 	font-size: 20px;
+	line-height: 28px;
 	}
 .tabs-stage h6{
 	font-size: 25px;
@@ -434,6 +435,11 @@ input.placeholder, input.value{
 i{
 	color: white;
 
+}
+.highlight{
+	background-color: yellow;
+	color: black;
+	text-shadow: 0px;
 }
 .fa{
 	font-size: 30px !important;
