@@ -250,6 +250,9 @@ h2{
 	cursor:default;
 	padding: 13px;
 	}
+.tabs-nav{
+	padding: 6px;
+}
 .tabs-stage{
 	-webkit-border-radius:0 0 6px 6px;
 	-moz-border-radius:0 0 6px 6px;
