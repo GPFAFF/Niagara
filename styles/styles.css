@@ -338,7 +338,7 @@ li.tabs-nav{
 	
 }
 
-.food, .hotels, .sights, li{
+.food, .hotels, .sights, a{
 	font-size: 14px;
 	padding: 3px;
 }
