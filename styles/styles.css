@@ -454,7 +454,7 @@ i{
 	}
 	strong{
 		color: red;
-		color: rgba(215, 44, 44, 0.8);
+		font-weight: bold;
 	}
 .tournament h1{
 	font-weight: bold;
