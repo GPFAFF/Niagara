@@ -231,7 +231,6 @@ h2{
 	background:#f5f7f5;
 	border:1px solid #c6c9cc;
 	color:#8c9198;
-	display:block;
 	font-size:11px;
 	font-weight:bold;
 	height:40px;
@@ -248,7 +247,8 @@ h2{
 	border-bottom-color:transparent;
 	color: red;
 	color:rgba(215, 44, 44, 0.8);
-	cursor:default
+	cursor:default;
+	padding: 13px;
 	}
 .tabs-stage{
 	-webkit-border-radius:0 0 6px 6px;
@@ -4492,8 +4492,7 @@ ul.bx-slider{
 		.tabs-nav a {
 			  font-size: 5px;
 			  width: 42.5px;
-			  color: black;
-			  
+			  color: black;	  
 			}
 
 		.tabs-nav .tab-active a {
@@ -4507,50 +4506,12 @@ ul.bx-slider{
 		.tournament-schedule ul {
 			width: 200px;
 		}
-		.email, .facebook {
-			padding: 0;
-			background-size: 40px;
-		}
-		.phone{
-			background-size: 75px;
-		}
 		.registration {
 			width: 100%;
 		}
 		.application { 
 			width: auto;
 			min-height: 100%;
-		}
-		#msform {
-			width: auto;
-		}
-		#progressbar{
-			width: 110%;
-		}
-		#progressbar ul {
-			width: 16%;
-		}
-		#progressbar li {
-			width: 15%;
-			font-size: 9px;
-		}
-		form#msform {
-			text-align:center;
-			width: auto;
-		}
-		#msform {
-			text-align: center;
-			width: auto;
-		}
-		#msform .action-button {
-			width: 80px;
-			height: 32px;
-			padding: 8px 5px;
-			font-size: 13px;
-		}
-	   	#msform input, #msform textarea {
-			padding: 7px;
-			font-size: 13px;
 		}
 		.food, .hotels, .sights {
 				height: 250px;
