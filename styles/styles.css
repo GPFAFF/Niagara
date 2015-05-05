@@ -441,6 +441,11 @@ i{
 	color: black;
 	text-shadow: none;
 }
+.purp{
+	color: #4e2683 ;
+	text-shadow: 1px 1px 1px black;
+	margin-top: -30px;
+}
 .fa{
 	font-size: 30px !important;
 	padding: 20px;
