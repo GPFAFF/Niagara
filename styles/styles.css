@@ -439,7 +439,7 @@ i{
 .highlight{
 	background-color: yellow;
 	color: black;
-	text-shadow: 0px;
+	text-shadow: none;
 }
 .fa{
 	font-size: 30px !important;
