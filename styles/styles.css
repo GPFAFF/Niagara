@@ -248,11 +248,7 @@ h2{
 	color: red;
 	color:rgba(215, 44, 44, 0.8);
 	cursor:default;
-	padding: 13px;
 	}
-.tabs-nav{
-	padding: 6px;
-}
 .tabs-stage{
 	-webkit-border-radius:0 0 6px 6px;
 	-moz-border-radius:0 0 6px 6px;
