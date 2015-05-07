@@ -269,6 +269,7 @@ h2{
 	text-decoration: none;
 	color: white;
 	text-shadow: 2px 2px 2px black;
+	font-weight: bold;
 }
 .tabs-stage a:hover, .tournament-schedule a:hover{
 	opacity: 0.9;
@@ -318,7 +319,7 @@ li.tabs-nav{
 	padding-top: 20px;
 }
 
-#tab-2, #tab-3, #tab-4, h3{
+#tab-2, #tab-3, #tab-4, #tab5, #tab6 h3{
 	font-size: 30px;
 	padding-top: 40px;
 	color: white;
@@ -329,7 +330,7 @@ li.tabs-nav{
 	
 }
 
-#tab-2, #tab-4, h6{
+#tab-2, #tab-4, #tab6 h6{
 	font-size: 18px;
 	padding: 10px;
 	color: white;
@@ -342,6 +343,10 @@ li.tabs-nav{
 .food, .hotels, .sights{
 	font-size: 18px;
 	padding: 3px;
+
+}
+.food li, .hotels li, .sights li{
+	margin-top: 6px;
 }
 .application{
 	background: black;	
@@ -563,6 +568,7 @@ h1.ss-form-title {
 	color: white;
 	margin: 30px auto 30px;
 	text-shadow: 2px 2px 2px black;
+	font-size: 30px;
 }
 div.ss-form-entry{
 	padding: 10px;
@@ -847,6 +853,7 @@ tbody{
 	padding: 12px;
 	font-family: 'Exo 2', sans-serif;
 	text-align: center;
+	font-size: 20px;
 }
 
 .ss-choices{
