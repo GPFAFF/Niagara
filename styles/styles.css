@@ -4581,12 +4581,9 @@ ul.bx-slider{
 		.meettheteam h3{
 				font-size: 18px;
 			}
-		#progressbar li{
-				margin-left: 12px;
+		.purp{
+		margin: 0;
 			}
-		#progressbar li:after{
-			width: 100%;
-		}
 		.tournament h1{
 			font-size: 16px;
 		}
