@@ -441,8 +441,12 @@ i{
 	text-shadow: none;
 }
 .purp{
-	margin-top: -40px;
+	margin-top: -30px;
 	color: white;
+}
+.purp a:hover{
+	color: #4e2683;
+	font-weight: bold;
 }
 .fa{
 	font-size: 30px !important;
