@@ -4220,7 +4220,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 	-moz-box-shadow: 0 0 5px #ccc;
 	-webkit-box-shadow: 0 0 5px #ccc;
 	box-shadow: 0 0 5px #ccc;
-	border: solid #fff 5px;
+	border: rgba(215, 44, 44, 0.8);
 	left: -5px;
 	background: #fff;
 }
