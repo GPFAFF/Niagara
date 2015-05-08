@@ -527,8 +527,8 @@ i{
 	text-shadow: 2px 2px 2px white;
 }
 .food, .hotels, .sights{
-	height: 250px;
-	width: 250px;
+	height: 300px;
+	width: 300px;
 	background: red;
 	background: rgba(215, 44, 44, 0.8);
 	border-radius: 3px 3px 3px;
