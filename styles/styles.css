@@ -200,7 +200,7 @@ h2{
 	text-decoration: none;
 	color: white;
 }
-.tournament-schedule h1, h3, h6, {
+.tournament-schedule h1, h3, h6 {
 	color: white;
 	text-align: center;
 	padding: 10px;
