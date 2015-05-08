@@ -206,7 +206,7 @@ h2{
 	padding: 10px;
 	margin-top: 10px;
 	font-family: 'Exo 2', sans-serif;
-	font-size: 1.2em;
+	font-size: 1.8em;
 }
 .features h2{
 	color: white;
@@ -4220,7 +4220,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 	-moz-box-shadow: 0 0 5px #ccc;
 	-webkit-box-shadow: 0 0 5px #ccc;
 	box-shadow: 0 0 5px #ccc;
-	border: rgba(215, 44, 44, 0.8);
+	border: solid #fff 5px;
 	left: -5px;
 	background: #fff;
 }
