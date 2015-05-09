@@ -21,7 +21,6 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script src="js/index.js" type="text/javascript" charset="utf-8"></script>  
         <script src="js/bxslider.min.js" type="text/javascript" charset="utf-8"></script>
-        <script type="text/javascript" src="https://js.stripe.com/v2/"></script>
         <script src="js/wow.min.js" type="text/javascript" charset="utf-8"></script>
   
   <!-- Date: 2013-12-29 -->
@@ -54,24 +53,23 @@
 <div class="application">
   <h1> Application Form </h1>
   
-  
-      <fieldset>
-         <h1> Thank you!  Your information has been saved, we will be in touch soon!</h1>
-        <h2 class="fs-title">Confirm Information</h2>
+        <fieldset>
+         <h3> Thank you!  Your information has been saved, Mike and Gene will be in touch within 24 hours.</h3>
+        <h2>Confirm Information</h2>
         <h3 class="fs-subtitle">Acceptance Policy
         <input id="Go-Action-Button" type="text" name="fname" placeholder="Team Manager Name" /></h3>
         <p>Submission of this application by e-mail does not constitute acceptance. Applications will not be processed until full payment is received. Deposits and phone reservations will not be accepted. No exceptions. Teams will not receive a refund if they withdraw from the tournament for any reason after initial acceptance.
 
         If accepted, teams will be required to submit 13 game sheet labels so that we can prefabricate your game sheets.</p>
         
-        <h1> Acknowledgment of Tournament Policies By Applicant </h1>
+        <h3> Acknowledgment of Tournament Policies By Applicant </h3>
 
          <p>I have read and understand the ACCOMMODATION, ACCEPTANCE, and REFUND Policies as stated on this website. I agree to abide by these policies.</p>
 
          <p>By submitting go you accept these terms and conditions</p>
         
         <h3 class="fs-subtitle">
-        <input class="Go-Action-Button" type="submit" onclick="window.location = 'signup2.html'" value="GO" /></h3>
+        <input id="Go-Action-Button" type="submit" onclick="window.location = 'champions.html'" value="PAY" /></h3>
    
 
      </fieldset>
@@ -90,50 +88,6 @@
      
 
 </div>
-
-  <script>
-
-         
-
-         //activate next step on progressbar using the index of next_fs
-         $("#progressbar li").eq($("fieldset").index(next_fs)).addClass("active");
-
-         //show the next fieldset
-         next_fs.show(); 
-         //hide the current fieldset with style
-         current_fs.animate({opacity: 0}, {
-           step: function(now, mx) {
-             //as the opacity of current_fs reduces to 0 - stored in "now"
-             //1. scale current_fs down to 80%
-             scale = 1 - (1 - now) * 0.2;
-             //2. bring next_fs from the right(50%)
-             left = (now * 50)+"%";
-             //3. increase opacity of next_fs to 1 as it moves in
-             opacity = 1 - now;
-             current_fs.css({'transform': 'scale('+scale+')'});
-             next_fs.css({'left': left, 'opacity': opacity});
-             next_fs.css({'transform':'scale(1)'});
-             
-           }, 
-           duration: 1200, 
-           complete: function(){
-             current_fs.hide();
-             animating = false;
-             
-              var fieldsetHeight = next_fs.outerHeight(true);
-              var appHeight = fieldsetHeight + 400;
-              console.log(appHeight);
-              $('.application').css('height', appHeight);
-             
-           }, 
-
-         });
-      
-
-  </script>
-    
-
- 
 
 <script type="text/javascript">
 
