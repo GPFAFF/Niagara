@@ -574,7 +574,7 @@ h1.ss-form-title {
 div.ss-form-entry{
 	padding: 10px;
 }
-select, textarea{
+select, textarea, option{
 		position: relative;
 		-webkit-appearance: button;
 		-webkit-border-radius: 5px;
@@ -594,6 +594,7 @@ select, textarea{
 		font-family: 'Exo 2', sans-serif;		
 		color: #2C3E50;
 		font-size: 16px;
+		text-align: center;
 		
 }
 
