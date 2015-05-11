@@ -680,6 +680,9 @@ button{
 .tournament-schedule a, .features p{
 	font-size: 16px;
 }
+.tournament-schedule button li a:hover{
+	font-color: white;
+}
 #ss-submit, .Go-Action-Button{
 	background-color: gray;
 	color: white;
