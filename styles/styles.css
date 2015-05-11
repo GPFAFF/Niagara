@@ -702,8 +702,8 @@ button:hover, #ss-submit:hover, #Go-Action-Button:hover{
 	padding: 20px;
 	margin-top: 20px;
 	-webkit-appearance: none;
-	background-color: gray;
-	color: white;
+	background-color: white;
+	color: gray;
 }
 .meettheteam{
 	background: black;
