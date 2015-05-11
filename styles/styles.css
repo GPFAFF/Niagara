@@ -677,7 +677,10 @@ button{
 	background-color: gray;
 	font-size: 20px;
 }
-.tournament-schedule a, .features p{
+.tournament-schedule a{
+	font-size: 24px;
+}
+.features p{
 	font-size: 16px;
 }
 .tournament-schedule button li a:hover{
