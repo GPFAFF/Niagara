@@ -176,6 +176,9 @@ h2{
      2px 2px 0 #fff;
 
 }
+.ie8 h2{
+	color: white;
+}
 .tournament-schedule{
 	padding: 40px;
 }
@@ -4507,6 +4510,7 @@ ul.bx-slider{
 	h2{
 		margin-top: 105px;
 	}
+
 
 		.logo {
 			background-size: 50% auto;
