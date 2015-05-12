@@ -602,6 +602,8 @@ input{
 		-webkit-border-radius: 5px;
 		-webkit-padding-end: 20px;
 		-webkit-padding-start: 2px;
+		      -ms-user-select: element;
+
 		-webkit-user-select: initial;
 		background-position: center right;
 		background-repeat: no-repeat;
@@ -650,7 +652,7 @@ input, input:before, input:after {
       -webkit-user-select: initial;
       -khtml-user-select: initial;
       -moz-user-select: initial;
-      -ms-user-select: initial;
+      -ms-user-select: element;
       user-select: initial;
      } 
 
