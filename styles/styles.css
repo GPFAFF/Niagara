@@ -678,7 +678,12 @@ button{
 	font-size: 20px;
 }
 .tournament-schedule a{
-	font-size: 24px;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.tournament-schedule a:hover{
+	cursor: pointer;
 }
 .features p{
 	font-size: 16px;
