@@ -652,6 +652,10 @@ input, input:before, input:after {
 
      } 
 
+     .ieForm input{
+     	user-select: none;
+     }
+
      .ss-q-checkbox{
      	width: 30px;
      }
