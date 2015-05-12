@@ -652,8 +652,8 @@ input, input:before, input:after {
 
      } 
 
-     .ieForm input{
-     	user-select: none;
+     .ieForm input[type="checkbox"]{
+     	-ms-appearance: checkbox;
      }
 
      .ss-q-checkbox{
