@@ -602,9 +602,6 @@ input{
 		-webkit-border-radius: 5px;
 		-webkit-padding-end: 20px;
 		-webkit-padding-start: 2px;
-		      -ms-user-select: element;
-
-		-webkit-user-select: initial;
 		background-position: center right;
 		background-repeat: no-repeat;
 		border: 1px solid #AAA;
@@ -649,11 +646,7 @@ input{
   margin-top: 12px;*//*/*/
 }
 input, input:before, input:after {
-      -webkit-user-select: initial;
-      -khtml-user-select: initial;
-      -moz-user-select: initial;
-      -ms-user-select: element;
-      user-select: initial;
+
      } 
 
      .ss-q-checkbox{
