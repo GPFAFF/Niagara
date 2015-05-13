@@ -70,6 +70,7 @@ header{
   left: -50%; 
   width: 100%; 
   height: 100%;
+
 }
 #bg img {
   position: absolute; 
@@ -96,8 +97,6 @@ header{
 .tourney{
 	background: url('../img/hockeyshot.png') no-repeat;
 	background-size: cover;
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/hockeyshot.png', sizingMethod='scale');
-	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='hockeyshot.png', sizingMethod='scale')";
 
 }
 .infopage{
@@ -108,8 +107,6 @@ header{
 .registration{
 	background: url('../img/hockeypic04.jpg') no-repeat;
 	background-size: cover;
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/hockeypic04.jpg', sizingMethod='scale');
--ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/hockeypic04.jpg', sizingMethod='scale')";
 
 }
 .who{
@@ -656,7 +653,7 @@ input, input:before, input:after {
 
      } 
 
-     .ieForm input[type="checkbox" i] {
+     .ieForm input[type="checkbox"] {
  		 -ms-appearance: checkbox;
  
      	background-color: white;
