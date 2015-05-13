@@ -652,13 +652,16 @@ input, input:before, input:after {
 
      } 
 
-     .ieForm input[type="checkbox"]{
-     	-webkit-appearance: none;
+     .ieForm .ss-q-checkbox{
+     	color: white;
+		-webkit-apperance: none;
+		border: 1px solid black;
      }
 
 #group_1707328640_1{
 	color: white;
 	-webkit-apperance: none;
+	border: 1px solid black;
 }
      .ss-q-checkbox{
      	width: 30px;
