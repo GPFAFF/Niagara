@@ -661,10 +661,10 @@ input, input:before, input:after {
 		border: 1px solid black;
      }
      .ieForm h2{
-     	color: black;
+     	color: white;
      }
      .ieForm header, .ieForm.registration, .ieForm.tourney, .ieForm.who, .ieForm.main, .ieForm.Signup-Page {
-	background: url('../img/skates.jpg') no-repeat;
+		background: url('../img/registration.jpg') no-repeat;
      }
 
 .ieForm #group_1707328640_1, .ieForm #group_1707328640_2, .ieForm #group_1707328640_3, .ieForm #group_1707328640_4, .ieForm #group_1707328640_5, .ieForm #group_1707328640_6{
