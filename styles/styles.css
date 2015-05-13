@@ -659,6 +659,9 @@ input, input:before, input:after {
 		-webkit-apperance: none;
 		border: 1px solid black;
      }
+     .ieForm h2{
+     	color: black;
+     }
 
 .ieForm #group_1707328640_1, .ieForm #group_1707328640_2, .ieForm #group_1707328640_3, .ieForm #group_1707328640_4, .ieForm #group_1707328640_5, .ieForm #group_1707328640_6{
 	background-color: white;
