@@ -668,7 +668,7 @@ input, input:before, input:after {
 	-webkit-apperance: none;
 	border: 1px solid black;
 }*/
-.ieForm #group_1707328640_1:focus, .ieForm #group_1707328640_2:focus, .ieForm #group_1707328640_3:focus, .ieForm #group_1707328640_4:focus, .ieForm #group_1707328640_5:focus, .ieForm #group_1707328640_6:focus{
+.ieForm #group_1707328640_1:active, .ieForm #group_1707328640_2:active, .ieForm #group_1707328640_3:active, .ieForm #group_1707328640_4:active, .ieForm #group_1707328640_5:active, .ieForm #group_1707328640_6:active{
 
 	background-color: gray;
 }
