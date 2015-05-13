@@ -652,7 +652,9 @@ input, input:before, input:after {
 
      } 
 
-     .ieForm .ss-q-checkbox{
+     .ieForm input[type="checkbox" i] {
+ 		 -ms-appearance: checkbox;
+ 
      	color: white;
 		-webkit-apperance: none;
 		border: 1px solid black;
