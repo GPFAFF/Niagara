@@ -665,9 +665,9 @@ input, input:before, input:after {
 	-webkit-apperance: none;
 	border: 1px solid black;
 }
-#group_1707328640_1:checked, #group_1707328640_2:visited, #group_1707328640_3:visited, #group_1707328640_4:visited, #group_1707328640_5:visited, #group_1707328640_6:visited{
+#group_1707328640_1:checked, #group_1707328640_2:checked, #group_1707328640_3:checked, #group_1707328640_4:checked, #group_1707328640_5:checked, #group_1707328640_6:checked{
 
-	background-color: black;
+	background-color: gray;
 }
      .ss-q-checkbox{
      	width: 30px;
