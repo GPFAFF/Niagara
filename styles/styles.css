@@ -663,15 +663,26 @@ input, input:before, input:after {
      	color: black;
      }
 
-.ieForm #group_1707328640_1, .ieForm #group_1707328640_2, .ieForm #group_1707328640_3, .ieForm #group_1707328640_4, .ieForm #group_1707328640_5, .ieForm #group_1707328640_6{
+/*.ieForm #group_1707328640_1, .ieForm #group_1707328640_2, .ieForm #group_1707328640_3, .ieForm #group_1707328640_4, .ieForm #group_1707328640_5, .ieForm #group_1707328640_6{
 	background-color: white;
 	-webkit-apperance: none;
 	border: 1px solid black;
+}*/
+.ieForm #group_1707328640_1:focus, .ieForm #group_1707328640_2:focus, .ieForm #group_1707328640_3:focus, .ieForm #group_1707328640_4:focus, .ieForm #group_1707328640_5:focus, .ieForm #group_1707328640_6:focus{
+
+	background-color: gray;
 }
 .ieForm #group_1707328640_1:checked, .ieForm #group_1707328640_2:checked, .ieForm #group_1707328640_3:checked, .ieForm #group_1707328640_4:checked, .ieForm #group_1707328640_5:checked, .ieForm #group_1707328640_6:checked{
 
 	background-color: gray;
 }
+.ieForm div[id*="group"]{
+	background-color: white;
+	-webkit-apperance:none;
+	border: 1px solid black;
+}
+.ieForm div[id*="group":hover]
+
      .ss-q-checkbox{
      	width: 30px;
      }
