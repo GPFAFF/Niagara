@@ -482,7 +482,7 @@ i{
 	text-align: center;
 	padding: 10px;
 }
-
+/*
 .NST-Registration{
 	background: black;
 	height: inherit;
@@ -501,7 +501,7 @@ i{
 
 .NST-Registration li{
 	padding: 20px;
-}
+}*/
 .attractions{
 	text-align: center;
 	margin-top: 40px;
@@ -662,6 +662,9 @@ input, input:before, input:after {
      }
      .ieForm h2{
      	color: black;
+     }
+     .ieForm header, .ieForm.registration, .ieForm.tourney, .ieForm.who, .ieForm.main, .ieForm.Signup-Page {
+	background: url('../img/skates.jpg') no-repeat;
      }
 
 .ieForm #group_1707328640_1, .ieForm #group_1707328640_2, .ieForm #group_1707328640_3, .ieForm #group_1707328640_4, .ieForm #group_1707328640_5, .ieForm #group_1707328640_6{
