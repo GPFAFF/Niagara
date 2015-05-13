@@ -579,7 +579,7 @@ div.ss-form-entry{
 }
 select, textarea, option{
 		position: relative;
-		-webkit-appearance: button;
+		-webkit-appearance: none;
 		-webkit-border-radius: 5px;
 		-webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
 		-webkit-user-select: none;
@@ -653,9 +653,12 @@ input, input:before, input:after {
      } 
 
      .ieForm input[type="checkbox"]{
-     	-ms-appearance: checkbox;
+     	-webkit-appearance: none;
      }
 
+#group_1707328640_1{
+	padding: 40px;
+}
      .ss-q-checkbox{
      	width: 30px;
      }
@@ -4676,6 +4679,9 @@ h1.ss-form-title {
 	}
 	.bx-wrapper .bx-controls-direction a{
 		margin-top: 0px;
+		}
+		.ss-choice-label{
+			font-size: 15px;
 		}
 
 /*===============TABLE MEDIA QUERY===========*/
