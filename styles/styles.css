@@ -663,7 +663,7 @@ input, input:before, input:after {
      .ieForm h2{
      	color: white;
      }
-     .ieForm > .registration h2, .ieForm > .Signup-Page h2, .ieForm > .tourney h2{
+     .ieForm .registration h2, .ieForm .Signup-Page h2, .ieForm .tourney h2{
      	color: black;
      }
      .ieForms header, .ieForms.registration, .ieForms.tourney, .ieForms.who, .ieForms.main, .ieForms.Signup-Page {
