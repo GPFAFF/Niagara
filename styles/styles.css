@@ -921,10 +921,12 @@ footer{
 	text-shadow: 1px 1px 1px rgba(215, 44, 44, 0.8);
 }
 
-footer p{
+footer p, footer a{
 	color: white;
-	font-size: 12px;
+	font-size: 16px;
+	text-decoration: none;
 }
+
 
 /*==============ANIMATE-CSS================*/
 
