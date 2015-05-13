@@ -657,7 +657,8 @@ input, input:before, input:after {
      }
 
 #group_1707328640_1{
-	padding: 40px;
+	color: white;
+	-webkit-apperance: none;
 }
      .ss-q-checkbox{
      	width: 30px;
