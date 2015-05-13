@@ -678,10 +678,8 @@ input, input:before, input:after {
 }
 .ieForm div[id*="group"]{
 	background-color: white;
-	-webkit-apperance:none;
 	border: 1px solid black;
 }
-.ieForm div[id*="group":hover]
 
      .ss-q-checkbox{
      	width: 30px;
