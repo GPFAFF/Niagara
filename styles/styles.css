@@ -96,7 +96,7 @@ header{
 .tourney{
 	background: url('../img/hockeyshot.png') no-repeat;
 	background-size: cover;
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.hockeyshot.png', sizingMethod='scale');
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/hockeyshot.png', sizingMethod='scale');
 	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='hockeyshot.png', sizingMethod='scale')";
 
 }
@@ -108,8 +108,8 @@ header{
 .registration{
 	background: url('../img/hockeypic04.jpg') no-repeat;
 	background-size: cover;
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.hockeypic04.jpg', sizingMethod='scale');
--ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='hockeypic04.jpg', sizingMethod='scale')";
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/hockeypic04.jpg', sizingMethod='scale');
+-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/hockeypic04.jpg', sizingMethod='scale')";
 
 }
 .who{
