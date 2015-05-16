@@ -931,6 +931,34 @@ footer p, footer a{
 }
 
 
+.hotel-container{
+	width: 70%;
+	margin: 0 auto;
+}
+
+.border-container{
+	background-color: #83b1f6;
+	width: 100%;
+	text-align: center;
+
+}
+
+.border-container p {
+	color: black;
+	font-size: 16px;
+	text-shadow: none;
+	padding: 20px;
+	font-weight: bold;
+}
+.border-container img{
+	width: 70%;
+	height: 20%;
+	padding: 10%;
+}
+.border-container h1{
+	color: black;
+	font-weight: bold;
+}
 /*==============ANIMATE-CSS================*/
 
 @charset "UTF-8";
