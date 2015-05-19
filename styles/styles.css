@@ -44,7 +44,7 @@ table {
 }
 
 *{ 
-	box-sizing: inherit; 
+  box-sizing: inherit; 
 } 
 .browsehappy {
   margin: 0;
@@ -4293,6 +4293,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .bx-wrapper img {
 	width: 100%;
 	display: block;
+
 }
 
 /** THEME
