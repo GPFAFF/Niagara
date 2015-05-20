@@ -1,26 +1,57 @@
-<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
 <url>
-<loc>http://www.domain.com /</loc>
-<lastmod>2008-01-01</lastmod>
-<changefreq>weekly</changefreq>
-<priority>0.8</priority>
+  <loc>http://gpfaff.github.io/Niagara/</loc>
+  <lastmod>2015-05-20T02:11:20+00:00</lastmod>
 </url>
 <url>
-<loc>http://www.domain.com/catalog?item=vacation_hawaii</loc>
-<changefreq>weekly</changefreq>
+  <loc>http://gpfaff.github.io/Niagara/index.html</loc>
+  <lastmod>2015-05-20T02:11:20+00:00</lastmod>
 </url>
 <url>
-<loc>http://www.domain.com/catalog?item=vacation_new_zealand</loc>
-<lastmod>2008-12-23</lastmod>
-<changefreq>weekly</changefreq>
+  <loc>http://gpfaff.github.io/Niagara/tournament.html</loc>
+  <lastmod>2015-05-20T02:11:20+00:00</lastmod>
 </url>
 <url>
-<loc>http://www.domain.com/catalog?item=vacation_newfoundland</loc>
-<lastmod>2008-12-23T18:00:15+00:00</lastmod>
-<priority>0.3</priority>
+  <loc>http://gpfaff.github.io/Niagara/form.html</loc>
+  <lastmod>2015-05-20T02:11:20+00:00</lastmod>
 </url>
 <url>
-<loc>http://www.domain.com/catalog?item=vacation_usa</loc>
-<lastmod>2008-11-23</lastmod>
+  <loc>http://gpfaff.github.io/Niagara/champions.html</loc>
+  <lastmod>2015-05-20T02:11:20+00:00</lastmod>
+</url>
+<url>
+  <loc>http://gpfaff.github.io/Niagara/whoarewe.html</loc>
+  <lastmod>2015-05-20T02:11:20+00:00</lastmod>
+</url>
+<url>
+  <loc>http://gpfaff.github.io/Niagara/NFCD.html</loc>
+  <lastmod>2015-05-20T02:11:20+00:00</lastmod>
+</url>
+<url>
+  <loc>http://gpfaff.github.io/Niagara/FLT.html</loc>
+  <lastmod>2015-05-20T02:11:20+00:00</lastmod>
+</url>
+<url>
+  <loc>http://gpfaff.github.io/Niagara/NFBC.html</loc>
+  <lastmod>2015-05-20T02:11:20+00:00</lastmod>
+</url>
+<url>
+  <loc>http://gpfaff.github.io/Niagara/NFPD.html</loc>
+  <lastmod>2015-05-20T02:11:20+00:00</lastmod>
+</url>
+<url>
+  <loc>http://gpfaff.github.io/Niagara/NFCC.html</loc>
+  <lastmod>2015-05-20T02:11:20+00:00</lastmod>
+</url>
+<url>
+  <loc>http://gpfaff.github.io/Niagara/bylbos.html</loc>
+  <lastmod>2015-05-20T02:11:20+00:00</lastmod>
 </url>
 </urlset>
