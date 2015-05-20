@@ -141,7 +141,7 @@ nav a {
 	text-shadow: 3px 3px 3px black;
 	text-decoration: none;
 }
-nav li:hover{
+nav li:hover, nav li:focus{
 	text-shadow: none;
 	text-decoration: none;
 	background: red;
@@ -150,7 +150,7 @@ nav li:hover{
 	height: inherit;
 	transition: 0.7s ease;
 }
-nav a:hover{
+nav a:hover, nav a:focus{
 	opacity: 0.9;
 }
 .logo{
@@ -275,7 +275,7 @@ h2{
 	text-shadow: 2px 2px 2px black;
 	font-weight: bold;
 }
-.tabs-stage a:hover, .tournament-schedule a:hover{
+.tabs-stage a:hover, .tabs-stage a:focus, .tournament-schedule a:hover, .tournament-schedule a:focus{
 	opacity: 0.9;
 	color: black;
 	text-shadow: 1px 1px 1px gray;
@@ -381,7 +381,7 @@ li.tabs-nav{
 	text-align: center;
 
 }
-.buyButton input:hover{
+.buyButton input:hover, .buyButton input:focus{
 	 box-shadow: 0px -1px 30px white;
 	 transition: 0.6s ease;
 }
@@ -451,7 +451,7 @@ i{
 	margin-top: -30px;
 	color: white;
 }
-.purp a:hover{
+.purp a:hover, .purp a:focus{
 	color: #4e2683;
 	font-weight: bold;
 }
@@ -459,7 +459,7 @@ i{
 	font-size: 30px !important;
 	padding: 20px;
 }
-.fa-phone:hover, .fa-envelope:hover, .fa-facebook:hover {
+.fa-phone:hover, .fa-phone:focus, .fa-envelope:hover, .fa-envelope:focus, .fa-facebook:hover, .fa-facebook:focus {
 	color: red;
 	color: rgba(215, 44, 44, 0.8);
 	transition: 0.6s ease;
@@ -524,7 +524,7 @@ i{
 	text-shadow: 2px 2px 2px black;
 	font-size:14px;
 }
-.attractions a:hover{
+.attractions a:hover, .attractions a:focus{
 	color: black;
 	text-shadow: 2px 2px 2px white;
 }
@@ -718,13 +718,13 @@ button{
 	text-decoration: underline;
 	text-shadow: 1px 1px 1px black;
 }
-.tournament-schedule a:hover{
+.tournament-schedule a:hover, .tournament-schedule a:focus{
 	cursor: pointer;
 }
 .features p{
 	font-size: 16px;
 }
-.tournament-schedule button li a:hover{
+.tournament-schedule button li a:hover, .tournament-schedule button li a:focus{
 	color: white;
 }
 #ss-submit, input#Go-Action-Button{
@@ -736,7 +736,7 @@ button{
 	text-align: center;
 	margin: 0 auto;
 }
-button:hover, #ss-submit:hover, #Go-Action-Button:hover{
+button:hover, button:focus, #ss-submit:hover, #ss-submit:focus, #Go-Action-Button:focus, #Go-Action-Button:hover{
 	box-shadow: 0px 0px 23px white;
 	cursor: pointer;
 	transition: 0.4s ease;
@@ -831,7 +831,7 @@ button a{
 	text-align: center;
 	padding: 40px;
 }
-.signup-button a:hover{
+.signup-button a:hover, .signup-button a:focus{
 	opacity: 0.9;
 
 }
@@ -843,7 +843,7 @@ button a{
 	text-align: center;
 	margin-top: 45px;
 }
-.social a:hover{
+.social a:hover, .social a:focus{
 	opacity: 0.9;	
 }
 .social:nth-of-type(1){
