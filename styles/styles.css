@@ -507,6 +507,8 @@ i{
 	color: white;
 	font-family: 'Exo 2', sans-serif;
 	padding: 10px;
+	font-weight: bold;
+	font-size: 25px;
 }
 .downloadLinks a:hover {
 	color: gray;
