@@ -7,51 +7,48 @@
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 <url>
-  <loc>http://gpfaff.github.io/Niagara/</loc>
+  <loc>http://www.niagartournaments.com</loc>
+  <lastmod>2015-05-20T02:11:20+00:00</lastmod>
+  <priority> 0.9 </priority>
+</url>
+<url>
+  <loc>http://www.niagartournaments.com/tournament.html</loc>
   <lastmod>2015-05-20T02:11:20+00:00</lastmod>
 </url>
 <url>
-  <loc>http://gpfaff.github.io/Niagara/index.html</loc>
+  <loc>http://www.niagartournaments.com/form.html</loc>
   <lastmod>2015-05-20T02:11:20+00:00</lastmod>
 </url>
 <url>
-  <loc>http://gpfaff.github.io/Niagara/tournament.html</loc>
+  <loc>http://www.niagartournaments.com/champions.html</loc>
   <lastmod>2015-05-20T02:11:20+00:00</lastmod>
 </url>
 <url>
-  <loc>http://gpfaff.github.io/Niagara/form.html</loc>
+  <loc>http://www.niagartournaments.com/whoarewe.html</loc>
   <lastmod>2015-05-20T02:11:20+00:00</lastmod>
 </url>
 <url>
-  <loc>http://gpfaff.github.io/Niagara/champions.html</loc>
+  <loc>http://www.niagartournaments.com/NFCD.html</loc>
   <lastmod>2015-05-20T02:11:20+00:00</lastmod>
 </url>
 <url>
-  <loc>http://gpfaff.github.io/Niagara/whoarewe.html</loc>
+  <loc>http://www.niagartournaments.com/FLT.html</loc>
   <lastmod>2015-05-20T02:11:20+00:00</lastmod>
 </url>
 <url>
-  <loc>http://gpfaff.github.io/Niagara/NFCD.html</loc>
+  <loc>http://www.niagartournaments.com/NFBC.html</loc>
   <lastmod>2015-05-20T02:11:20+00:00</lastmod>
 </url>
 <url>
-  <loc>http://gpfaff.github.io/Niagara/FLT.html</loc>
+  <loc>http://www.niagartournaments.com/NFPD.html</loc>
   <lastmod>2015-05-20T02:11:20+00:00</lastmod>
 </url>
 <url>
-  <loc>http://gpfaff.github.io/Niagara/NFBC.html</loc>
+  <loc>http://www.niagartournaments.com/NFCC.html</loc>
   <lastmod>2015-05-20T02:11:20+00:00</lastmod>
 </url>
 <url>
-  <loc>http://gpfaff.github.io/Niagara/NFPD.html</loc>
-  <lastmod>2015-05-20T02:11:20+00:00</lastmod>
-</url>
-<url>
-  <loc>http://gpfaff.github.io/Niagara/NFCC.html</loc>
-  <lastmod>2015-05-20T02:11:20+00:00</lastmod>
-</url>
-<url>
-  <loc>http://gpfaff.github.io/Niagara/bylbos.html</loc>
+  <loc>http://www.niagartournaments.com/bylbos.html</loc>
   <lastmod>2015-05-20T02:11:20+00:00</lastmod>
 </url>
 </urlset>

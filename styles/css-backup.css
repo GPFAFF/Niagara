@@ -482,26 +482,14 @@ i{
 	text-align: center;
 	padding: 10px;
 }
-/*
-.NST-Registration{
-	background: black;
-	height: inherit;
-	color: white;
-	font-family: 'Exo 2', sans-serif;
+.letterHead-main{
+	text-align: left;
 }
-.NST-Registration h1{
-	font-weight: bold;
-	font-size: 32px;
-	text-align: center;
-	padding: 10px;
+.letterHead{
+	float: left;
+  line-height: 0px;
+  margin-top: 10px;
 }
-.NST-Registration p{
-	padding: 20px;
-}
-
-.NST-Registration li{
-	padding: 20px;
-}*/
 .attractions{
 	text-align: center;
 	margin-top: 40px;
@@ -544,7 +532,8 @@ option{
 	text-indent: 40px
 }
 .ss-item.ss-navigate{
-	padding-bottom: 30px;
+	padding-bottom:30px;
+	text-align:center;
 }
 .ss-form-container{
 	background: red;
