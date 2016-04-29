@@ -585,21 +585,67 @@ li.tabs-nav {
 	  font-family: 'Exo 2', sans-serif;
 	  display: block;
 	  padding: 20px;
+	  text-decoration: none;
 }
-.paypal-button:hover {
+.paypal-button:hover, .paypal-button:active, .paypal-button:visited, .paypal-button:focus {
 	background-color: gray;
 	box-shadow: 0px 0px 0px 2px white;
 	transition: 0.5s ease;
-	color: black;
 	text-shadow: 1px 1px 1px gray;
 	font-weight: bold;
 }
 .pp-button{
 	margin-top: 20px;
 }
+.pp-button.hidden {
+	display: none;
+}
 .paypal-price {
 	display: block;
 }
+// Loading KeyFrame for paypal button 
+@-webkit-keyframes spin {
+     100% {
+       -webkit-transform: rotate(360deg);
+       transform: rotate(360deg);
+
+     }
+   }
+   @-moz-keyframes spin {
+     100% {
+       -moz-transform: rotate(360deg);
+       transform: rotate(360deg);
+
+     }
+   }
+   @keyframes spin {
+     100% {
+       -webkit-transform: rotate(360deg);
+       transform: rotate(360deg);
+     }
+   }
+.loading { 
+	display: none;
+}
+
+.loading > .active {
+	display: block;
+}
+svg {
+	width: 100px;
+	height: 100px;
+	display: block;
+	margin: 0 auto;
+}
+ #spinner {
+   -webkit-transform-origin: 50% 50%;
+   -moz-transform-origin: 50% 50%;
+   transform-origin: 50% 50%;
+   -webkit-animation: spin 1s linear infinite;
+   -moz-animation: spin 1s linear infinite;
+   animation: spin 1s linear infinite; 
+ }
+  
 .paybutton {
     margin: 0 auto;
     text-align: center;
