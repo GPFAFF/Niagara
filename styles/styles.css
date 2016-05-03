@@ -1,4 +1,4 @@
-    html,
+html,
 body,
 div,
 span,
@@ -158,35 +158,6 @@ header {
     position: relative;
 }
 
-#bg {
-    position: fixed;
-    top: -50%;
-    left: -50%;
-    width: 100%;
-    height: 100%;
-}
-
-#bg img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    min-width: 50%;
-    min-height: 50%;
-    z-index: 10;
-}
-
-@media screen and (max-width: 1024px) {
-    /* Specific to this particular image */
-    img.bg {
-        left: 50%;
-        margin-left: -512px;
-        /* 50% */
-    }
-}
-
 .main {
     background: url('../img/morning-niagara-fall-wallpaper.jpg') no-repeat;
     background-size: cover;
@@ -319,7 +290,7 @@ h2 {
     color: white;
 }
 
-.tournament-schedule {
+.tournament, .tournament-schedule {
     padding: 40px;
 }
 
@@ -342,12 +313,12 @@ h2 {
     text-align: center;
 }
 
-.tournament-schedule a {
+.tournament, .tournament-schedule a {
     text-decoration: none;
     color: white;
 }
 
-.tournament-schedule h1,
+.tournament, .tournament-schedule h1,
 h3,
 h6 {
     color: white;
@@ -356,6 +327,10 @@ h6 {
     margin-top: 10px;
     font-family: 'Exo 2', sans-serif;
     font-size: 1.8em;
+}
+
+.tournament h6 {
+    font-size: 20px;
 }
 
 .features h2 {
@@ -462,13 +437,6 @@ li.tabs-nav {
     clear: both;
     height: 0;
 }
-
-.clearfix {
-    display: inline-block;
-}
-
-
-/* start commented backslash hack \*/
 
 * html .clearfix {
     height: 1%;
@@ -577,9 +545,9 @@ li.tabs-nav {
 }
 .paypal-button {
 	  width: 80%;
-  	background-color: gray;
-  	font-size: 20px;
-  	margin: 20px auto;
+  	  background-color: gray;
+  	  font-size: 20px;
+  	  margin: 20px auto;
 	  border-radius: 5px 5px 5px;
 	  color: white;
 	  font-family: 'Exo 2', sans-serif;
@@ -664,18 +632,10 @@ li.tabs-nav {
      }
    }
 
-.loader {
-    display: none;
-}
-.loader {
-	background:url(../img/rolling.gif);
-	background-position: center center;
-	background-position: center center;
-    background-size: 50px 50px;
-    height: 50px;
-    width: 70px;
-    background-repeat: no-repeat;
-    margin: 20px 40px;
+
+.loading {
+    height: 85px;
+    width: 80px;
 }
 
 .loading > .active {
@@ -687,9 +647,6 @@ svg {
 	display: block;
 	margin: 0 auto;
 	//-webkit-animation: spin 1s linear infinite;
-}
-#svg-spinner {
-	-webkit-animation: spin 1s linear infinite;
 }
  #spinner {
    -webkit-transform-origin: 50% 50%;
@@ -760,17 +717,6 @@ i {
 .highlight {
     color: red;
     text-shadow: none;
-}
-
-.purp {
-    margin-top: -30px;
-    color: white;
-}
-
-.purp a:hover,
-.purp a:focus {
-    color: #4e2683;
-    font-weight: bold;
 }
 
 .fa {
@@ -976,31 +922,6 @@ input {
     top: 50%;
     left: 50%;
     -webkit-border-radius: 5px;
-    /* -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1); */
-    /* -webkit-padding-end: 20px;
-  -webkit-padding-start: 2px;
-  -webkit-user-select: initial;
-  background-position: center right;
-  background-repeat: no-repeat;
-  /* border: 1px solid #AAA; */
-    /* color: #555;
-  font-size: inherit;
-  margin: 5px;
-  overflow: hidden;
-  padding: 15px;
-  /* border: 1px solid #ccc; */
-    /* border-radius: 3px;
-  margin-bottom: 10px;
-  width: 85%;
-  box-sizing: border-box;
-  font-family: 'Exo 2', sans-serif;
-  color: #2C3E50;
-  font-size: 16px;
-  text-align: center;
-  top: 50%;
-  left: 50%;
-  margin-top: 12px;*/
-    /*/*/
 }
 
 input,
@@ -1093,6 +1014,10 @@ button {
     color: white;
     font-family: 'Exo 2', sans-serif;
     transition: background-color 0.5s ease;
+}
+button a {
+    text-decoration: none;
+    color: white;
 }
 
 .tournament-schedule button {
@@ -1203,19 +1128,6 @@ h3.fs-subtitle {
     margin: 0 auto;
     width: 100%;
     background-color: #ccc;
-}
-
-#teamphoto {
-    text-align: center
-}
-
-#teamphoto img {
-    height: auto;
-    max-width: 100%;
-}
-
-.lt-ie9 #teamphoto img {
-    width: 100%;
 }
 
 .directionsubmit {
@@ -1436,26 +1348,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     animation-fill-mode: both;
 }
 
-.animated.infinite {
-    -webkit-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
-}
-
-.animated.hinge {
-    -webkit-animation-duration: 2s;
-    animation-duration: 2s;
-}
-
-@-webkit-keyframes zoomIn {
-    0% {
-        opacity: 0;
-        -webkit-transform: scale(.3);
-        transform: scale(.3);
-    }
-    50% {
-        opacity: 1;
-    }
-}
 @keyframes zoomInUp {
     0% {
         opacity: 0;
@@ -1569,7 +1461,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .bx-wrapper .bx-pager.bx-default-pager a {
     background: red;
     text-indent: -9999px;
-    display: block;
+    display: inline-block;
     width: 10px;
     height: 10px;
     margin: 0 5px;
@@ -1903,7 +1795,7 @@ ul.bx-slider {
     .purp {
         margin: 0;
     }
-    .tournament h1 {
+    .tournament h1{
         font-size: 16px;
     }
     .ss-form-container {
@@ -1953,6 +1845,10 @@ ul.bx-slider {
     }
     .tournament-schedule li {
         padding: 10px;
+    }
+    .rent-ice {
+        margin: 0 auto;
+        background: rgba(215,44,44,0.8);
     }
     .bx-wrapper {
         width: 100%;

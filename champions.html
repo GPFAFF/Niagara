@@ -75,7 +75,7 @@
                                 </select>
                          
                     <input type="hidden" name="currency_code" value="USD">
-                    <input type="image" src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/checkout-logo-small.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <input type="image" class="pp-button" src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/checkout-logo-small.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
                     <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
                     <!-- ANIMATION START -->
                     <svg class="loading" version="1.1" id="svg-spinner" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 80 80" class="animated" xml:space="preserve">
@@ -106,7 +106,7 @@
                                 </select>
                         
                     <input type="hidden" name="currency_code" value="USD">
-                    <input type="image" src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/checkout-logo-small.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <input type="image" class="pp-button" src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/checkout-logo-small.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
                     <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
                     <!-- ANIMATION START -->
                     <svg class="loading" version="1.1" id="svg-spinner" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 80 80" class="animated" xml:space="preserve">
@@ -136,6 +136,7 @@
                                 </select>
                         
                     <input type="hidden" name="currency_code" value="USD">
+                    <div class="target-test">
                     <input type="image" class="pp-button" src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/checkout-logo-small.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
                     <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
                     <!-- ANIMATION START -->
@@ -148,6 +149,7 @@
                             <!-- ANIMATION END -->
                         </path>
                     </svg>
+                    </div>
                 </form>
                
                 
@@ -168,7 +170,7 @@
                                 </select>
                         
                     <input type="hidden" name="currency_code" value="USD">
-                    <input type="image" src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/checkout-logo-small.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <input type="image" class="pp-button" src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/checkout-logo-small.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
                     <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
                    <!-- ANIMATION START -->
                     <svg class="loading" version="1.1" id="svg-spinner" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 80 80" class="animated" xml:space="preserve">
@@ -200,7 +202,7 @@
                                 </select>
                            
                     <input type="hidden" name="currency_code" value="USD">
-                    <input type="image" src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/checkout-logo-small.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <input type="image" class="pp-button" src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/checkout-logo-small.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
                     <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
                     <!-- ANIMATION START -->
                     <svg class="loading" version="1.1" id="svg-spinner" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 80 80" class="animated" xml:space="preserve">
@@ -278,10 +280,11 @@
 
         $('.loading').hide()
 
-        $('.pp-button').each(function(id) {
-            //console.log(paypalButton);
+       paypalButton.each(function() {
             var targetLink = $(this);
-            $('.pp-button').click(function(e) {
+            //console.log(paypalButton);
+            
+            targetLink.on('click', '.pp-button', function(e) {
                 targetLink.find('.loading').show();
                 targetLink.find('.pp-button').hide();
             })
