@@ -558,6 +558,7 @@ li.tabs-nav {
 .buyButton input {
     width: 300px;
     text-align: center;
+    border: none;
 }
 
 .buyButton input:hover,
@@ -575,7 +576,7 @@ li.tabs-nav {
     width: 40%;
 }
 .paypal-button {
-	  width: 300px;
+	  width: 80%;
   	background-color: gray;
   	font-size: 20px;
   	margin: 20px auto;
@@ -585,6 +586,17 @@ li.tabs-nav {
 	  display: block;
 	  padding: 20px;
 	  text-decoration: none;
+}
+
+.paypal-button h6 {
+  font-size: 30px;
+  text-shadow: 2px 2px 2px black;
+  margin-bottom: 10px;
+}
+.paypal-button select {
+  width: 50%;
+  display: block;
+  margin: 20px auto;
 }
 .paypal-button:hover, .paypal-button:active, .paypal-button:visited, .paypal-button:focus {
 	background-color: gray;
@@ -602,7 +614,7 @@ li.tabs-nav {
 .paypal-price {
 	display: block;
 }
-// Loading KeyFrame for paypal button 
+// KeyFrame for paypal button 
 @-webkit-keyframes spin {
      0% {
        -webkit-transform: rotate(0deg);
@@ -651,9 +663,7 @@ li.tabs-nav {
        transform: rotate(360deg);
      }
    }
-.loading { 
-	display: none;
-}
+
 .loader {
     display: none;
 }
@@ -5004,6 +5014,10 @@ ul.bx-slider {
     .ss-choice-label {
         font-size: 15px;
     }
+    .buyButton input {
+      width: 200px;
+    }
+}
     /*===============TABLE MEDIA QUERY===========*/
     /*
 	Max width before this PARTICULAR table gets nasty
