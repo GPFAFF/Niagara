@@ -267,7 +267,6 @@ nav a:focus {
 
 .icon-menu {
     background: rgba(158, 158, 158, 1);
-    ;
     height: 50px;
     width: 250px;
     position: fixed;
@@ -605,10 +604,38 @@ li.tabs-nav {
 }
 // Loading KeyFrame for paypal button 
 @-webkit-keyframes spin {
+     0% {
+       -webkit-transform: rotate(0deg);
+     }
+     10% {
+     	-webkit-transform: rotate(36deg);
+     }
+     20% {
+     	-webkit-transform: rotate(72deg);
+     }
+     30% {
+     	-webkit-transform: rotate(108deg);
+     }
+     40% {
+     	-webkit-transform: rotate(144deg);
+     }
+     50% {
+     	-webkit-transform: rotate(180deg);
+     }
+     60% {
+     	-webkit-transform: rotate(216deg);
+     }
+     70% {
+     	-webkit-transform: rotate(252deg);
+     }
+     80% {
+     	-webkit-transform: rotate(288deg);
+     }
+     90% {
+     	-webkit-transform: rotate(324deg);
+     }
      100% {
-       -webkit-transform: rotate(360deg);
-       transform: rotate(360deg);
-
+     	-webkit-transform: rotate(360deg);
      }
    }
    @-moz-keyframes spin {
@@ -627,6 +654,19 @@ li.tabs-nav {
 .loading { 
 	display: none;
 }
+.loader {
+    display: none;
+}
+.loader {
+	background:url(../img/rolling.gif);
+	background-position: center center;
+	background-position: center center;
+    background-size: 50px 50px;
+    height: 50px;
+    width: 70px;
+    background-repeat: no-repeat;
+    margin: 20px 40px;
+}
 
 .loading > .active {
 	display: block;
@@ -636,6 +676,10 @@ svg {
 	height: 100px;
 	display: block;
 	margin: 0 auto;
+	//-webkit-animation: spin 1s linear infinite;
+}
+#svg-spinner {
+	-webkit-animation: spin 1s linear infinite;
 }
  #spinner {
    -webkit-transform-origin: 50% 50%;
@@ -4554,8 +4598,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .bx-wrapper .bx-pager .bx-pager-item,
 .bx-wrapper .bx-controls-auto .bx-controls-auto-item {
     display: inline-block;
-    *zoom: 1;
-    *display: inline;
+    zoom: 1;
+    display: inline;
     color: red;
 }
 

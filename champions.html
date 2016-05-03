@@ -59,12 +59,7 @@
                 <h6> Click on the Tournament you would like to sign up for to checkout on Paypal. </h6>
                 <!--  <img class="buyButton" src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/cc-badges-ppppcmcvdam.png" alt="Pay with PayPal, PayPal Credit or any major credit card" />
                 <img src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/checkout-logo-large.png" alt="Check out with PayPal" /> -->
-                <a class="paypal-button" id="mites" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=4TXSYSLE283BC"> Cross Ice Mites - $500  <img class="pp-button" src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/checkout-logo-medium.png" alt="Check out with PayPal" /> <svg class="loading" version="1.1" id="svg-spinner" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 80 80" class="animated" xml:space="preserve">
- 
-    <path id="spinner" fill="#ac2323" d="M40,72C22.4,72,8,57.6,8,40C8,22.4,
-        22.4,8,40,8c17.6,0,32,14.4,32,32c0,1.1-0.9,2-2,2
-        s-2-0.9-2-2c0-15.4-12.6-28-28-28S12,24.6,12,40s12.6,
-        28,28,28c1.1,0,2,0.9,2,2S41.1,72,40,72z"> 
+                <a class="paypal-button" id="mites" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=4TXSYSLE283BC"> Cross Ice Mites - $500  <img class="pp-button" src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/checkout-logo-medium.png" alt="Check out with PayPal" /> 
         <!-- ANIMATION START -->
     </path>
 </svg></a>
@@ -77,21 +72,8 @@
         <!-- ANIMATION START -->
     </path>
 </svg></a>
-                <a class="paypal-button" id="peewees" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=QHFU7FKGG92YS"> Peewees - $950  <img class="pp-button" src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/checkout-logo-medium.png" alt="Check out with PayPal" /> <svg class="loading" version="1.1" id="svg-spinner" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 80 80" class="animated" xml:space="preserve">
- 
-    <path id="spinner" fill="#ac2323" d="M40,72C22.4,72,8,57.6,8,40C8,22.4,
-        22.4,8,40,8c17.6,0,32,14.4,32,32c0,1.1-0.9,2-2,2
-        s-2-0.9-2-2c0-15.4-12.6-28-28-28S12,24.6,12,40s12.6,
-        28,28,28c1.1,0,2,0.9,2,2S41.1,72,40,72z"> 
-        <!-- ANIMATION START -->
-    </path>
-</svg></a>
-                <a class="paypal-button" id="bantams" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9ARLCCFU2CLVL"> Bantams - $1000  <img class="pp-button" src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/checkout-logo-medium.png" alt="Check out with PayPal" /> <svg class="loading" version="1.1" id="svg-spinner" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 80 80" class="animated" xml:space="preserve">
- 
-    <path id="spinner" fill="#ac2323" d="M40,72C22.4,72,8,57.6,8,40C8,22.4,
-        22.4,8,40,8c17.6,0,32,14.4,32,32c0,1.1-0.9,2-2,2
-        s-2-0.9-2-2c0-15.4-12.6-28-28-28S12,24.6,12,40s12.6,
-        28,28,28c1.1,0,2,0.9,2,2S41.1,72,40,72z"> 
+                <a class="paypal-button" id="peewees" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=QHFU7FKGG92YS"> Peewees - $950  <img class="pp-button" src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/checkout-logo-medium.png" alt="Check out with PayPal" /> <img class="loader"/></a>
+                <a class="paypal-button" id="bantams" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9ARLCCFU2CLVL"> Bantams - $1000  <img class="pp-button" src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/checkout-logo-medium.png" alt="Check out with PayPal" /> <div class="load"></div>
         <!-- ANIMATION START -->
     </path>
 </svg></a>
@@ -169,6 +151,8 @@
        paypalButton.each(function(id){
          var targetLink = $(this);
           targetLink.click(function(e){
+            //e.preventDefault();
+            targetLink.find('.loader').show();
             targetLink.find('.loading').show();
             targetLink.find('.pp-button').hide();
           })
