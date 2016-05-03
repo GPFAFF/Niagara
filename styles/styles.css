@@ -5017,6 +5017,9 @@ ul.bx-slider {
     .buyButton input {
       width: 200px;
     }
+    .paypal-button select {
+      width: 100%;
+    }
 }
     /*===============TABLE MEDIA QUERY===========*/
     /*
