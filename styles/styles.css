@@ -153,7 +153,7 @@ body {
 
 header {
     background-size: 100% 100%;
-    height: 400px;
+    height: auto;
     font-family: 'Exo 2', sans-serif;
     position: relative;
 }
@@ -236,6 +236,10 @@ nav a:focus {
     opacity: 0.9;
 }
 
+svg.NSTLogo {
+    width: 250px;
+    height: 250px;
+}
 .icon-menu {
     background: rgba(158, 158, 158, 1);
     height: 50px;
@@ -265,7 +269,8 @@ nav a:focus {
 
 .logo {
     text-align: center;
-    margin: 40px auto;
+    margin: 0 auto;
+    padding: 40px;
 }
 
 .logo a {
@@ -282,7 +287,8 @@ h2 {
     font-weight: bold;
     text-shadow: 3px 3px 3px black;
     text-align: center;
-    text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;
+    text-shadow: 2px 2px 0 #fff, /* Simulated effect for Firefox and Opera and nice enhancement for WebKit */ -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF;
+    margin-top: 40px;
 }
 
 .ie8 h2,
@@ -292,6 +298,9 @@ h2 {
 
 .tournament, .tournament-schedule {
     padding: 40px;
+}
+.tournament.information {
+   padding: 0;
 }
 
 .tournament-schedule ul {
@@ -318,7 +327,7 @@ h2 {
     color: white;
 }
 
-.tournament, .tournament-schedule h1,
+.tournament-schedule h1,
 h3,
 h6 {
     color: white;
@@ -331,6 +340,16 @@ h6 {
 
 .tournament h6 {
     font-size: 20px;
+}
+
+.features {
+    margin: 40px auto;
+    max-width: 800px;
+    background: red;
+    background: rgba(215, 44, 44, 0.8);
+    padding: 20px;
+    border-radius: 6px 6px 6px;
+    box-shadow: 0px 0px 13px white;
 }
 
 .features h2 {
@@ -497,6 +516,7 @@ li.tabs-nav {
 
 .application {
     background: black;
+    padding-bottom: 10px;
 }
 
 .application h1 {
@@ -543,17 +563,21 @@ li.tabs-nav {
     margin: 20px auto;
     width: 40%;
 }
+.rent-ice {
+   margin-top: 20px;
+
+}
 .paypal-button {
-	  width: 80%;
-  	  background-color: gray;
-  	  font-size: 20px;
-  	  margin: 20px auto;
-	  border-radius: 5px 5px 5px;
-	  color: white;
-	  font-family: 'Exo 2', sans-serif;
-	  display: block;
-	  padding: 20px;
-	  text-decoration: none;
+      width: 80%;
+      background-color: gray;
+      font-size: 20px;
+      margin: 20px auto;
+      border-radius: 5px 5px 5px;
+      color: white;
+      font-family: 'Exo 2', sans-serif;
+      display: block;
+      padding: 20px;
+      text-decoration: none;
 }
 
 .paypal-button h6 {
@@ -567,20 +591,20 @@ li.tabs-nav {
   margin: 20px auto;
 }
 .paypal-button:hover, .paypal-button:active, .paypal-button:visited, .paypal-button:focus {
-	background-color: gray;
-	box-shadow: 0px 0px 0px 2px white;
-	transition: 0.5s ease;
-	text-shadow: 1px 1px 1px gray;
-	font-weight: bold;
+    background-color: gray;
+    box-shadow: 0px 0px 0px 2px white;
+    transition: 0.5s ease;
+    text-shadow: 1px 1px 1px gray;
+    font-weight: bold;
 }
 .pp-button{
-	margin-top: 20px;
+    margin-top: 20px;
 }
 .pp-button.hidden {
-	display: none;
+    display: none;
 }
 .paypal-price {
-	display: block;
+    display: block;
 }
 // KeyFrame for paypal button 
 @-webkit-keyframes spin {
@@ -588,34 +612,34 @@ li.tabs-nav {
        -webkit-transform: rotate(0deg);
      }
      10% {
-     	-webkit-transform: rotate(36deg);
+        -webkit-transform: rotate(36deg);
      }
      20% {
-     	-webkit-transform: rotate(72deg);
+        -webkit-transform: rotate(72deg);
      }
      30% {
-     	-webkit-transform: rotate(108deg);
+        -webkit-transform: rotate(108deg);
      }
      40% {
-     	-webkit-transform: rotate(144deg);
+        -webkit-transform: rotate(144deg);
      }
      50% {
-     	-webkit-transform: rotate(180deg);
+        -webkit-transform: rotate(180deg);
      }
      60% {
-     	-webkit-transform: rotate(216deg);
+        -webkit-transform: rotate(216deg);
      }
      70% {
-     	-webkit-transform: rotate(252deg);
+        -webkit-transform: rotate(252deg);
      }
      80% {
-     	-webkit-transform: rotate(288deg);
+        -webkit-transform: rotate(288deg);
      }
      90% {
-     	-webkit-transform: rotate(324deg);
+        -webkit-transform: rotate(324deg);
      }
      100% {
-     	-webkit-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
      }
    }
    @-moz-keyframes spin {
@@ -639,14 +663,14 @@ li.tabs-nav {
 }
 
 .loading > .active {
-	display: block;
+    display: block;
 }
 svg {
-	width: 100px;
-	height: 100px;
-	display: block;
-	margin: 0 auto;
-	//-webkit-animation: spin 1s linear infinite;
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+    //-webkit-animation: spin 1s linear infinite;
 }
  #spinner {
    -webkit-transform-origin: 50% 50%;
@@ -689,16 +713,6 @@ input.value {
     color: white;
     margin: 0 auto;
     padding: 40px;
-}
-
-.features {
-    margin: 0 auto;
-    max-width: 800px;
-    background: red;
-    background: rgba(215, 44, 44, 0.8);
-    padding: 20px;
-    border-radius: 6px 6px 6px;
-    box-shadow: 0px 0px 13px white;
 }
 
 .why_NST h1 {
@@ -843,6 +857,7 @@ option {
     margin: 0 auto;
     border-radius: 3px 3px 3px;
     box-shadow: 0px 0px 13px #FFF;
+    padding-bottom: 10px;
 }
 
 h1.ss-form-title {
@@ -1029,7 +1044,7 @@ button a {
 .tournament-schedule a {
     font-size: 20px;
     font-weight: bold;
-    text-decoration: underline;
+    text-decoration: none;
     text-shadow: 1px 1px 1px black;
 }
 
@@ -1038,6 +1053,9 @@ button a {
     cursor: pointer;
 }
 
+.tournament-schedule span {
+  text-decoration: none;
+}
 .features p {
     font-size: 16px;
 }
@@ -1167,6 +1185,8 @@ button a {
 .social {
     text-align: center;
     background: black;
+    padding-top: 10px;
+   
 }
 
 #social {
@@ -1649,6 +1669,7 @@ ul.bx-slider {
         display: inline-block;
         position: absolute;
         bottom: 0;
+        z-index: 1;
     }
     nav ul {
         width: 100%;
@@ -1673,31 +1694,32 @@ ul.bx-slider {
     .tourney,
     .registration,
     .who {
-        height: 440px;
+        height: auto;
         background-size: 100%;
         background-size: cover;
         background-position: center center;
     }
     header {
-        height: 440px;
+        height: auto;
         background-size: cover;
         font-family: 'Exo 2', sans-serif;
         background-size: 100%;
         background-size: cover;
+        position: relative;
     }
     .registration {
         background: url('../img/hockeypic04.jpg') center top no-repeat;
         background-size: cover;
     }
     h2 {
-        margin-top: 105px;
+        padding: 30px;
     }
-    .logo {
+    /*.logo {
         background-size: 50% auto;
         width: 150px;
         height: 150px;
         margin: 0px auto;
-    }
+    }*/
     .logo h1 {
         font-size: 20px;
         font-family: 'Exo 2', sans-serif;
@@ -1726,7 +1748,11 @@ ul.bx-slider {
         cursor: default;
     }
     .tournament-schedule ul {
-        width: 200px;
+        width: 240px;
+    }
+    .tournament-schedule a {
+        font-size: 16px;
+    
     }
     .registration {
         width: 100%;
@@ -1750,8 +1776,8 @@ ul.bx-slider {
         font-size: 12px;
     }
     .features {
-        margin: 0 auto;
-        width: 200px;
+        margin: 40px auto;
+        width: 300px;
         background: red;
         background: rgba(215, 44, 44, 0.8);
         padding: 10px;
@@ -1872,10 +1898,10 @@ ul.bx-slider {
 }
     /*===============TABLE MEDIA QUERY===========*/
     /*
-	Max width before this PARTICULAR table gets nasty
-	This query will take effect for any screen smaller than 760px
-	and also iPads specifically.
-	*/
+    Max width before this PARTICULAR table gets nasty
+    This query will take effect for any screen smaller than 760px
+    and also iPads specifically.
+    */
     @media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px) {
         /* Force table to not be like tables anymore */
         table, thead, tbody, th, td, tr {
@@ -1910,8 +1936,8 @@ ul.bx-slider {
             white-space: nowrap;
         }
         /*
-		Label the data
-		*/
+        Label the data
+        */
         td:nth-of-type(1):before {
             content: "TIME";
         }
@@ -1942,13 +1968,13 @@ ul.bx-slider {
     }
     /*/* Smartphones (portrait and landscape) ----------- */
     /*@media only screen
-	and (min-device-width : 320px)
-	and (max-device-width : 480px) {
-		body {
-			padding: 0;
-			margin: 0;
-			width: 320px; }
-		}*/
+    and (min-device-width : 320px)
+    and (max-device-width : 480px) {
+        body {
+            padding: 0;
+            margin: 0;
+            width: 320px; }
+        }*/
     /* iPads (portrait and landscape) ----------- */
     @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
         body {
