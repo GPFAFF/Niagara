@@ -60,7 +60,7 @@ nav a {
 
 nav li:focus,nav li:hover {
   text-shadow: none;
-  background: red;
+  background: #d72c2c;
   background: rgba(215,44,44,.8);
   width: auto;
   height: inherit;
@@ -195,7 +195,7 @@ i {
 .fa-facebook:hover,
 .fa-phone:focus,
 .fa-phone:hover {
-  color: red;
+  color: #d72c2c;
   color: rgba(215,44,44,.8);
   transition: .6s ease;
 }
@@ -207,7 +207,7 @@ i {
 }
 
 .tournament-schedule {
-  background: red;
+  background: #d72c2c;
   background: rgba(215,44,44,.8);
   width: 80%;
   text-align: center;
@@ -240,7 +240,7 @@ i {
 
 fieldset {
     width: 50%;
-    background: red;
+    background: #d72c2c;
     background: rgba(215,44,44,.8);
     padding: 10px;
     border-radius: 3px;
@@ -296,18 +296,18 @@ fieldset p {
   font-size: .85em;
   font-family: Arial;
   font-weight: 700;
-  color: red;
+  color: #d72c2c;
   padding-top: 20px;
 }
 
 .bx-wrapper .bx-controls-auto .bx-controls-auto-item,.bx-wrapper .bx-pager .bx-pager-item {
   zoom:1;
   display: inline;
-  color: red;
+  color: #d72c2c;
 }
 
 .bx-wrapper .bx-pager.bx-default-pager a {
-  background: red;
+  background: #d72c2c;
   text-indent: -9999px;
   display: inline-block;
   width: 10px;
@@ -587,7 +587,7 @@ nav a {
 
 nav li:focus,nav li:hover {
     text-shadow: none;
-    background: red;
+    background: #d72c2c;
     background: rgba(215,44,44,.8);
     width: auto;
     height: inherit;
@@ -640,7 +640,7 @@ h1 {
 }
 
 .tournament-schedule ul {
-    background: red;
+    background: #d72c2c;
     background: rgba(215,44,44,.8);
     text-align: center;
     padding: 30px;
@@ -672,7 +672,7 @@ h1 {
 
 .features {
     margin: 40px auto;
-    background: red;
+    background: #d72c2c;
     background: rgba(215,44,44,.8);
     padding: 20px;
     border-radius: 6px;
@@ -712,7 +712,7 @@ h1 {
 .tabs-nav .tab-active a {
     background: #fff;
     border-bottom-color: transparent;
-    color: red;
+    color: #d72c2c;
     color: rgba(215,44,44,.8);
     cursor: default;
 }
@@ -727,7 +727,7 @@ h1 {
     position: relative;
     top: -3px;
     width: 100%;
-    border: 12px solid red;
+    border: 12px solid #d72c2c;
     border: 12px solid rgba(215,44,44,.8);
     padding: 10px;
 }
@@ -1029,7 +1029,7 @@ input.placeholder,input.value {
 
 
 .highlight {
-    color: red;
+    color: #d72c2c;
     text-shadow: none;
 }
 
@@ -1041,7 +1041,7 @@ input.placeholder,input.value {
 }
 
 strong {
-    color: red;
+    color: #d72c2c;
     font-weight: 700;
 }
 
@@ -1108,7 +1108,7 @@ strong {
 .food,.hotels,.sights {
     height: auto;
     width: auto;
-    background: red;
+    background: #d72c2c;
     background: rgba(215,44,44,.8);
     border-radius: 3px;
     margin-right: 10px;
@@ -1128,7 +1128,7 @@ option {
 }
 
 .ss-form-container {
-    background: red;
+    background: #d72c2c;
     background: rgba(215,44,44,.8);
     width: 50%;
     margin: 0 auto;
@@ -1259,7 +1259,7 @@ input {
 a.standings-button,button {
     padding: 30px;
     margin: 0 auto;
-    background-color: red;
+    background-color: #d72c2c;
     background: rgba(215,44,44,.8);
     border-radius: 5px;
     color: #fff;
@@ -1321,7 +1321,7 @@ a.telephone {
 }
 
 a.telephone:hover {
-    color: red;
+    color: #d72c2c;
     color: rgba(215,44,44,.8);
     cursor: pointer;
     transition: .4s ease;
@@ -1399,7 +1399,7 @@ a.telephone:hover {
 }
 
 .clicker:hover {
-    color: red;
+    color: #d72c2c;
     color: rgba(215,44,44,.8);
 }
 
@@ -1416,7 +1416,7 @@ button a {
 a.standings-button {
     padding: 30px;
     margin: 30px auto;
-    background-color: red;
+    background-color: #d72c2c;
     background: rgba(215,44,44,.9);
     border-radius: 5px;
     color: #fff;
@@ -1448,7 +1448,7 @@ tbody {
     padding: 2px;
 }
 
-.required-message,.ss-choice-label,.ss-form-heading,.ss-q-help,.ss-q-title,p {
+.requi#d72c2c-message,.ss-choice-label,.ss-form-heading,.ss-q-help,.ss-q-title,p {
     color: #fff;
     text-shadow: 2px 2px 2px #000;
     padding: 12px;
@@ -1457,7 +1457,7 @@ tbody {
     font-size: 20px;
 }
 
-.required-message {
+.requi#d72c2c-message {
     font-size: 14px;
 }
 
@@ -1605,17 +1605,17 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     font-size: .85em;
     font-family: Arial;
     font-weight: 700;
-    color: red;
+    color: #d72c2c;
     padding-top: 20px;
 }
 
 .bx-wrapper .bx-controls-auto .bx-controls-auto-item,.bx-wrapper .bx-pager .bx-pager-item {
     zoom:1;display: inline;
-    color: red;
+    color: #d72c2c;
 }
 
 .bx-wrapper .bx-pager.bx-default-pager a {
-    background: red;
+    background: #d72c2c;
     text-indent: -9999px;
     display: inline-block;
     width: 10px;
@@ -1737,7 +1737,7 @@ ul.bx-slider {
     nav li:hover {
         text-shadow: none;
         text-decoration: none;
-        background: red;
+        background: #d72c2c;
         background: rgba(215,44,44,.8);
         width: auto;
         height: 53px;
@@ -1746,7 +1746,7 @@ ul.bx-slider {
     .food,.hotels,.sights {
         height: auto;
         width: 348px;
-        background: red;
+        background: #d72c2c;
         background: rgba(215,44,44,.8);
         border-radius: 3px;
         display: block;
@@ -1811,7 +1811,7 @@ ul.bx-slider {
     }
 
     nav li:hover {
-        color: red;
+        color: #d72c2c;
         color: rgba(215,44,44,.8);
     }
 
@@ -1861,7 +1861,7 @@ ul.bx-slider {
     .tabs-nav .tab-active a {
         background: #fff;
         border-bottom-color: transparent;
-        color: red;
+        color: #d72c2c;
         color: rgba(215,44,44,.8);
         cursor: default;
     }
@@ -1894,7 +1894,7 @@ ul.bx-slider {
 
     .features {
         margin: 40px auto;
-        background: red;
+        background: #d72c2c;
         background: rgba(215,44,44,.8);
         padding: 10px;
         border-radius: 6px;
