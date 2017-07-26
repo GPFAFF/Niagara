@@ -200,12 +200,6 @@ i {
   transition: .6s ease;
 }
 
-.home-hero {
-  background: url(../img/morning-niagara-fall-wallpaper.jpg) no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
 .tournament-schedule {
   background: #d72c2c;
   background: rgba(215,44,44,.8);
@@ -227,11 +221,6 @@ i {
 .tournament-schedule a:hover {
   text-decoration: underline;
   cursor: pointer;
-}
-
-.contact-hero {
-    background: url(../img/registration.jpg) no-repeat;
-    background-size: cover;
 }
 
 #map-canvas,.links,fieldset {
@@ -421,9 +410,40 @@ ul.bx-slider {
   text-align: center;
 }*/
 
-.tournament-hero {
-  background: url(../img/hockeyshot.png) no-repeat;
+.hero {
   background-size: cover;
+}
+
+.home.hero, .rentals.hero {
+  background: url(../img/morning-niagara-fall-wallpaper.jpg) no-repeat;
+}
+
+.contact.hero {
+  background: url(../img/registration.jpg) no-repeat;
+}
+
+.tournament.hero, .tournament-forms.hero {
+  background: url(../img/hockeyshot.png) no-repeat;
+}
+
+.infopage {
+    background: url(../img/net.jpg) no-repeat;
+    background-size: cover;
+}
+
+.registration.hero {
+    background: url(../img/hockeypic04.jpg) no-repeat;
+    background-size: cover;
+}
+
+.signup.hero {
+    background: url(../img/Hockey.png) no-repeat;
+    background-size: cover;
+}
+
+.rentals.hero {
+    background: url(../img/falls.jpg) no-repeat;
+    background-size: cover;
 }
 
 
@@ -538,30 +558,7 @@ header {
     position: relative;
 }
 
-.main-header {
-    background: url(../img/falls.jpg) no-repeat;
-    background-size: cover;
-}
 
-.tourney {
-    background: url(../img/hockeyshot.png) no-repeat;
-    background-size: cover;
-}
-
-.infopage {
-    background: url(../img/net.jpg) no-repeat;
-    background-size: cover;
-}
-
-.registration {
-    background: url(../img/hockeypic04.jpg) no-repeat;
-    background-size: cover;
-}
-
-.Signup-Page {
-    background: url(../img/Hockey.png) no-repeat;
-    background-size: cover;
-}
 
 nav {
     width: 100%;
