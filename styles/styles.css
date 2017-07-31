@@ -173,10 +173,10 @@ li, p {
   background-size: cover;
 }
 
-/*.infopage {
-    background: url(../img/net.jpg) no-repeat;
+.nst_hero {
+    background: url(../img/falls.jpg) no-repeat;
     background-size: cover;
-}*/
+}
 
 .registration_hero {
     background: url(../img/hockeypic04.jpg) no-repeat;
@@ -327,7 +327,7 @@ fieldset p {
     border-radius: 0 0 4px 4px;
   }
   .logo {
-    padding: 40px;
+    padding: 40px 0 100px;
   }
 }
 /*.bx-wrapper {
