@@ -108,9 +108,7 @@ nav li:focus,nav li:hover {
 }
 
 .animated {
-  -webkit-animation-duration: 1s;
   animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
 
@@ -135,7 +133,6 @@ nav li:focus,nav li:hover {
 }
 
 .zoomInUp {
-  -webkit-animation-name: zoomInUp;
   animation-name: zoomInUp;
 }
 
@@ -161,6 +158,39 @@ h4 {
 
 li, p {
   font-size: 18px;
+}
+
+.home_hero {
+  background: url(../img/morning-niagara-fall-wallpaper.jpg) no-repeat;
+}
+
+.contact_hero {
+  background: url(../img/registration.jpg) no-repeat;
+}
+
+.tournament_hero, .tournament_forms_hero {
+  background: url(../img/hockeyshot.png) no-repeat;
+  background-size: cover;
+}
+
+/*.infopage {
+    background: url(../img/net.jpg) no-repeat;
+    background-size: cover;
+}*/
+
+.registration_hero {
+    background: url(../img/hockeypic04.jpg) no-repeat;
+    background-size: cover;
+}
+
+.signup_hero {
+    background: url(../img/Hockey.png) no-repeat;
+    background-size: cover;
+}
+
+.rentals_hero {
+    background: url(../img/falls.jpg) no-repeat;
+    background-size: cover;
 }
 
 .social {
@@ -191,7 +221,7 @@ i {
 }
 
 .fa {
-  font-size: 30px!important;
+  font-size: 30px !important;
   padding: 20px;
 }
 
@@ -215,7 +245,6 @@ i {
   margin: 50px auto;
   border-radius: 5px;
   list-style: none;
-  text-align: center;
 }
 
 .tournament-schedule a, .tournament-schedule li {
@@ -230,24 +259,35 @@ i {
 }
 
 #map-canvas,.links,fieldset {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 fieldset {
-    width: 50%;
-    background: #d72c2c;
-    background: rgba(215,44,44,.8);
-    padding: 10px;
-    border-radius: 3px;
+  width: 50%;
+  background: #d72c2c;
+  background: rgba(215,44,44,.8);
+  padding: 10px;
+  border-radius: 3px;
 }
 
 fieldset p {
-    text-align: center;
-    color: #fff;
-    font-family: 'Exo 2',sans-serif;
-    padding: 3px;
+  text-align: center;
+  color: #fff;
+  font-family: 'Exo 2',sans-serif;
+  padding: 3px;
+}
+.slider {
+  position: relative;
 }
 
+.slick-list {
+  overflow: hidden;
+  border: 2px solid #d72c2c;
+}
+
+.slick-dots li button, .slick-dots li button:before {
+  color: white;
+}
 
 @media only screen and (max-width: 580px) {
 
@@ -288,9 +328,6 @@ fieldset p {
   }
   .logo {
     padding: 40px;
-  }
-  h1 {
-    padding-bottom: 100px;
   }
 }
 /*.bx-wrapper {
@@ -460,39 +497,6 @@ ul.bx-slider {
   padding: 10px;
   text-align: center;
 }*/
-
-.home_hero {
-  background: url(../img/morning-niagara-fall-wallpaper.jpg) no-repeat;
-}
-
-.contact_hero {
-  background: url(../img/registration.jpg) no-repeat;
-}
-
-.tournament_hero, .tournament_forms_hero {
-  background: url(../img/hockeyshot.png) no-repeat;
-  background-size: cover;
-}
-
-/*.infopage {
-    background: url(../img/net.jpg) no-repeat;
-    background-size: cover;
-}*/
-
-.registration_hero {
-    background: url(../img/hockeypic04.jpg) no-repeat;
-    background-size: cover;
-}
-
-.signup_hero {
-    background: url(../img/Hockey.png) no-repeat;
-    background-size: cover;
-}
-
-.rentals_hero {
-    background: url(../img/falls.jpg) no-repeat;
-    background-size: cover;
-}
 
 
 /*.icon-menu a,.logo a,.paypal-button,.tabs-stage a,nav a,nav li,nav li:focus,nav li:hover {
