@@ -10,6 +10,11 @@ body, html {
   color: white;
 }
 
+.content {
+    margin: 0 auto;
+    width: 80%;
+}
+
 header {
   background-size: 100% 100%;
   height: auto;
@@ -17,7 +22,6 @@ header {
 }
 
 section {
-  padding: 20px;
   text-align: center;
 }
 
@@ -224,14 +228,14 @@ i {
 
 .button, a.button {
     appearance: none;
-    background: #d72c2c;
-    background: rgba(215,44,44,.8);
+    background: rgba(179,27,27,1);
     border: 0;
     border-radius: 5px;
     color: white;
     display: inline-block;
     font-weight: 700;
     letter-spacing: .5px;
+    margin: 0 15px;
     padding: 25px;
     text-transform: uppercase;
     text-decoration: none;
@@ -246,7 +250,7 @@ button:hover, a.button:hover {
 }
 
 .button.large {
-    width: 300px;
+    width: 80%;
     padding: 20px;
     text-decoration: none;
 }
@@ -361,9 +365,8 @@ fieldset p {
   .logo {
     padding: 40px 0 100px;
   }
-  .button {
-      width: 100%;
-      padding: 15px;
+  a.button, a.button.large {
+    margin: 20px;
   }
 }
 /*.bx-wrapper {

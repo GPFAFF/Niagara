@@ -50,7 +50,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
-        <li><a href="tournament.html">Information</a></li>
+        <li><a href="tournament.html">Info</a></li>
         <li><a href="form.html">Register</a></li>
         <li><a href="champions.html">Prices</a></li>
         <li><a href="contact.html">Contact</a></li>
@@ -68,17 +68,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   <div class="container">
     <ul class="tabs-nav">
-      <li><a href="#tab-1">About </a></li>
-      <li><a href="#tab-2">Rules </a></li>
-      <li><a href="#tab-3">Attractions</a></li>
-      <li><a href="#tab-4">Screening</a></li>
-      <li><a href="#tab-5">Hotels </a></li>
-      <li><a href="#tab-6">Standings </a></li>
-      <li><a href="#tab-7">Features </a></li>
+      <li><a href="#tab-1" aria-hidden="false">About </a></li>
+      <li><a href="#tab-2" aria-hidden="true">Rules </a></li>
+      <li><a href="#tab-3" aria-hidden="true">Attractions</a></li>
+      <li><a href="#tab-4" aria-hidden="true">Screening</a></li>
+      <li><a href="#tab-5" aria-hidden="true">Hotels </a></li>
+      <li><a href="#tab-6" aria-hidden="true">Standings </a></li>
+      <li><a href="#tab-7" aria-hidden="true">Features </a></li>
     </ul>
 
     <div class="tabs-stage">
-      <div id="tab-1">
+      <div id="tab-1" aria-hidden="false">
         <h3>About NST</h3>
 
         <p>Thank your for looking at NST for your Tournament needs. We appreciate your consideration, as I know how difficult it can be to pick the proper tournament with all the choices out there today. Gene Carella, NST Co-Tournament Director, has been
@@ -100,7 +100,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           We will not force a division together just to fill ice!! We believe in quality over quantity when it comes to our tournaments.</p>
       </div>
 
-      <div id="tab-2">
+      <div id="tab-2" aria-hidden="true">
         <h3>Tournament Rules</h3>
 
         <p>1. All games will be played under WNY/USA hockey rules. This is a USA hockey sanctioned tournament. ALL players must be recognized by USA hockey or C.A.H.A/ OMHA. The use of any illegal or unauthorized played will result in immediate team expulsion
@@ -201,7 +201,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           parent organization.</p>
       </div>
 
-      <div id="tab-3">
+      <div id="tab-3" aria-hidden="true">
         <h3>Check out the attractions around the rink!</h3>
 
         <h6>Click the links below for information</h6>
@@ -233,7 +233,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </section>
       </div>
 
-      <div id="tab-4">
+      <div id="tab-4" aria-hidden="true">
         <h3>Rules:</h3>
 
         <p>All U.S.A. Hockey Rules and Regulations will be applicable. Tournament Rules are posted on our website under the tournament rules link. Please note that all of our tournament are ran on a point-per-period scoring system, where each game is worth
@@ -312,7 +312,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <p>A CERTIFIED BANK CHECK OR ASSOCIATION CHECK SHOULD BE USED.</p>
       </div>
 
-      <div id="tab-5">
+      <div id="tab-5" aria-hidden="true">
         <section class="hotels">
           <h6>Hotels</h6>
 
@@ -330,7 +330,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </section>
       </div>
 
-      <div id="tab-6">
+      <div id="tab-6" aria-hidden="true">
 
         <!-- <h3> Niagara Falls Presidents Day Challenge - Feb 18th - 20th, 2017 </h3> -->
         <h6> Standings coming soon! </h6>
@@ -343,7 +343,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </section>
       </div>
 
-      <div id="tab-7">
+      <div id="tab-7" aria-hidden="true">
         <h3>NST Tournaments Features:</h3>
 
         <p>A friendly, courteous staff with a tournament director present at ALL times.</p>
@@ -414,7 +414,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   </div>
 
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <script src="js/index.js" type="text/javascript" charset="utf-8"></script>
   <script>
     $('.tabs-stage div').hide();
@@ -427,7 +427,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       $(this).parent().addClass('tab-active');
       $('.tabs-stage div').hide();
       $($(this).attr('href')).show();
-      $($(this).attr('aria-hidden', 'true').show();
+
+      if ($('.tabs-nav li').hasClass('tab-active')) {
+        console.log('meh')
+        $($(this).attr('aria-hidden', 'false'));
+      } else {
+        $($(this).attr('aria-hidden', 'true'));
+      }
     });
   </script>
   <script type="text/javascript">
