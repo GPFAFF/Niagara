@@ -169,7 +169,8 @@ li, p {
   background: url(../img/registration.jpg) no-repeat;
 }
 
-.tournament_hero, .tournament_forms_hero {
+.tournament_hero, 
+.tournament_forms_hero {
   background: url(../img/hockeyshot.png) no-repeat;
   background-size: cover;
 }
@@ -221,6 +222,35 @@ i {
   color: white;
 }
 
+.button, a.button {
+    appearance: none;
+    background: #d72c2c;
+    background: rgba(215,44,44,.8);
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    display: inline-block;
+    font-weight: 700;
+    letter-spacing: .5px;
+    padding: 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+    width: 200px;
+    font-size: 14px;
+}
+
+button:hover, a.button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 23px #fff;
+    transition: .4s ease;
+}
+
+.button.large {
+    width: 300px;
+    padding: 20px;
+    text-decoration: none;
+}
+
 .fa {
   font-size: 30px !important;
   padding: 20px;
@@ -239,7 +269,7 @@ i {
 
 .tournament-schedule {
   background: #d72c2c;
-  background: rgba(215,44,44,.8);
+  background: rgba(189, 186, 186, 0.8);
   width: 80%;
   text-align: center;
   padding: 30px;
@@ -277,6 +307,7 @@ fieldset p {
   font-family: 'Exo 2',sans-serif;
   padding: 3px;
 }
+
 .slider {
   position: relative;
 }
@@ -290,7 +321,7 @@ fieldset p {
   color: white;
 }
 
-@media only screen and (max-width: 580px) {
+@media (max-width: 580px) {
 
   header {
     background-size: cover;
@@ -329,6 +360,10 @@ fieldset p {
   }
   .logo {
     padding: 40px 0 100px;
+  }
+  .button {
+      width: 100%;
+      padding: 15px;
   }
 }
 /*.bx-wrapper {
