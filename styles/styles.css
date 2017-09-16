@@ -11,8 +11,8 @@ body, html {
 }
 
 .content {
-    margin: 0 auto;
-    width: 80%;
+  margin: 0 auto;
+  width: 80%;
 }
 
 header {
@@ -83,7 +83,7 @@ nav li:focus,nav li:hover {
   top: 30%;
   line-height: 50px;
   text-shadow: 2px 2px 2px #000;
-  box-shadow: 0 0 4px 4px #000;
+  box-shadow: 0 0 6px 2px #FFFEFE;
   text-align: center;
   border-radius: 5px 0 0 5px;
   z-index: 10000;
@@ -141,6 +141,10 @@ nav li:focus,nav li:hover {
   animation-name: zoomInUp;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.5;
+}
+
 h1 {
   color: #000;
   font-size: 40px;
@@ -151,6 +155,7 @@ h1 {
 
 h2 {
   font-size: 32px;
+  text-align: center;
 }
 
 h3 {
@@ -163,6 +168,7 @@ h4 {
 
 li, p {
   font-size: 18px;
+  line-height: 1.5;
 }
 
 .home_hero {
@@ -180,23 +186,23 @@ li, p {
 }
 
 .nst_hero {
-    background: url(../img/falls.jpg) no-repeat;
-    background-size: cover;
+  background: url(../img/falls.jpg) no-repeat;
+  background-size: cover;
 }
 
 .registration_hero {
-    background: url(../img/hockeypic04.jpg) no-repeat;
-    background-size: cover;
+  background: url(../img/hockeypic04.jpg) no-repeat;
+  background-size: cover;
 }
 
 .signup_hero {
-    background: url(../img/Hockey.png) no-repeat;
-    background-size: cover;
+  background: url(../img/Hockey.png) no-repeat;
+  background-size: cover;
 }
 
 .rentals_hero {
-    background: url(../img/falls.jpg) no-repeat;
-    background-size: cover;
+  background: url(../img/falls.jpg) no-repeat;
+  background-size: cover;
 }
 
 .social {
@@ -227,32 +233,33 @@ i {
 }
 
 .button, a.button {
-    appearance: none;
-    background: rgba(179,27,27,1);
-    border: 0;
-    border-radius: 5px;
-    color: white;
-    display: inline-block;
-    font-weight: 700;
-    letter-spacing: .5px;
-    margin: 0 15px;
-    padding: 25px;
-    text-transform: uppercase;
-    text-decoration: none;
-    width: 200px;
-    font-size: 14px;
+  appearance: none;
+  background: rgba(179,27,27,1);
+  border: 0;
+  border-radius: 5px;
+  color: white;
+  display: inline-block;
+  font-weight: 700;
+  letter-spacing: .5px;
+  margin: 0 15px;
+  padding: 25px;
+  text-transform: uppercase;
+  text-decoration: none;
+  width: 200px;
+  font-size: 14px;
 }
 
 button:hover, a.button:hover {
-    cursor: pointer;
-    box-shadow: 0 0 23px #fff;
-    transition: .4s ease;
+  cursor: pointer;
+  box-shadow: 0 0 23px #fff;
+  transition: .4s ease;
+  background: rgba(218,18,18,1);
 }
 
 .button.large {
-    width: 80%;
-    padding: 20px;
-    text-decoration: none;
+  width: 80%;
+  padding: 20px;
+  text-decoration: none;
 }
 
 .fa {
@@ -271,9 +278,8 @@ button:hover, a.button:hover {
   transition: .6s ease;
 }
 
-.tournament-schedule {
-  background: #d72c2c;
-  background: rgba(189, 186, 186, 0.8);
+.block {
+  background: #d63535;
   width: 80%;
   text-align: center;
   padding: 30px;
@@ -282,13 +288,13 @@ button:hover, a.button:hover {
   list-style: none;
 }
 
-.tournament-schedule a, .tournament-schedule li {
+.block a, .block li {
   padding: 10px;
   color: white;
   text-decoration: none;
 }
 
-.tournament-schedule a:hover {
+.block a:hover {
   text-decoration: underline;
   cursor: pointer;
 }
@@ -351,20 +357,24 @@ fieldset p {
 
   nav li:hover {
     text-decoration: underline;
+    background: none;
   }
   nav a {
     padding: 0;
     font-size: 14px;
   }
+
   .icerentals-menu {
     position: relative;
     top: 0;
     margin: 0 auto;
     border-radius: 0 0 4px 4px;
   }
+
   .logo {
     padding: 40px 0 100px;
   }
+
   a.button, a.button.large {
     margin: 20px;
   }
