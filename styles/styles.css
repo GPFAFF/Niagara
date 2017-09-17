@@ -10,10 +10,26 @@ body, html {
   color: white;
 }
 
+.container.full {
+  padding: 40px 0;
+}
+
 .content {
   margin: 0 auto;
   width: 80%;
 }
+
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+  
+ol,ul {
+  list-style: none;
+}  
 
 header {
   background-size: 100% 100%;
@@ -45,13 +61,13 @@ nav ul {
   text-align: center;
   font-size: 14px;
   margin: 0;
-  padding: 15px 0;
+  padding: 17px 0;
 }
 
 nav li {
   display: inline;
   text-align: center;
-  padding: 15px 0;
+  padding: 20px 0;
   text-transform: uppercase;
 }
 
@@ -93,6 +109,12 @@ nav li:focus,nav li:hover {
   color: white;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.icerentals-menu:hover {
+  text-decoration: underline; 
+  background: #6B6B6C;
+  transition: .7s ease;
 }
 
 .logo {
@@ -143,6 +165,7 @@ nav li:focus,nav li:hover {
 
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.5;
+  text-align: center;  
 }
 
 h1 {
@@ -155,7 +178,6 @@ h1 {
 
 h2 {
   font-size: 32px;
-  text-align: center;
 }
 
 h3 {
@@ -299,7 +321,7 @@ button:hover, a.button:hover {
   cursor: pointer;
 }
 
-#map-canvas,.links,fieldset {
+#map-canvas, .links, fieldset {
   margin: 0 auto;
 }
 
@@ -330,6 +352,114 @@ fieldset p {
 .slick-dots li button, .slick-dots li button:before {
   color: white;
 }
+
+.tab-container {
+  display: flex;
+  align-items: center;
+}
+
+.tabs-nav {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0;
+}
+
+[id^="tab"] {
+  margin: 30px auto;
+}
+  
+#tab-2,#tab-3,#tab-4,#tab5,#tab6 h3 {
+  font-size: 20px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+  
+#tab-2,#tab-4,#tab6 h6 {
+  font-size: 18px;
+  padding: 10px;
+}
+
+  
+.features {
+  margin: 40px auto;
+  background: rgba(179,27,27,1);
+  padding: 20px;
+  border-radius: 6px;
+  width: 40%;
+}
+
+.features li {
+    margin: 15px 0;
+}
+
+.features p {
+  padding: 6px;
+  width: 100%;
+  text-align: center;
+}
+
+.tabs-nav li:first-child a {
+    border-right: 0;
+}
+
+.tabs-nav a {
+  background: #f5f7f5;
+  border: 1px solid #c6c9cc;
+  color: black;
+  display: block;
+  font-size: 11px;
+  height: 40px;
+  line-height: 44px;
+  text-align: center;
+  width: 111px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.tabs-nav .tab-active a {
+  background: #fff;
+  border-bottom-color: transparent;
+  color: rgba(179,27,27,1);
+  cursor: default;
+}
+
+.tabs-stage {
+  width: auto;
+  border: 12px solid rgba(179,27,27,1);
+  padding: 10px;
+  margin-bottom: 40px;
+}
+
+.tabs-stage a {
+    color: #fff;
+}
+
+.tabs-stage a:focus,.tabs-stage a:hover,.tournament-schedule a:focus,.tournament-schedule a:hover {
+  opacity: .9;
+  color: #000;
+  text-shadow: 1px 1px 1px gray;
+}
+
+#tab-2,#tab-3,#tab-4,#tab5,#tab6 h3,#tab6 h6,.application h1 {
+    color: #fff;
+    font-family: 'Exo 2',sans-serif;
+}
+
+.tabs-stage p {
+  margin: 0;
+  padding: 20px;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.tabs-stage h6 {
+  font-size: 25px;
+  padding: 10px;
+  text-shadow: 2px 2px 2px #000;
+  margin-bottom: 20px;
+}
+
 
 @media (max-width: 580px) {
 
