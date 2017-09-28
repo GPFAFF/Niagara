@@ -44,6 +44,35 @@ section {
 ol,ul,ul.bx-slider {
   list-style: none;
 }
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.5;
+  text-align: center;  
+}
+
+h1 {
+  color: #000;
+  font-size: 40px;
+  text-align: center;
+  text-shadow: 2px 2px 0 #fff,-1px -1px 0 #FFF,1px -1px 0 #FFF,-1px 1px 0 #FFF,1px 1px 0 #FFF;
+  margin-top: 40px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+li, p {
+  font-size: 18px;
+  line-height: 1.5;
+}
 
 .browsehappy {
   margin: 0;
@@ -162,35 +191,6 @@ nav li:focus,nav li:hover {
   animation-name: zoomInUp;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  line-height: 1.5;
-  text-align: center;  
-}
-
-h1 {
-  color: #000;
-  font-size: 40px;
-  text-align: center;
-  text-shadow: 2px 2px 0 #fff,-1px -1px 0 #FFF,1px -1px 0 #FFF,-1px 1px 0 #FFF,1px 1px 0 #FFF;
-  margin-top: 40px;
-}
-
-h2 {
-  font-size: 32px;
-}
-
-h3 {
-  font-size: 24px;
-}
-
-h4 {
-  font-size: 20px;
-}
-
-li, p {
-  font-size: 18px;
-  line-height: 1.5;
-}
 
 .home_hero {
   background: url(../img/morning-niagara-fall-wallpaper.jpg) no-repeat;
@@ -283,6 +283,10 @@ button:hover, a.button:hover {
   text-decoration: none;
 }
 
+.standings-button {
+    padding: 40px;
+}
+
 .fa {
   font-size: 30px !important;
   padding: 20px;
@@ -350,16 +354,15 @@ fieldset p {
   color: white;
 }
 
-.tab-container {
-  display: flex;
-  align-items: center;
-}
-
 .tabs-nav {
   flex: 1;
   display: flex;
   justify-content: center;
   margin-bottom: 0;
+}
+
+.tabs-nav li {
+  flex: 1 0;
 }
 
 [id^="tab"] {
@@ -414,7 +417,6 @@ fieldset p {
   height: 40px;
   line-height: 44px;
   text-align: center;
-  width: 111px;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
@@ -479,7 +481,7 @@ ul.tournament-schedule {
 }
 
 
-@media (max-width: 580px) {
+@media (max-width: 700px) {
 
   header {
     background-size: cover;
@@ -525,13 +527,19 @@ ul.tournament-schedule {
     padding: 40px 0 100px;
   }
 
-  a.button, a.button.large {
-    margin: 20px;
+  .standings-button {
+    margin: 20px auto;
+    padding: 0;
   }
 
+  a.button, a.button.large {
+    margin: 20px auto;
+  }
+}
+
+@media (max-width: 480px) {
   .tabs-nav a {
-      width: 43px;
-      font-size: 10px;
+    font-size: 10px;
   }
 }
 /*.bx-wrapper {
