@@ -81,11 +81,10 @@ nav a {
 
 nav li:focus,nav li:hover {
   text-shadow: none;
-  background: #d72c2c;
-  background: rgba(215,44,44,.8);
+  background: rgba(179,27,27,1);
   width: auto;
   height: inherit;
-  transition: .7s ease;
+  transition: .4s ease;
 }
 
 
@@ -114,7 +113,7 @@ nav li:focus,nav li:hover {
 .icerentals-menu:hover {
   text-decoration: underline; 
   background: #6B6B6C;
-  transition: .7s ease;
+  transition: .4s ease;
 }
 
 .logo {
@@ -241,7 +240,7 @@ footer {
   text-align: center;
   padding: 20px;
   color: #fff;
-  text-shadow: 1px 1px 1px rgba(215,44,44,.8);
+  text-shadow: 1px 1px 1px rgba(179,27,27,1);
 }
 
 footer a,footer p {
@@ -295,13 +294,12 @@ button:hover, a.button:hover {
 .fa-facebook:hover,
 .fa-phone:focus,
 .fa-phone:hover {
-  color: #d72c2c;
-  color: rgba(215,44,44,.8);
-  transition: .6s ease;
+  color: rgba(179,27,27,1);
+  transition: .4s ease;
 }
 
 .block {
-  background: #d63535;
+  background: rgba(179,27,27,1);
   width: 80%;
   text-align: center;
   padding: 30px;
@@ -327,8 +325,7 @@ button:hover, a.button:hover {
 
 fieldset {
   width: 50%;
-  background: #d72c2c;
-  background: rgba(215,44,44,.8);
+  background: rgba(179,27,27,1);
   padding: 10px;
   border-radius: 3px;
 }
@@ -380,7 +377,6 @@ fieldset p {
   padding: 10px;
 }
 
-  
 .features {
   margin: 40px auto;
   background: rgba(179,27,27,1);
@@ -435,13 +431,29 @@ fieldset p {
     color: #fff;
 }
 
-.tabs-stage a:focus,.tabs-stage a:hover,.tournament-schedule a:focus,.tournament-schedule a:hover {
-  opacity: .9;
-  color: #000;
-  text-shadow: 1px 1px 1px gray;
+.tabs-stage a:focus,
+.tabs-stage a:hover,
+.tournament-schedule a:focus,
+.tournament-schedule a:hover {
+  text-shadow: 1px 1px 1px black;
 }
 
-#tab-2,#tab-3,#tab-4,#tab5,#tab6 h3,#tab6 h6,.application h1 {
+ul.tournament-schedule {
+  padding-top: 20px;
+}
+
+.tournament-content {
+    padding: 10px;
+    font-size: 20px;
+}
+
+#tab-2,
+#tab-3,
+#tab-4,
+#tab5,
+#tab6 h3,
+#tab6 h6,
+.application h1 {
     color: #fff;
     font-family: 'Exo 2',sans-serif;
 }
@@ -466,6 +478,7 @@ fieldset p {
   header {
     background-size: cover;
   }
+    
   nav {
     display: inline-block;
     position: absolute;
