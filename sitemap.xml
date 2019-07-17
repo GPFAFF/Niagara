@@ -1,99 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+      xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="https://www.sitemaps.org/schemas/sitemap/0.9
+            https://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 
 <url>
-  <loc>http://niagaratournaments.com/</loc>
+  <loc>https://niagaratournaments.com/</loc>
   <lastmod>2018-08-07T16:18:04+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://niagaratournaments.com/index.html</loc>
+  <loc>https://niagaratournaments.com/index.html</loc>
   <lastmod>2018-08-07T16:18:04+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://niagaratournaments.com/tournament.html</loc>
+  <loc>https://niagaratournaments.com/tournament.html</loc>
   <lastmod>2018-07-10T02:25:44+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://niagaratournaments.com/form.html</loc>
+  <loc>https://niagaratournaments.com/form.html</loc>
   <lastmod>2018-07-11T14:51:38+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://niagaratournaments.com/prices.html</loc>
+  <loc>https://niagaratournaments.com/prices.html</loc>
   <lastmod>2018-07-18T19:36:03+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://niagaratournaments.com/contact.html</loc>
+  <loc>https://niagaratournaments.com/contact.html</loc>
   <lastmod>2018-07-10T02:29:59+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://niagaratournaments.com/icerentals.html</loc>
+  <loc>https://niagaratournaments.com/icerentals.html</loc>
   <lastmod>2018-07-10T02:27:10+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://niagaratournaments.com/columbus-day.html</loc>
+  <loc>https://niagaratournaments.com/columbus-day.html</loc>
   <lastmod>2018-07-10T15:31:47+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://niagaratournaments.com/festival-of-lights.html</loc>
+  <loc>https://niagaratournaments.com/festival-of-lights.html</loc>
   <lastmod>2018-07-10T15:41:11+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://niagaratournaments.com/blizzard-challenge.html</loc>
+  <loc>https://niagaratournaments.com/blizzard-challenge.html</loc>
   <lastmod>2018-07-10T15:44:58+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://niagaratournaments.com/presidents-day.html</loc>
+  <loc>https://niagaratournaments.com/presidents-day.html</loc>
   <lastmod>2018-07-10T15:47:24+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://niagaratournaments.com/championship-cup.html</loc>
+  <loc>https://niagaratournaments.com/championship-cup.html</loc>
   <lastmod>2018-07-10T17:13:10+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://niagaratournaments.com/sheraton.html</loc>
+  <loc>https://niagaratournaments.com/sheraton.html</loc>
   <lastmod>2018-07-10T02:26:18+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://niagaratournaments.com/radisson.html</loc>
+  <loc>https://niagaratournaments.com/radisson.html</loc>
   <lastmod>2018-07-10T02:26:27+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://niagaratournaments.com/holiday-inn.html</loc>
+  <loc>https://niagaratournaments.com/holiday-inn.html</loc>
   <lastmod>2018-07-10T02:27:27+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://niagaratournaments.com/wyndham.html</loc>
+  <loc>https://niagaratournaments.com/wyndham.html</loc>
   <lastmod>2018-07-10T02:25:38+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://niagaratournaments.com/adams-mark.html</loc>
+  <loc>https://niagaratournaments.com/adams-mark.html</loc>
   <lastmod>2018-07-09T03:41:08+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://niagaratournaments.com/laquinta.html</loc>
+  <loc>https://niagaratournaments.com/laquinta.html</loc>
   <lastmod>2018-07-10T02:27:03+00:00</lastmod>
   <priority>0.64</priority>
 </url>
