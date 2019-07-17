@@ -14,7 +14,7 @@
         data: extraData,
         dataType: 'jsonp', // This won't really work. It's just to use a GET instead of a POST to allow cookiesfrom different domain.
         error: function () { // Submit of form should be successful but JSONP callback will fail because Google Forms // does not support it, so this is handled as a failure. a
-          // You can also redirect the user to a custom thank - you page: // window.location = 'http://www.mydomain.com/thankyoupage.html'
+          // You can also redirect the user to a custom thank - you page: // window.location = 'https://www.mydomain.com/thankyoupage.html'
           window.location = '/signup.html'
         }
       })
