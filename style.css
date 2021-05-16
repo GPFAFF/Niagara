@@ -89,6 +89,10 @@
   right: 30px;
 }
 
+.close:hover {
+  cursor: pointer;
+}
+
 .modal > p {
   width: 80%;
   margin: 10px auto;
