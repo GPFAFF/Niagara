@@ -1,572 +1,1074 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,minimum-scale=1"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="theme-color" content="#333333" />
+    <meta
+      name="description"
+      content="NST - Niagara Sports Tournaments. All Your Go-To Tournament Information, book a hotel, check out attractions, check out our tournament rules."
+    />
+    <meta
+      name="keywords"
+      content="Hockey, hockey tournaments, ice hockey, niagara falls, tournaments, youth, youth hockey, midgets, mites, bantams, niagara hockey, tournament hockey, buffalo hockey, tournaments, cleveland, pittsburg, canada"
+    />
+    <meta name="robots" content="all, index, follow" />
+    <link
+      rel="canonical"
+      href="https://niagaratournaments.com/tournament.html"
+    />
+    <title>Niagara Sports Tournaments - Tournament Information</title>
+    <!-- Favicon -->
+    <link rel="icon" type="./img/favicon.ico" href="./img/favicon.ico" />
+    <!-- Fonts & Images -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Exo+2"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="preload"
+      as="image"
+      href="./img/net.jpg"
+      media="(max-width: 1000px)"
+    />
+    <link
+      rel="preload"
+      as="image"
+      href="./img/logo.svg"
+      media="(max-width: 250px)"
+    />
+    <link href="style.css" rel="stylesheet" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta name="theme-color" content="#333333">
-  <meta name="description" content="NST - Niagara Sports Tournaments. All Your Go-To Tournament Information, book a hotel, check out attractions, check out our tournament rules.">
-  <meta name="keywords" content="Hockey, hockey tournaments, ice hockey, niagara falls, tournaments, youth, youth hockey, midgets, mites, bantams, niagara hockey, tournament hockey, buffalo hockey, tournaments, cleveland, pittsburg, canada">
-  <meta name="robots" content="all, index, follow">
-  <link rel="canonical" href="https://niagaratournaments.com/tournament.html">
-  <title>Niagara Sports Tournaments - Tournament Information</title>
-  <!-- Favicon -->
-  <link rel="icon" type="./img/favicon.ico" href="./img/favicon.ico">
-  <!-- Fonts & Images -->
-  <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet" type="text/css">
-  <link rel="preload" as="image" href="./img/net.jpg" media="(max-width: 1000px)">
-  <link rel="preload" as="image" href="./img/logo.svg" media="(max-width: 250px)">
-  <link href="style.css" rel="stylesheet">
-</head>
-
-<body>
-  <main role="main">
-    <section class="block hero info">
-      <a class="hide_text" href="#main-content">Skip to main content</a>
-      <div class="overlay"></div>
-      <div class="animated wow zoomInUp">
-        <a class="logo-container" href="index.html">
-          <img class="logo" alt="NST Logo" src="img/logo.svg">
-        </a>
-      </div>
-      <h1>Niagara Sports Tournaments</h1>
-    </section>
-    <nav role="navigation">
-      <div class="menu-container">
-        <div class="menu-row">
-          <img class="mobile-logo hide_md" alt="Welcome to Niagara Sports Tournaments" src="img/logo.svg">
+  <body>
+    <main role="main">
+      <section class="block hero info">
+        <a class="hide_text" href="#main-content">Skip to main content</a>
+        <div class="overlay"></div>
+        <div class="animated wow zoomInUp">
+          <a class="logo-container" href="index.html">
+            <img class="logo" alt="NST Logo" src="img/logo.svg" />
+          </a>
         </div>
-        <div tab-index="0" class="menu-toggle">
-          <span>Menu</span>
-        </div>
-        <div class="menu">
-          <ul role="menu">
-            <li role="menuitem" class="sticky_logo_container hide">
-              <img class="sticky_logo" alt="Welcome to Niagara Sports Tournaments" src="img/logo.svg">
-            </li>
-            <li role="menuitem">
-              <a class="menu-item" href="index.html">Home</a>
-            </li>
-            <li role="menuitem">
-              <a class="menu-item" href="tournament.html">Info</a>
-            </li>
-            <li role="menuitem">
-              <a class="menu-item" href="form.html">Register</a>
-            </li>
-            <li role="menuitem">
-              <a class="menu-item" href="prices.html">Prices</a>
-            </li>
-            <li role="menuitem">
-              <a class="menu-item" href="contact.html">Contact</a>
-            </li>
-            <li role="menuitem">
-              <a class="menu-item" href="icerentals.html">Rent Ice</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <section id="main-content" class="block tournament-info">
-      <h2>All Your Go-To Tournament Information</h2>
-      <div class="tabs">
-        <div role="tablist">
-          <a tabindex="0" class="one tab-link active" role="tab" href="#about" aria-selected="true">About</a>
-          <a tabindex="0" class="two tab-link" role="tab" href="#rules" aria-selected="false">Rules</a>
-          <a tabindex="0" class="three tab-link" role="tab" href="#attractions" aria-selected="false">Attractions</a>
-          <a tabindex="0" class="four tab-link" role="tab" href="#screening" aria-selected="false">Screening</a>
-          <a tabindex="0" class="five tab-link" role="tab" href="#hotels" aria-selected="false">Hotels</a>
-          <a tabindex="0" class="six tab-link" role="tab" href="#standings" aria-selected="false">Standings</a>
-          <a tabindex="0" class="seven tab-link" role="tab" href="#features" aria-selected="false">Features</a>
-        </div>
-        <div class="tab-panel active" role="tabpanel" id="about" aria-hidden="false">
-          <h3 class="info-title">About NST</h3>
-          <p>Thank you for looking at NST for your Tournament needs. We appreciate your consideration, as I know how difficult
-            it can be to pick the proper tournament with all the choices out there today. Gene Carella, NST Co-Tournament
-            Director, has been presenting tournament opportunities since 1990 for what was formerly known as Grand Niagara
-            Cataracts Hockey Association. In 1999, he started Niagara Sport Tournaments to help provide youth hockey to hundreds
-            of teams throughout the U.S. and Canada per year. Gene also raised four hockey players, and through his travels
-            to many tournaments, he understands what hockey parents’ want. Gene's son Michael now runs the company but still
-            has the same goal as his father, which is to make sure that every player has a great time win or loss. Hockey
-            is a GAME where the end result should be smiling kids who don't even realize the life lessons they are learning.</p>
-          <p>I (Michael) have been to many tournaments in my playing and coaching days where what was advertised was not what
-            we got. For example, I remember a tournament where our AA Minor Bantam teams was playing in the same division
-            as AAA Major Bantams! The tournament director was nowhere to be found, and the staff that was there could not
-            help solve this problem. In a different tournament, the schedule that was sent a week before the tournament,
-            was changed the DAY before the tournament started, which completely change our hotel and other plans we had outside
-            of the tournament. This will not happen at NST. I personally am present for EVERY game of the tournament so if
-            you need to find me you can and the schedule is send out 3-4 weeks before the tournament.</p>
-          <p>I put all teams through a rigorous screening process to ensure each team is placed in the proper division. As you
-            may know there is no exact science to paring teams. Since there are many different classifications used by amateur
-            hockey teams in different regions of the United States, and Canada (see Screening process tab above). Divisions
-            can get messy if careful consideration is not taken. We at NST, take much time and effort to create well-balanced
-            divisions. Nothing is more disheartening then driving to a tournament to blow out a team or get blown out by
-            a team.</p>
-          <p>Teams also do not want to travel to a tournament just to be place in the same side of a division as team from their
-            local leagues. My father and I take great pride in delivering an enjoyable tournament experience for our tournament
-            families. This is evidenced by an incredible return rate in tournament participation by hockey associations.
-            We only accept between 40-60 teams per tournament. This wide range in number of teams ensures each division of
-            each tournament has balanced competition. We will not force a division together just to fill ice! We believe
-            in quality over quantity when it comes to our tournaments.</p>
-        </div>
-        <div class="tab-panel" role="tabpanel" id="rules" aria-hidden="true">
-          <h3 class="info-title">Tournament Rules</h3>
-          <ol>
-            <li>All games will be played under WNY/USA hockey rules. This is a USA hockey sanctioned tournament. ALL players
-              must be recognized by USA hockey or C.A.H.A/ OMHA. The use of any illegal or unauthorized played will result
-              in immediate team expulsion from the tournament and the loss of all fees paid. Teams must sign in on team’s
-              sheet before first game.</li>
-            <li>There will be three (ten 10) minute periods in mites, three eleven (11) minute periods in Squirt divisions, three
-              twelve (12) in Peewee, Bantam and Junior Varsity, and three thirteen (13) in Midget divisions. No time outs
-              are allowed in regular division games. A maximum of one minute will be given between periods in all games.
-              A delay of game penalty will be given if teams exceed that time. This is to ensure that game times stay on
-              schedule during the tournament.</li>
-            <li>Minor penalties shall be 2 minutes (1.5 minutes for mites and squirts), major penalties- 5 minutes and misconduct
-              penalties- 10 minutes. All Match Penalties will be handled in accordance with USA Hockey. Upon receiving a
-              Match Penalty, the PLAYER, COACH OR MANAGER will be suspended for the duration of the tournament. A Match Penalty
-              hearing will take place prior to the end of the tournament. The PLAYER, COACH OR MANAGER charged will be notified
-              of time and place of hearing for which they must be present. The Coach or Manager must come into the registration
-              area immediately after the game to be told the time and date of the hearing. The hearing committee will include
-              the Supervisor of Officials of the Tournament, the Tournament Chairman and one other tournament staff member.
-              The Match Penalty committee will render its decision in writing, with copies sent to USA Hockey, the Home organization
-              and the PLAYER, COACH OR MANAGER who received the match penalty. The hearing decision will be made prior to
-              the conclusion of said tournament. It is the coach's responsibility to have this decision in hand before the
-              tournament ends.</li>
-            <li>Any penalty for fighting or match penalty given will result in automatic suspension from the tournament.</li>
-            <li>Teams must be present and ready to play no later than 1/2 hour before scheduled game time.</li>
-            <li>Before playing first game, all teams must sign in and present their USA, GTHL or OMHA hockey roster or to tournament
-              registrar for final approval noting any changes since application time.</li>
-            <li>Only players and a maximum of 4 team officials will be permitted at the player's bench.</li>
-            <li>In the event that a team obtains a 5-goal lead during the third period, stop time will be changed to running
-              time. If the lead becomes</li>
-            <li>THE RULES COMMITTEE RESERVES THE RIGHT TO MODIFY ANY RULE HEREIN WHICH IS DEEMED NOT IN THE BEST INTEREST OF
-              THE TOURNAMENT OR AMATEUR HOCKEY. THE DECISION OF THE RULES COMMITTEE IS FINAL.</li>
-            <li>Car keys are required for dressing room keys in registration room. The locker room should be clean upon arrival.
-              Your team is responsible for picking up after itself after use and reporting any damage to tournament officials.
-              When room is cleaned by your team and tournament staff member checks it, and the key returned, your car keys
-              will be returned. If damage to the dressing rooms occurs, teams will be responsible for full payment of damage
-              before leaving the ice facility.</li>
-          </ol>
-          <h3 class="info-title">Tournament Format</h3>
-          <h4 class="info-header">All games are worth 5 points until your division starts the elimination rounds (quarterfinals, semifinal, crossover
-            games). In these rounds, whatever team win advances.</h4>
-          <div>
-            <h4 class="info-header">4 Team Division</h4>
-            <p class="info-copy">Four teams in total make up one division. Each team will play three games. The top two point getting teams will
-              play in the final.</p>
+        <h1>Niagara Sports Tournaments</h1>
+      </section>
+      <nav role="navigation">
+        <div class="menu-container">
+          <div class="menu-row">
+            <img
+              class="mobile-logo hide_md"
+              alt="Welcome to Niagara Sports Tournaments"
+              src="img/logo.svg"
+            />
           </div>
-          <div>
-            <h4 class="info-header">5 Team Division</h4>
-            <p class="info-copy">Five teams in total makeup one division. Each team will play 2 games. The bottom point getting teams (4th and
-              5th place) will advance to a quarterfinal game. The top 3 teams will automatically advance to the semi-finals
-              where 2nd place teams play the 3rd place team and the 1st place team will play the winner of the quarter final
-              game. Winners of the semi-finals advance to the championship game.</p>
+          <div tab-index="0" class="menu-toggle">
+            <span>Menu</span>
           </div>
-          <div>
-            <h4 class="info-header">6 Team Division</h4>
-            <p class="info-copy">Six teams in total makeup 2 divisions A1 and A2. You play each team in your division in your first two games.
-              Your third game will be a crossover game with the other division determined by the amount of points accumulated
-              in first two games. The first place of one division plays the second place of the other division. The winner
-              of these two crossover games advance to championship. The third-place teams in each division play in a consolation
-              game.</p>
-          </div>
-          <div>
-            <h4 class="info-header">7 Team Division</h4>
-            <p class="info-copy">Seven teams in total make up one division. Each team plays 2 games. The first-place team (team with most points)
-              will receive a buy into the semi-final round. The six remaining teams will advance to the quarterfinal round
-              where 2nd place vs 7th, 3rd vs 6th, and 4th vs 5th. The 3 winning teams from the quarterfinal round advance
-              to the semi-final round. First round results will determine how the teams are seeded, so the 1st place team
-              from round 1 that received the buy, will play the lowest seeded winner of the quarterfinal, and the 2 remaining
-              teams will play each other. Winner will advance to the championship game.</p>
-          </div>
-          <div>
-            <h4 class="info-header">Eight Team Division</h4>
-            <p class="info-copy">Alternate format: Eight teams in total, makeup two division A1 and A2. The four teams in each of the two divisions
-              play 3 games within their division. The top team from each division advances to the championship game.</p>
-          </div>
-          <h4 class="info-header">Ties will be broken by:</h4>
-          <ol>
-            <li>Head to head</li>
-            <li>Fewest Goals allowed (total of all games).</li>
-            <li>Least Penalty Minutes (All misconducts will be assessed 10 minutes to the game sheet).</li>
-          </ol>
-          <h4 class="info-header">Overtime rules for Championship and Crossover games.</h4>
-          <ol>
-            <li>There will be one five-minute "sudden death overtime" period consisting of 4 players from each team.</li>
-            <li>Penalties will be played as 4 on 3. If the penalty killing team takes an additional penalty the power play team
-              will gain a player making the advantage 5 on 3.</li>
-            <li>Teams do not switch ends. The ice will not be resurfaced.</li>
-            <li>If the game does not end via a goal being scored, a shoot-out will be used. Each team will designate three players
-              to participate who will take shots. USA hockey penalty shot rules will be used. The team scoring the most goals
-              in the shootout round of the 3 shots will be the winner. Additional shooters will be used if teams are in a
-              tie.</li>
-            <li>The home team gets the option of shooting first or last.</li>
-          </ol>
-          <h3 class="info-title">Please remember that all USA and New York State Hockey rules apply during all tournaments.</h3>
-          <p>Zero Tolerance is in effect for all coaches, players and spectators and will be strictly enforced by the referees.
-            If unruly spectators are asked to leave and do not, the clock will begin to run until that spectator complies.
-            Each team coach is responsible for his parents. Make sure that the parents understand that this rule will be
-            strictly enforced. It may negatively affect your team.</p>
-          <h4 class="info-header">Penalties:</h4>
-          <ol>
-            <li>Checking from behind is a 2 and 10 minimum or a 5 minute and a game.</li>
-            <li>A game misconduct will result in the suspension of that player for the remainder of the game and the next game
-              unless 3rd man in rule applies.</li>
-            <li>Any player that gets 5 or more penalties in a game will result in the suspension of that player in that game
-              and the following game.</li>
-            <li>Any coach whose team incurs 15 or more penalties in one game will result in the suspension of that coach in the
-              following game. The coach may watch the game from the stands but may not communicate with the team in any manner.
-              Failure to abide by these will result in the expulsion of the coach from the tournament and the rink.</li>
-            <li>Games involving a Match penalty will result in an immediate suspension and expulsion of that person from the
-              tournament. Further disciplinary actions will be taken against the coach, team or player. USA hockey will be
-              notified along with the parent organization.</li>
-          </ol>
-        </div>
-        <div class="tab-panel" role="tabpanel" id="attractions" aria-hidden="true">
-          <h3 class="info-title">Check out the attractions around the rink</h3>
-          <ul class="attraction-container">
-            <li>
-              <a class="attraction-item" target="_blank" href="//www.senecaniagaracasino.com/">Seneca Niagara Falls Casino</a>
-            </li>
-            <li>
-              <a class="attraction-item" target="_blank" href="//www.niagarafallsstatepark.com/">Niagara Falls Parks System</a>
-            </li>
-            <li>
-              <a class="attraction-item" target="_blank" href="//www.niagaraparks.com/niagara-falls-attractions/whirlpool-aero-car.html">Spanish AeroCar</a>
-            </li>
-            <li>
-              <a class="attraction-item" target="_blank" href="//sabres.nhl.com/">Live NHL Hockey</a>
-            </li>
-            <li>
-              <a class="attraction-item" target="_blank" href="//www.fashionoutletsniagara.com/">Incredible Shopping</a>
-            </li>
-            <li>
-              <a class="attraction-item" target="_blank" href="//www.maidofthemist.com/">Maid of the Mist</a>
-            </li>
-            <li>
-              <a class="attraction-item" target="_blank" href="https://www.nypa.gov/niagarapowervista/">Niagara Power Vista</a>
-            </li>
-          </ul>
-        </div>
-        <div class="tab-panel" role="tabpanel" id="screening" aria-hidden="true">
-          <h3 class="info-title">Screening Process</h3>
-          <h4 class="info-header">Rules:</h4>
-          <p>All U.S.A. Hockey Rules and Regulations will be applicable. Tournament Rules are posted on our website under the
-            tournament rules link. Please note that all of our tournaments are run on a point-per-period scoring system,
-            where each game is worth 5 points which will be divided between the two teams.</p>
-          <h4 class="info-header">Registration:</h4>
-          <p>All U.S. and Canadian Teams must be registered with their respective parent organizations for the 2015-2016 season.
-            Only U.S.A. hockey age classifications will be accepted. A certified U.S.A. or C.A.H.A. Hockey Team roster will
-            be required before final acceptance is granted. It must also be presented at registration check-in.</p>
-          <h4 class="info-header">Level of Competition:</h4>
-          <p>Classification systems (AAA, AA, A, B, AE, house select & house) may have slightly different meanings from area
-            to area. Expect to encounter teams that may have different eligibility or classification rules that may not correspond
-            to what you are accustomed to in your area. The age groups for USA Hockey and those of the Canadian Hockey Association
-            are basically the same, however, areas that have large numbers of registered players tend to further delineate
-            within the 2-year window allowed for each age group. In these situations, teams composed of exclusively or primarily
-            of players in their 1st year of eligibility of a particular age group will play in their respective home areas
-            against like teams.</p>
-          <h4 class="info-header">Examples:</h4>
-          <p>New York has areas that use both the two year USA Hockey age window and the single calendar year to determine the
-            make-up of their teams. There are also teams that travel from New York who are rostered as B/travel.</p>
-          <p>Ontario has much more skill classification, per the calendar year age grouping than any USA Hockey affiliate. These
-            include AAA, AA, A, BB, B, AE (additional entry) and House. Many governing bodies within Ontario also permits
-            Select or All-Star teams to form for the sole purpose of competing in events.</p>
-          <p>Cleveland Suburban League uses the RPI system and classifies teams as AA, A1, A2, A3, B1, and B2.</p>
-          <p>In Massachusetts, teams are classified A, B, and C with the exception of the Boston Metro League.</p>
-          <p>In Michigan they’re referred to as “A” teams, in Ontario & Western New York they are referred to as “minor” teams.
-            Michigan is still the only place in the universe, to our knowledge, where the A & AA classifications are age
-            groups and not skill levels.</p>
-          <p>Ohio is growing their hockey programs rapidly, but there are not the concentrations of players you'll find in Michigan
-            or Illinois and therefore the talent is also spread out. Each season we see additional ice arenas being built,
-            added to or renovated in Ohio. With the addition of the Blue Jackets in Columbus, it's only a matter of time.</p>
-          <p>Indiana like Ohio suffers from a lack of ice arenas. Again there are several programs across the state and new
-            arenas are being built each season. House program teams in Indiana do not travel to tournaments. Programs in
-            Indiana typically form an All-Star team from their house programs which either compete in the B or A brackets
-            of our events.</p>
-          <p>Florida also has an interesting way of organizing youth hockey. A & AA teams are typically designated as such depending
-            on the league you choose. For instance, teams playing in the Central Florida Hockey League are all designated
-            A teams with those teams playing in the statewide league designated as AA teams. In addition, a team can be formed
-            in Florida for the sole purpose of attending a tournament and these teams are rostered as tournament teams.</p>
-          <h3
-            class="info-header">Playing Levels - Boys Teams</h3>
-            <p>Our tournament divisions are based on the following general guidelines. Variations are possible based on the
-              skill level of specific teams:</p>
-            <p>AA - The "best" or first picked travel team within a Tier II organization. These teams will often consist primarily
-              of "second-year" or "major" aged players within the age group. In some cases, Major A teams are also a more
-              appropriate fit for this level.</p>
-            <p>A - The second team or lower teams within a hockey organization and/or teams consisting Primarily of "first-year"
-              players within the age classification or "minor" teams of a suitable skill level.</p>
-            <p>B - The third, or lower, travel level teams chosen within a Tier II organization or teams that are classified
-              as Tier III. Teams at the B levels may often be populated by many players in their first year of "travel" hockey.</p>
-            <h3
-              class="info-header">Playing Levels - Girls Teams</h3>
-              <p>AA - Top competitive team in an association or district.</p>
-              <p>A - Competitive travel teams that are tournament bound.</p>
-              <p>B - Recreational/House/Travel teams that are not tournament bound.</p>
-              <p>C - Developmental teams - Teams that mainly comprised of first-year players with no more than 20% returning
-                players</p>
-              <h3 class="info-header">Playing Levels - High School - Varsity / JV</h3>
-              <p>Age divisions and classifications may vary between the U.S. and Canada and, in some cases, from state to state.
-                The tournament director will discuss appropriate placement of all teams to ensure fair, competitive and equitable
-                playing divisions.</p>
-              <h3 class="info-header">Accomodation Policy</h3>
-              <p>Teams are required to stay at one of the approved host hotels. A list of approved hotels will be sent as soon
-                as the entry fee is received. The reservation committee will book all team rooms. Teams are not allowed to
-                book their own reservations. It is suggested that team managers/coaches respond quickly since there are limited
-                rooms available at each hotel. Call for further information.</p>
-              <p>Please note - Teams that do not stay at approved hotels will be removed from the tournament and forfeit their
-                entry fees.</p>
-              <p>Please complete the electronic registration. The application will not be processed until the entry fee is received.
-                Applications are taken in the order they are received. Full payment must be included in U.S. funds.</p>
-              <p>A CERTIFIED BANK CHECK OR ASSOCIATION CHECK SHOULD BE USED.</p>
-        </div>
-        <div class="tab-panel" role="tabpanel" id="hotels" aria-hidden="true">
-          <h3 class="info-title">Hotels</h3>
-          <div class="hotel-block">
-            <div class="flex-item">
-              <h4 class="hotel-name">Sheraton Niagara Falls</h4>
-              <img class="hotel-logo sheraton" src="img/sheraton.png" alt="Sheraton Niagara Falls">
-            </div>
-            <div class="flex-item">
-              <h4 class="hotel-price">$139 per night</h4>
-              <h4>Hotel Amenities</h4>
-              <ul class="hotel-perks">
-                <li>8 minutes to Hyde Park Ice Pavilion</li>
-                <li>Reef Beach Club Indoor Pool</li>
-                <li>“At The Falls Arcade” with 37 state-of-the-art games</li>
-                <li>On Site Rainforest Café and full service Starbucks</li>
-                <li>Lobby Bar</li>
-                <li><a class="hotel-link" href="https://www.marriott.com/hotels/travel/iagaf-sheraton-niagara-falls/">Sheraton Niagara Falls Hotel Site</a></li>
-              </ul>
-              <a class="button signup-button" href="sheraton.html">More Info</a>
-            </div>
-          </div>
-          <div class="hotel-block">
-            <div class="flex-item">
-              <h4 class="hotel-name">Wyndham Garden Inn</h4>
-              <img class="hotel-logo days" src="img/wyndham.png" alt="Wyndahm Garden Inn">
-            </div>
-            <div class="flex-item">
-              <h4 class="hotel-price">$162 per night</h4>
-              <h4>Hotel Amenities</h4>
-              <ul class="hotel-perks">
-                <li>8 minutes to Hyde Park Ice Pavilion</li>
-                <li>Indoor Heated Pool</li>
-                <li>Add limited service Starbucks</li>
-                <li>
-                  <a class="hotel-link" href="https://www.wyndhamgardenatniagarafalls.com/">Wyndham Garden Hotel Website</a>
-                </li>
-              </ul>
-              <a class="button signup-button" href="wyndham.html">More Info</a>
-            </div>
-          </div>
-          <div class="hotel-block">
-            <div class="flex-item">
-              <h4 class="hotel-name">Radisson Grand Island</h4>
-              <img class="hotel-logo radisson" src="img/radisson.png" alt="Radisson Grand Island">
-            </div>
-            <div class="flex-item">
-              <h4 class="hotel-price">$139 per night</h4>
-              <h4>Hotel Amenities</h4>
-              <ul class="hotel-perks">
-                <li>Tastefully appointed guestrooms with balconies</li>
-                <li>Renovated state-of-the-art fitness center, indoor & outdoor pools, whirlpool & sauna</li>
-                <li>Game rooms, and a 24HR business center</li>
-                <li>Complimentary Parking</li>
-                <li>WIFI ACCESS</li>
-              </ul>
-              <a class="button signup-button" href="radisson.html">More Info</a>
-            </div>
-          </div>
-          <div class="hotel-block">
-            <div class="flex-item">
-              <h4 class="hotel-name">Holiday Inn</h4>
-              <img class="hotel-logo holiday" src="img/holiday-inn.svg" alt="Holiday Inn">
-            </div>
-            <div class="flex-item">
-              <h4 class="hotel-price">$135 per night</h4>
-              <h4>Hotel Amenities</h4>
-              <ul class="hotel-perks">
-                <li>Includes $5.00 free play to the Great American Arcade – over 45 interactive games!</li>
-                <li>Anchor Bar and Restaurant – Home of the Original Buffalo Wing</li>
-                <li>4 million dollar renovation completed in 2015</li>
-                <li>Indoor Heated Pool</li>
-                <li>Walking distance to Niagara Falls</li>
-              </ul>
-              <a class="button signup-button" href="holiday-inn.html">More Info</a>
-            </div>
-          </div>
-           <div class="hotel-block">
-            <div class="flex-item">
-              <h4 class="hotel-name">Hyatt Place</h4>
-              <img class="hotel-logo hyatt" src="img/hyatt.svg" alt="Hyatt Place">
-            </div>
-            <div class="flex-item">
-              <h4 class="hotel-price">$149 per night</h4>
-              <h4>Hotel Amenities</h4>
-              <ul class="hotel-perks">
-                <li> Less than 10 minutes to Hyde Park</li>
-                <li>FREE Parking</li>
-                <li>FREE Breakfast</li>
-                <li>Indoor Heated Salt Water and 24/7 Fitness Center</li>
-                <li>Less than 200 Steps to Niagara Falls State Park</li>
-              </ul>
-              <a class="button signup-button" href="hyatt-place.html">More Info</a>
-            </div>
-          </div>
-          <div class="hotel-block">
-            <div class="flex-item">
-              <h4 class="hotel-name">Hampton Inn Niagara Falls</h4>
-              <img class="hotel-logo hampton" src="img/hampton-inn.svg" alt="Hampton Inn">
-            </div>
-            <div class="flex-item">
-              <h4 class="hotel-price">$129 per night</h4>
-              <h4>Hotel Amenities</h4>
-              <ul class="hotel-perks">
-                <li>7 minutes to Hyde Park Ice Pavilion</li>
-                <li>Complimentary Wifi</li>
-                <li>Complimentary parking</li>
-                <li>Complimentary Hot Buffet Breakfast</li>
-                <li>Meeting Room space available upon request</li>
-              </ul>
-              <a class="button signup-button" href="hampton.html">More Info</a>
-            </div>
-          </div>
-          <div class="hotel-block">
-            <div class="flex-item">
-              <h4 class="hotel-name">Comfort Inn & Suites</h4>
-              <img class="hotel-logo days" src="img/comfort.svg" alt="Comfort Inn & Suites">
-            </div>
-            <div class="flex-item">
-              <h4 class="hotel-price">$149.95 per night</h4>
-              <h4>Hotel Amenities</h4>
-              <ul class="hotel-perks">
-                <li>BRAND NEW HOTEL with FREE parking</li>
-                <li>Hot Breakfast included</li>
-                <li>Fitness Center</li>
-                <li>Year round pool</li>
-                <li>5 min to Hyde Park</li>
-              </ul>
-              <a class="button signup-button" href="comfort.html">More Info</a>
-            </div>
-          </div>
-          <div class="hotel-block">
-            <div class="flex-item">
-              <h4 class="hotel-name">Niagara Riverside Resort</h4>
-              <img class="hotel-logo days" src="img/riverside.png" alt="Niagara Riverside Resort">
-            </div>
-            <div class="flex-item">
-              <h4 class="hotel-price">$133 per night</h4>
-              <h4>Hotel Amenities</h4>
-              <ul class="hotel-perks">
-                <li>Riverfront property</li>
-                <li>Pet friendly</li>
-                <li>Complimentary WiFi</li>
-                <li>Indoor heated pool</li>
-              </ul>
-              <a class="button signup-button" href="riverside.html">More Info</a>
-            </div>
+          <div class="menu">
+            <ul role="menu">
+              <li role="menuitem" class="sticky_logo_container hide">
+                <img
+                  class="sticky_logo"
+                  alt="Welcome to Niagara Sports Tournaments"
+                  src="img/logo.svg"
+                />
+              </li>
+              <li role="menuitem">
+                <a class="menu-item" href="index.html">Home</a>
+              </li>
+              <li role="menuitem">
+                <a class="menu-item" href="tournament.html">Info</a>
+              </li>
+              <li role="menuitem">
+                <a class="menu-item" href="form.html">Register</a>
+              </li>
+              <li role="menuitem">
+                <a class="menu-item" href="prices.html">Prices</a>
+              </li>
+              <li role="menuitem">
+                <a class="menu-item" href="contact.html">Contact</a>
+              </li>
+              <li role="menuitem">
+                <a class="menu-item" href="icerentals.html">Rent Ice</a>
+              </li>
+            </ul>
           </div>
         </div>
-        <div class="tab-panel" role="tabpanel" id="standings" aria-hidden="true">
-          <h3 class="info-title">Live stats will be available once a tournament starts.</h3>
-           <h3 class="info-title">Check out the live stats for the Festival of Lights Tournament!</h3>
-          <iframe src="https://league.winloseortie.com/NST%20-%20Festival%20of%20Lights/schedule" height="700px" width="100%"></iframe>
-        </div>
-        <div class="tab-panel" role="tabpanel" id="features" aria-hidden="true">
-          <h3 class="info-title">NST Tournaments Features:</h3>
-          <p>A friendly, courteous staff with a tournament director present at ALL times.</p>
-          <p>Experienced Referees with the Supervisor of Officials present for EVERY game.</p>
-          <p>First Class hotel rooms at the LOWEST rates in WNY.</p>
-          <p>ONLY Tournament operator in WNY to have an EMT present at every game.</p>
-          <p>Great restaurants, tourist attractions, casino gambling.</p>
-          <p>Convenient Tournament dates so the LEAST amount of school is missed.</p>
-          <p>Buffalo Sabres and Niagara University Division I hockey.</p>
-          <p>Game sheets prepared by tournament staff for every game.</p>
-          <p class="highlighted_text">We will have a parents party at the rink from 9pm-1am. Complimentary beer and entertainment will be provided.</p>
-          <p
-            class="highlighted_text">After one game, NST will provide a tray of pizza that can be enjoyed in J.R. Stone room, which is attached to the
-            rink.</p>
+      </nav>
+      <section id="main-content" class="block tournament-info">
+        <h2>All Your Go-To Tournament Information</h2>
+        <div class="tabs">
+          <div role="tablist">
+            <a
+              tabindex="0"
+              class="one tab-link active"
+              role="tab"
+              href="#about"
+              aria-selected="true"
+              >About</a
+            >
+            <a
+              tabindex="0"
+              class="two tab-link"
+              role="tab"
+              href="#rules"
+              aria-selected="false"
+              >Rules</a
+            >
+            <a
+              tabindex="0"
+              class="three tab-link"
+              role="tab"
+              href="#attractions"
+              aria-selected="false"
+              >Attractions</a
+            >
+            <a
+              tabindex="0"
+              class="four tab-link"
+              role="tab"
+              href="#screening"
+              aria-selected="false"
+              >Screening</a
+            >
+            <a
+              tabindex="0"
+              class="five tab-link"
+              role="tab"
+              href="#hotels"
+              aria-selected="false"
+              >Hotels</a
+            >
+            <a
+              tabindex="0"
+              class="six tab-link"
+              role="tab"
+              href="#standings"
+              aria-selected="false"
+              >Standings</a
+            >
+            <a
+              tabindex="0"
+              class="seven tab-link"
+              role="tab"
+              href="#features"
+              aria-selected="false"
+              >Features</a
+            >
+          </div>
+          <div
+            class="tab-panel active"
+            role="tabpanel"
+            id="about"
+            aria-hidden="false"
+          >
+            <h3 class="info-title">About NST</h3>
+            <p>
+              Thank you for looking at NST for your Tournament needs. We
+              appreciate your consideration, as I know how difficult it can be
+              to pick the proper tournament with all the choices out there
+              today. Gene Carella, NST Co-Tournament Director, has been
+              presenting tournament opportunities since 1990 for what was
+              formerly known as Grand Niagara Cataracts Hockey Association. In
+              1999, he started Niagara Sport Tournaments to help provide youth
+              hockey to hundreds of teams throughout the U.S. and Canada per
+              year. Gene also raised four hockey players, and through his
+              travels to many tournaments, he understands what hockey parents’
+              want. Gene's son Michael now runs the company but still has the
+              same goal as his father, which is to make sure that every player
+              has a great time win or loss. Hockey is a GAME where the end
+              result should be smiling kids who don't even realize the life
+              lessons they are learning.
+            </p>
+            <p>
+              I (Michael) have been to many tournaments in my playing and
+              coaching days where what was advertised was not what we got. For
+              example, I remember a tournament where our AA Minor Bantam teams
+              was playing in the same division as AAA Major Bantams! The
+              tournament director was nowhere to be found, and the staff that
+              was there could not help solve this problem. In a different
+              tournament, the schedule that was sent a week before the
+              tournament, was changed the DAY before the tournament started,
+              which completely change our hotel and other plans we had outside
+              of the tournament. This will not happen at NST. I personally am
+              present for EVERY game of the tournament so if you need to find me
+              you can and the schedule is send out 3-4 weeks before the
+              tournament.
+            </p>
+            <p>
+              I put all teams through a rigorous screening process to ensure
+              each team is placed in the proper division. As you may know there
+              is no exact science to paring teams. Since there are many
+              different classifications used by amateur hockey teams in
+              different regions of the United States, and Canada (see Screening
+              process tab above). Divisions can get messy if careful
+              consideration is not taken. We at NST, take much time and effort
+              to create well-balanced divisions. Nothing is more disheartening
+              then driving to a tournament to blow out a team or get blown out
+              by a team.
+            </p>
+            <p>
+              Teams also do not want to travel to a tournament just to be place
+              in the same side of a division as team from their local leagues.
+              My father and I take great pride in delivering an enjoyable
+              tournament experience for our tournament families. This is
+              evidenced by an incredible return rate in tournament participation
+              by hockey associations. We only accept between 40-60 teams per
+              tournament. This wide range in number of teams ensures each
+              division of each tournament has balanced competition. We will not
+              force a division together just to fill ice! We believe in quality
+              over quantity when it comes to our tournaments.
+            </p>
+          </div>
+          <div class="tab-panel" role="tabpanel" id="rules" aria-hidden="true">
+            <h3 class="info-title">Tournament Rules</h3>
+            <ol>
+              <li>
+                All games will be played under WNY/USA hockey rules. This is a
+                USA hockey sanctioned tournament. ALL players must be recognized
+                by USA hockey or C.A.H.A/ OMHA. The use of any illegal or
+                unauthorized played will result in immediate team expulsion from
+                the tournament and the loss of all fees paid. Teams must sign in
+                on team’s sheet before first game.
+              </li>
+              <li>
+                There will be three (ten 10) minute periods in mites, three
+                eleven (11) minute periods in Squirt divisions, three twelve
+                (12) in Peewee, Bantam and Junior Varsity, and three thirteen
+                (13) in Midget divisions. No time outs are allowed in regular
+                division games. A maximum of one minute will be given between
+                periods in all games. A delay of game penalty will be given if
+                teams exceed that time. This is to ensure that game times stay
+                on schedule during the tournament.
+              </li>
+              <li>
+                Minor penalties shall be 2 minutes (1.5 minutes for mites and
+                squirts), major penalties- 5 minutes and misconduct penalties-
+                10 minutes. All Match Penalties will be handled in accordance
+                with USA Hockey. Upon receiving a Match Penalty, the PLAYER,
+                COACH OR MANAGER will be suspended for the duration of the
+                tournament. A Match Penalty hearing will take place prior to the
+                end of the tournament. The PLAYER, COACH OR MANAGER charged will
+                be notified of time and place of hearing for which they must be
+                present. The Coach or Manager must come into the registration
+                area immediately after the game to be told the time and date of
+                the hearing. The hearing committee will include the Supervisor
+                of Officials of the Tournament, the Tournament Chairman and one
+                other tournament staff member. The Match Penalty committee will
+                render its decision in writing, with copies sent to USA Hockey,
+                the Home organization and the PLAYER, COACH OR MANAGER who
+                received the match penalty. The hearing decision will be made
+                prior to the conclusion of said tournament. It is the coach's
+                responsibility to have this decision in hand before the
+                tournament ends.
+              </li>
+              <li>
+                Any penalty for fighting or match penalty given will result in
+                automatic suspension from the tournament.
+              </li>
+              <li>
+                Teams must be present and ready to play no later than 1/2 hour
+                before scheduled game time.
+              </li>
+              <li>
+                Before playing first game, all teams must sign in and present
+                their USA, GTHL or OMHA hockey roster or to tournament registrar
+                for final approval noting any changes since application time.
+              </li>
+              <li>
+                Only players and a maximum of 4 team officials will be permitted
+                at the player's bench.
+              </li>
+              <li>
+                In the event that a team obtains a 5-goal lead during the third
+                period, stop time will be changed to running time. If the lead
+                becomes
+              </li>
+              <li>
+                THE RULES COMMITTEE RESERVES THE RIGHT TO MODIFY ANY RULE HEREIN
+                WHICH IS DEEMED NOT IN THE BEST INTEREST OF THE TOURNAMENT OR
+                AMATEUR HOCKEY. THE DECISION OF THE RULES COMMITTEE IS FINAL.
+              </li>
+              <li>
+                Car keys are required for dressing room keys in registration
+                room. The locker room should be clean upon arrival. Your team is
+                responsible for picking up after itself after use and reporting
+                any damage to tournament officials. When room is cleaned by your
+                team and tournament staff member checks it, and the key
+                returned, your car keys will be returned. If damage to the
+                dressing rooms occurs, teams will be responsible for full
+                payment of damage before leaving the ice facility.
+              </li>
+            </ol>
+            <h3 class="info-title">Tournament Format</h3>
+            <h4 class="info-header">
+              All games are worth 5 points until your division starts the
+              elimination rounds (quarterfinals, semifinal, crossover games). In
+              these rounds, whatever team win advances.
+            </h4>
+            <div>
+              <h4 class="info-header">4 Team Division</h4>
+              <p class="info-copy">
+                Four teams in total make up one division. Each team will play
+                three games. The top two point getting teams will play in the
+                final.
+              </p>
+            </div>
+            <div>
+              <h4 class="info-header">5 Team Division</h4>
+              <p class="info-copy">
+                Five teams in total makeup one division. Each team will play 2
+                games. The bottom point getting teams (4th and 5th place) will
+                advance to a quarterfinal game. The top 3 teams will
+                automatically advance to the semi-finals where 2nd place teams
+                play the 3rd place team and the 1st place team will play the
+                winner of the quarter final game. Winners of the semi-finals
+                advance to the championship game.
+              </p>
+            </div>
+            <div>
+              <h4 class="info-header">6 Team Division</h4>
+              <p class="info-copy">
+                Six teams in total makeup 2 divisions A1 and A2. You play each
+                team in your division in your first two games. Your third game
+                will be a crossover game with the other division determined by
+                the amount of points accumulated in first two games. The first
+                place of one division plays the second place of the other
+                division. The winner of these two crossover games advance to
+                championship. The third-place teams in each division play in a
+                consolation game.
+              </p>
+            </div>
+            <div>
+              <h4 class="info-header">7 Team Division</h4>
+              <p class="info-copy">
+                Seven teams in total make up one division. Each team plays 2
+                games. The first-place team (team with most points) will receive
+                a buy into the semi-final round. The six remaining teams will
+                advance to the quarterfinal round where 2nd place vs 7th, 3rd vs
+                6th, and 4th vs 5th. The 3 winning teams from the quarterfinal
+                round advance to the semi-final round. First round results will
+                determine how the teams are seeded, so the 1st place team from
+                round 1 that received the buy, will play the lowest seeded
+                winner of the quarterfinal, and the 2 remaining teams will play
+                each other. Winner will advance to the championship game.
+              </p>
+            </div>
+            <div>
+              <h4 class="info-header">Eight Team Division</h4>
+              <p class="info-copy">
+                Alternate format: Eight teams in total, makeup two division A1
+                and A2. The four teams in each of the two divisions play 3 games
+                within their division. The top team from each division advances
+                to the championship game.
+              </p>
+            </div>
+            <h4 class="info-header">Ties will be broken by:</h4>
+            <ol>
+              <li>Head to head</li>
+              <li>Fewest Goals allowed (total of all games).</li>
+              <li>
+                Least Penalty Minutes (All misconducts will be assessed 10
+                minutes to the game sheet).
+              </li>
+            </ol>
+            <h4 class="info-header">
+              Overtime rules for Championship and Crossover games.
+            </h4>
+            <ol>
+              <li>
+                There will be one five-minute "sudden death overtime" period
+                consisting of 4 players from each team.
+              </li>
+              <li>
+                Penalties will be played as 4 on 3. If the penalty killing team
+                takes an additional penalty the power play team will gain a
+                player making the advantage 5 on 3.
+              </li>
+              <li>Teams do not switch ends. The ice will not be resurfaced.</li>
+              <li>
+                If the game does not end via a goal being scored, a shoot-out
+                will be used. Each team will designate three players to
+                participate who will take shots. USA hockey penalty shot rules
+                will be used. The team scoring the most goals in the shootout
+                round of the 3 shots will be the winner. Additional shooters
+                will be used if teams are in a tie.
+              </li>
+              <li>The home team gets the option of shooting first or last.</li>
+            </ol>
+            <h3 class="info-title">
+              Please remember that all USA and New York State Hockey rules apply
+              during all tournaments.
+            </h3>
+            <p>
+              Zero Tolerance is in effect for all coaches, players and
+              spectators and will be strictly enforced by the referees. If
+              unruly spectators are asked to leave and do not, the clock will
+              begin to run until that spectator complies. Each team coach is
+              responsible for his parents. Make sure that the parents understand
+              that this rule will be strictly enforced. It may negatively affect
+              your team.
+            </p>
+            <h4 class="info-header">Penalties:</h4>
+            <ol>
+              <li>
+                Checking from behind is a 2 and 10 minimum or a 5 minute and a
+                game.
+              </li>
+              <li>
+                A game misconduct will result in the suspension of that player
+                for the remainder of the game and the next game unless 3rd man
+                in rule applies.
+              </li>
+              <li>
+                Any player that gets 5 or more penalties in a game will result
+                in the suspension of that player in that game and the following
+                game.
+              </li>
+              <li>
+                Any coach whose team incurs 15 or more penalties in one game
+                will result in the suspension of that coach in the following
+                game. The coach may watch the game from the stands but may not
+                communicate with the team in any manner. Failure to abide by
+                these will result in the expulsion of the coach from the
+                tournament and the rink.
+              </li>
+              <li>
+                Games involving a Match penalty will result in an immediate
+                suspension and expulsion of that person from the tournament.
+                Further disciplinary actions will be taken against the coach,
+                team or player. USA hockey will be notified along with the
+                parent organization.
+              </li>
+            </ol>
+          </div>
+          <div
+            class="tab-panel"
+            role="tabpanel"
+            id="attractions"
+            aria-hidden="true"
+          >
+            <h3 class="info-title">
+              Check out the attractions around the rink
+            </h3>
+            <ul class="attraction-container">
+              <li>
+                <a
+                  class="attraction-item"
+                  target="_blank"
+                  href="//www.senecaniagaracasino.com/"
+                  >Seneca Niagara Falls Casino</a
+                >
+              </li>
+              <li>
+                <a
+                  class="attraction-item"
+                  target="_blank"
+                  href="//www.niagarafallsstatepark.com/"
+                  >Niagara Falls Parks System</a
+                >
+              </li>
+              <li>
+                <a
+                  class="attraction-item"
+                  target="_blank"
+                  href="//www.niagaraparks.com/niagara-falls-attractions/whirlpool-aero-car.html"
+                  >Spanish AeroCar</a
+                >
+              </li>
+              <li>
+                <a
+                  class="attraction-item"
+                  target="_blank"
+                  href="//sabres.nhl.com/"
+                  >Live NHL Hockey</a
+                >
+              </li>
+              <li>
+                <a
+                  class="attraction-item"
+                  target="_blank"
+                  href="//www.fashionoutletsniagara.com/"
+                  >Incredible Shopping</a
+                >
+              </li>
+              <li>
+                <a
+                  class="attraction-item"
+                  target="_blank"
+                  href="//www.maidofthemist.com/"
+                  >Maid of the Mist</a
+                >
+              </li>
+              <li>
+                <a
+                  class="attraction-item"
+                  target="_blank"
+                  href="https://www.nypa.gov/niagarapowervista/"
+                  >Niagara Power Vista</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div
+            class="tab-panel"
+            role="tabpanel"
+            id="screening"
+            aria-hidden="true"
+          >
+            <h3 class="info-title">Screening Process</h3>
+            <h4 class="info-header">Rules:</h4>
+            <p>
+              All U.S.A. Hockey Rules and Regulations will be applicable.
+              Tournament Rules are posted on our website under the tournament
+              rules link. Please note that all of our tournaments are run on a
+              point-per-period scoring system, where each game is worth 5 points
+              which will be divided between the two teams.
+            </p>
+            <h4 class="info-header">Registration:</h4>
+            <p>
+              All U.S. and Canadian Teams must be registered with their
+              respective parent organizations for the 2015-2016 season. Only
+              U.S.A. hockey age classifications will be accepted. A certified
+              U.S.A. or C.A.H.A. Hockey Team roster will be required before
+              final acceptance is granted. It must also be presented at
+              registration check-in.
+            </p>
+            <h4 class="info-header">Level of Competition:</h4>
+            <p>
+              Classification systems (AAA, AA, A, B, AE, house select & house)
+              may have slightly different meanings from area to area. Expect to
+              encounter teams that may have different eligibility or
+              classification rules that may not correspond to what you are
+              accustomed to in your area. The age groups for USA Hockey and
+              those of the Canadian Hockey Association are basically the same,
+              however, areas that have large numbers of registered players tend
+              to further delineate within the 2-year window allowed for each age
+              group. In these situations, teams composed of exclusively or
+              primarily of players in their 1st year of eligibility of a
+              particular age group will play in their respective home areas
+              against like teams.
+            </p>
+            <h4 class="info-header">Examples:</h4>
+            <p>
+              New York has areas that use both the two year USA Hockey age
+              window and the single calendar year to determine the make-up of
+              their teams. There are also teams that travel from New York who
+              are rostered as B/travel.
+            </p>
+            <p>
+              Ontario has much more skill classification, per the calendar year
+              age grouping than any USA Hockey affiliate. These include AAA, AA,
+              A, BB, B, AE (additional entry) and House. Many governing bodies
+              within Ontario also permits Select or All-Star teams to form for
+              the sole purpose of competing in events.
+            </p>
+            <p>
+              Cleveland Suburban League uses the RPI system and classifies teams
+              as AA, A1, A2, A3, B1, and B2.
+            </p>
+            <p>
+              In Massachusetts, teams are classified A, B, and C with the
+              exception of the Boston Metro League.
+            </p>
+            <p>
+              In Michigan they’re referred to as “A” teams, in Ontario & Western
+              New York they are referred to as “minor” teams. Michigan is still
+              the only place in the universe, to our knowledge, where the A & AA
+              classifications are age groups and not skill levels.
+            </p>
+            <p>
+              Ohio is growing their hockey programs rapidly, but there are not
+              the concentrations of players you'll find in Michigan or Illinois
+              and therefore the talent is also spread out. Each season we see
+              additional ice arenas being built, added to or renovated in Ohio.
+              With the addition of the Blue Jackets in Columbus, it's only a
+              matter of time.
+            </p>
+            <p>
+              Indiana like Ohio suffers from a lack of ice arenas. Again there
+              are several programs across the state and new arenas are being
+              built each season. House program teams in Indiana do not travel to
+              tournaments. Programs in Indiana typically form an All-Star team
+              from their house programs which either compete in the B or A
+              brackets of our events.
+            </p>
+            <p>
+              Florida also has an interesting way of organizing youth hockey. A
+              & AA teams are typically designated as such depending on the
+              league you choose. For instance, teams playing in the Central
+              Florida Hockey League are all designated A teams with those teams
+              playing in the statewide league designated as AA teams. In
+              addition, a team can be formed in Florida for the sole purpose of
+              attending a tournament and these teams are rostered as tournament
+              teams.
+            </p>
+            <h3 class="info-header">Playing Levels - Boys Teams</h3>
+            <p>
+              Our tournament divisions are based on the following general
+              guidelines. Variations are possible based on the skill level of
+              specific teams:
+            </p>
+            <p>
+              AA - The "best" or first picked travel team within a Tier II
+              organization. These teams will often consist primarily of
+              "second-year" or "major" aged players within the age group. In
+              some cases, Major A teams are also a more appropriate fit for this
+              level.
+            </p>
+            <p>
+              A - The second team or lower teams within a hockey organization
+              and/or teams consisting Primarily of "first-year" players within
+              the age classification or "minor" teams of a suitable skill level.
+            </p>
+            <p>
+              B - The third, or lower, travel level teams chosen within a Tier
+              II organization or teams that are classified as Tier III. Teams at
+              the B levels may often be populated by many players in their first
+              year of "travel" hockey.
+            </p>
+            <h3 class="info-header">Playing Levels - Girls Teams</h3>
+            <p>AA - Top competitive team in an association or district.</p>
+            <p>A - Competitive travel teams that are tournament bound.</p>
+            <p>
+              B - Recreational/House/Travel teams that are not tournament bound.
+            </p>
+            <p>
+              C - Developmental teams - Teams that mainly comprised of
+              first-year players with no more than 20% returning players
+            </p>
+            <h3 class="info-header">
+              Playing Levels - High School - Varsity / JV
+            </h3>
+            <p>
+              Age divisions and classifications may vary between the U.S. and
+              Canada and, in some cases, from state to state. The tournament
+              director will discuss appropriate placement of all teams to ensure
+              fair, competitive and equitable playing divisions.
+            </p>
+            <h3 class="info-header">Accomodation Policy</h3>
+            <p>
+              Teams are required to stay at one of the approved host hotels. A
+              list of approved hotels will be sent as soon as the entry fee is
+              received. The reservation committee will book all team rooms.
+              Teams are not allowed to book their own reservations. It is
+              suggested that team managers/coaches respond quickly since there
+              are limited rooms available at each hotel. Call for further
+              information.
+            </p>
+            <p>
+              Please note - Teams that do not stay at approved hotels will be
+              removed from the tournament and forfeit their entry fees.
+            </p>
+            <p>
+              Please complete the electronic registration. The application will
+              not be processed until the entry fee is received. Applications are
+              taken in the order they are received. Full payment must be
+              included in U.S. funds.
+            </p>
+            <p>A CERTIFIED BANK CHECK OR ASSOCIATION CHECK SHOULD BE USED.</p>
+          </div>
+          <div class="tab-panel" role="tabpanel" id="hotels" aria-hidden="true">
+            <h3 class="info-title">Hotels</h3>
+            <div class="hotel-block">
+              <div class="flex-item">
+                <h4 class="hotel-name">Sheraton Niagara Falls</h4>
+                <img
+                  class="hotel-logo sheraton"
+                  src="img/sheraton.png"
+                  alt="Sheraton Niagara Falls"
+                />
+              </div>
+              <div class="flex-item">
+                <h4 class="hotel-price">$139 per night</h4>
+                <h4>Hotel Amenities</h4>
+                <ul class="hotel-perks">
+                  <li>8 minutes to Hyde Park Ice Pavilion</li>
+                  <li>Reef Beach Club Indoor Pool</li>
+                  <li>“At The Falls Arcade” with 37 state-of-the-art games</li>
+                  <li>On Site Rainforest Café and full service Starbucks</li>
+                  <li>Lobby Bar</li>
+                  <li>
+                    <a
+                      class="hotel-link"
+                      href="https://www.marriott.com/hotels/travel/iagaf-sheraton-niagara-falls/"
+                      >Sheraton Niagara Falls Hotel Site</a
+                    >
+                  </li>
+                </ul>
+                <a class="button signup-button" href="sheraton.html"
+                  >More Info</a
+                >
+              </div>
+            </div>
+            <div class="hotel-block">
+              <div class="flex-item">
+                <h4 class="hotel-name">Wyndham Garden Inn</h4>
+                <img
+                  class="hotel-logo days"
+                  src="img/wyndham.png"
+                  alt="Wyndahm Garden Inn"
+                />
+              </div>
+              <div class="flex-item">
+                <h4 class="hotel-price">$162 per night</h4>
+                <h4>Hotel Amenities</h4>
+                <ul class="hotel-perks">
+                  <li>8 minutes to Hyde Park Ice Pavilion</li>
+                  <li>Indoor Heated Pool</li>
+                  <li>Add limited service Starbucks</li>
+                  <li>
+                    <a
+                      class="hotel-link"
+                      href="https://www.wyndhamgardenatniagarafalls.com/"
+                      >Wyndham Garden Hotel Website</a
+                    >
+                  </li>
+                </ul>
+                <a class="button signup-button" href="wyndham.html"
+                  >More Info</a
+                >
+              </div>
+            </div>
+            <div class="hotel-block">
+              <div class="flex-item">
+                <h4 class="hotel-name">Radisson Grand Island</h4>
+                <img
+                  class="hotel-logo radisson"
+                  src="img/radisson.png"
+                  alt="Radisson Grand Island"
+                />
+              </div>
+              <div class="flex-item">
+                <h4 class="hotel-price">$139 per night</h4>
+                <h4>Hotel Amenities</h4>
+                <ul class="hotel-perks">
+                  <li>Tastefully appointed guestrooms with balconies</li>
+                  <li>
+                    Renovated state-of-the-art fitness center, indoor & outdoor
+                    pools, whirlpool & sauna
+                  </li>
+                  <li>Game rooms, and a 24HR business center</li>
+                  <li>Complimentary Parking</li>
+                  <li>WIFI ACCESS</li>
+                </ul>
+                <a class="button signup-button" href="radisson.html"
+                  >More Info</a
+                >
+              </div>
+            </div>
+            <div class="hotel-block">
+              <div class="flex-item">
+                <h4 class="hotel-name">Holiday Inn</h4>
+                <img
+                  class="hotel-logo holiday"
+                  src="img/holiday-inn.svg"
+                  alt="Holiday Inn"
+                />
+              </div>
+              <div class="flex-item">
+                <h4 class="hotel-price">$135 per night</h4>
+                <h4>Hotel Amenities</h4>
+                <ul class="hotel-perks">
+                  <li>
+                    Includes $5.00 free play to the Great American Arcade – over
+                    45 interactive games!
+                  </li>
+                  <li>
+                    Anchor Bar and Restaurant – Home of the Original Buffalo
+                    Wing
+                  </li>
+                  <li>4 million dollar renovation completed in 2015</li>
+                  <li>Indoor Heated Pool</li>
+                  <li>Walking distance to Niagara Falls</li>
+                </ul>
+                <a class="button signup-button" href="holiday-inn.html"
+                  >More Info</a
+                >
+              </div>
+            </div>
+            <div class="hotel-block">
+              <div class="flex-item">
+                <h4 class="hotel-name">Hyatt Place</h4>
+                <img
+                  class="hotel-logo hyatt"
+                  src="img/hyatt.svg"
+                  alt="Hyatt Place"
+                />
+              </div>
+              <div class="flex-item">
+                <h4 class="hotel-price">$149 per night</h4>
+                <h4>Hotel Amenities</h4>
+                <ul class="hotel-perks">
+                  <li>Less than 10 minutes to Hyde Park</li>
+                  <li>FREE Parking</li>
+                  <li>FREE Breakfast</li>
+                  <li>Indoor Heated Salt Water and 24/7 Fitness Center</li>
+                  <li>Less than 200 Steps to Niagara Falls State Park</li>
+                </ul>
+                <a class="button signup-button" href="hyatt-place.html"
+                  >More Info</a
+                >
+              </div>
+            </div>
+            <div class="hotel-block">
+              <div class="flex-item">
+                <h4 class="hotel-name">Hampton Inn Niagara Falls</h4>
+                <img
+                  class="hotel-logo hampton"
+                  src="img/hampton-inn.svg"
+                  alt="Hampton Inn"
+                />
+              </div>
+              <div class="flex-item">
+                <h4 class="hotel-price">$129 per night</h4>
+                <h4>Hotel Amenities</h4>
+                <ul class="hotel-perks">
+                  <li>7 minutes to Hyde Park Ice Pavilion</li>
+                  <li>Complimentary Wifi</li>
+                  <li>Complimentary parking</li>
+                  <li>Complimentary Hot Buffet Breakfast</li>
+                  <li>Meeting Room space available upon request</li>
+                </ul>
+                <a class="button signup-button" href="hampton.html"
+                  >More Info</a
+                >
+              </div>
+            </div>
+            <div class="hotel-block">
+              <div class="flex-item">
+                <h4 class="hotel-name">Comfort Inn & Suites</h4>
+                <img
+                  class="hotel-logo days"
+                  src="img/comfort.svg"
+                  alt="Comfort Inn & Suites"
+                />
+              </div>
+              <div class="flex-item">
+                <h4 class="hotel-price">$149.95 per night</h4>
+                <h4>Hotel Amenities</h4>
+                <ul class="hotel-perks">
+                  <li>BRAND NEW HOTEL with FREE parking</li>
+                  <li>Hot Breakfast included</li>
+                  <li>Fitness Center</li>
+                  <li>Year round pool</li>
+                  <li>5 min to Hyde Park</li>
+                </ul>
+                <a class="button signup-button" href="comfort.html"
+                  >More Info</a
+                >
+              </div>
+            </div>
+            <div class="hotel-block">
+              <div class="flex-item">
+                <h4 class="hotel-name">Niagara Riverside Resort</h4>
+                <img
+                  class="hotel-logo days"
+                  src="img/riverside.png"
+                  alt="Niagara Riverside Resort"
+                />
+              </div>
+              <div class="flex-item">
+                <h4 class="hotel-price">$133 per night</h4>
+                <h4>Hotel Amenities</h4>
+                <ul class="hotel-perks">
+                  <li>Riverfront property</li>
+                  <li>Pet friendly</li>
+                  <li>Complimentary WiFi</li>
+                  <li>Indoor heated pool</li>
+                </ul>
+                <a class="button signup-button" href="riverside.html"
+                  >More Info</a
+                >
+              </div>
+            </div>
+          </div>
+          <div
+            class="tab-panel"
+            role="tabpanel"
+            id="standings"
+            aria-hidden="true"
+          >
+            <h3 class="info-title">
+              Live stats will be available once a tournament starts.
+            </h3>
+            <h3 class="info-title">
+              Check out the live stats for the Blizzard Challenge!
+            </h3>
+            <iframe
+              src="https://league.winloseortie.com/NST%20-%20Blizzard%20Challenge/schedule"
+              height="700px"
+              width="100%"
+            ></iframe>
+          </div>
+          <div
+            class="tab-panel"
+            role="tabpanel"
+            id="features"
+            aria-hidden="true"
+          >
+            <h3 class="info-title">NST Tournaments Features:</h3>
+            <p>
+              A friendly, courteous staff with a tournament director present at
+              ALL times.
+            </p>
+            <p>
+              Experienced Referees with the Supervisor of Officials present for
+              EVERY game.
+            </p>
+            <p>First Class hotel rooms at the LOWEST rates in WNY.</p>
+            <p>
+              ONLY Tournament operator in WNY to have an EMT present at every
+              game.
+            </p>
+            <p>Great restaurants, tourist attractions, casino gambling.</p>
+            <p>
+              Convenient Tournament dates so the LEAST amount of school is
+              missed.
+            </p>
+            <p>Buffalo Sabres and Niagara University Division I hockey.</p>
+            <p>Game sheets prepared by tournament staff for every game.</p>
+            <p class="highlighted_text">
+              We will have a parents party at the rink from 9pm-1am.
+              Complimentary beer and entertainment will be provided.
+            </p>
+            <p class="highlighted_text">
+              After one game, NST will provide a tray of pizza that can be
+              enjoyed in J.R. Stone room, which is attached to the rink.
+            </p>
             <h3 class="info-title">Why play with NST?</h3>
             <p>Voted #1 Tournament Operator in WNY</p>
-            <p>We spend hundreds of hours screening each application, and unlike other organizations that run 20-30 tournaments
-              per year, we run 5 tournaments. With more than enough applicants, we carefully place each team, where the objective
-              of these larger tournament venues is to fill their tournaments with as many teams as possible.</p>
-            <p>With 25 years of experience, we have learned over the years that keeping things organized makes it easier for
-              everyone. and for our attendees.</p>
-            <p>We provide a tournament schedule 3-4 weeks prior to the tournament event. Schedules seldom change since we put
-              our schedules through a rigorous approval process, not to mention that all teams have already paid in full,
-              and we typically have a waiting list.</p>
+            <p>
+              We spend hundreds of hours screening each application, and unlike
+              other organizations that run 20-30 tournaments per year, we run 5
+              tournaments. With more than enough applicants, we carefully place
+              each team, where the objective of these larger tournament venues
+              is to fill their tournaments with as many teams as possible.
+            </p>
+            <p>
+              With 25 years of experience, we have learned over the years that
+              keeping things organized makes it easier for everyone. and for our
+              attendees.
+            </p>
+            <p>
+              We provide a tournament schedule 3-4 weeks prior to the tournament
+              event. Schedules seldom change since we put our schedules through
+              a rigorous approval process, not to mention that all teams have
+              already paid in full, and we typically have a waiting list.
+            </p>
             <p>USA Hockey Sanctioned</p>
-            <p>Each player receives thank you gift (bag tag, puck, etc) for entering the tournament. The gift changes every
-              tournament. Teams that advance to the championship game receive either individual runner-up or championship
-              trophies. Champions will also receive a team trophy. Understanding kids expectations when making it to the
-              Championship game; we spare no expense when it comes to our trophies.</p>
+            <p>
+              Each player receives thank you gift (bag tag, puck, etc) for
+              entering the tournament. The gift changes every tournament. Teams
+              that advance to the championship game receive either individual
+              runner-up or championship trophies. Champions will also receive a
+              team trophy. Understanding kids expectations when making it to the
+              Championship game; we spare no expense when it comes to our
+              trophies.
+            </p>
             <p>Multiple Team/Tournament Discounts</p>
             <p>Balanced, Competitive, well thought out Divisions</p>
             <p>Individual and Team awards for Finalists and Champions</p>
             <p>3 - 5 games guaranteed</p>
-            <p class="highlighted_text">Complimentary Bag Tag for each Player</p>
+            <p class="highlighted_text">
+              Complimentary Bag Tag for each Player
+            </p>
+          </div>
         </div>
+      </section>
+      <a class="button signup-button" href="form.html">Sign Up</a>
+    </main>
+    <footer class="block footer" role="contentinfo">
+      <h3>Connect with us</h3>
+      <div class="social">
+        <a
+          class="icon-anchor"
+          aria-label="Email Niagara Sports Tournaments"
+          href="mailto:mikecarella@niagaratournaments.com"
+        >
+          <img class="email icon" alt="Email NST" src="img/email.svg" />
+        </a>
+        <a
+          class="icon-anchor"
+          aria-label="Niagara Sports Tournaments Instagram"
+          href="https://www.instagram.com/nsthockey/"
+          ><img class="instagram icon" alt="insta NST" src="img/instagram.svg"
+        /></a>
+        <a
+          class="icon-anchor"
+          aria-label="Call Niagara Sports Tournaments"
+          href="tel:+17163161526"
+        >
+          <img class="phone icon" alt="Call NST" src="img/phone.svg" />
+        </a>
+        <a
+          class="icon-anchor"
+          aria-label="Facebook Page of Niagara Sports Tournaments"
+          href="https://www.facebook.com/pages/Niagara-Sports-Tournaments/943771739000680?ref=hl"
+        >
+          <img
+            class="facebook icon"
+            alt="Check out our Facebook"
+            src="./img/facebook.svg"
+          />
+        </a>
       </div>
-    </section>
-    <a class="button signup-button" href="form.html">Sign Up</a>
-  </main>
-  <footer class="block footer" role="contentinfo">
-    <h3>Connect with us</h3>
-    <div class="social">
-      <a class="icon-anchor" aria-label="Email Niagara Sports Tournaments" href="mailto:mikecarella@niagaratournaments.com">
-        <img class="email icon" alt="Email NST" src="img/email.svg"> </a>
-    <a class="icon-anchor" aria-label="Niagara Sports Tournaments Instagram" href="https://www.instagram.com/nsthockey/"><img class="instagram icon" alt="insta NST" src="img/instagram.svg"/></a>
-      <a class="icon-anchor" aria-label="Call Niagara Sports Tournaments" href="tel:+17163161526">
-        <img class="phone icon" alt="Call NST" src="img/phone.svg"> </a>
-      <a class="icon-anchor" aria-label="Facebook Page of Niagara Sports Tournaments" href="https://www.facebook.com/pages/Niagara-Sports-Tournaments/943771739000680?ref=hl">
-        <img class="facebook icon" alt="Check out our Facebook" src="./img/facebook.svg">
-      </a>
-    </div>
-    <div class="contact-links">
-      <a href="mailto:mikecarella@niagaratournaments.com">mikecarella@niagaratournaments.com </a>
-      <a href="tel:+17163161526">Call us @ 716-316-1526</a>
-    </div>
-  </footer>
-  <!-- GOOGLE ANALYTICS -->
-  <script type="text/javascript">
-    (function (i, s, o, g, r, a, m) {
-      i['GoogleAnalyticsObject'] = r;
-      i[r] = i[r] || function () {
-        (i[r].q = i[r].q || []).push(arguments)
-      }, i[r].l = 1 * new Date();
-      a = s.createElement(o),
-        m = s.getElementsByTagName(o)[0];
-      a.async = 1;
-      a.src = g;
-      m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+      <div class="contact-links">
+        <a href="mailto:mikecarella@niagaratournaments.com"
+          >mikecarella@niagaratournaments.com
+        </a>
+        <a href="tel:+17163161526">Call us @ 716-316-1526</a>
+      </div>
+    </footer>
+    <!-- GOOGLE ANALYTICS -->
+    <script type="text/javascript">
+      (function (i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r;
+        (i[r] =
+          i[r] ||
+          function () {
+            (i[r].q = i[r].q || []).push(arguments);
+          }),
+          (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+      })(
+        window,
+        document,
+        "script",
+        "//www.google-analytics.com/analytics.js",
+        "ga"
+      );
 
-    ga('create', 'UA-62717208-1', 'auto');
-    ga('send', 'pageview');
-  </script>
-  <script type="text/javascript">
-    (function () {
-      "use strict";
-      eval(
-        "\n\nvar menu = document.querySelector(\".menu\");\nvar toggle = document.querySelector(\".menu-toggle\");\n\nfunction toggleToggle() {\ntoggle.classList.toggle(\"menu-open\");\n}\n\n;\n\nfunction toggleMenu() {\nmenu.classList.toggle(\"active\");\n}\n\n;\n\nfunction removeActive() {\nmenu.classList.remove('active');\n}\n\ntoggle.addEventListener(\"click\", toggleToggle, false);\ntoggle.addEventListener(\"click\", toggleMenu, false);\n\n"
-      );
-    })();
-    (function () {
-      "use strict";
-      eval(
-        "\n\nvar nav = document.querySelector('nav');\nvar menu = document.querySelector('.menu');\nvar menuToggle = document.querySelector('.menu-toggle');\nvar menuContainer = document.querySelector('.menu-container');\nvar mobileLogo = document.querySelector('.mobile-logo');\nvar stickyLogoContainer = document.querySelector('.sticky_logo_container');\nvar topOfNav = offset(nav).top;\n\nfunction offset(el) {\nvar rect = el.getBoundingClientRect(),\nscrollLeft = window.pageXOffset || document.documentElement.scrollLeft,\nscrollTop = window.pageYOffset || document.documentElement.scrollTop;\nreturn {\ntop: rect.top + scrollTop,\nleft: rect.left + scrollLeft\n};\n}\n\nvar width = window.innerWidth;\n\nfunction changeViewPorts() {\ndocument.body.classList.remove('sticky');\n\nif (menuToggle.classList.contains('menu-open')) {\nmenuToggle.classList.toggle('menu-open');\n}\n\nif (menu.classList.contains('active')) {\nmenu.classList.remove('active');\n}\n}\n\nwindow.addEventListener('resize', function () {\nif (width > 767) {\nchangeViewPorts();\n}});\n\nfunction fixNav() {\nif (window.scrollY >= topOfNav) {\ndocument.body.style.paddingTop = nav.offsetHeight + 'px';\ndocument.body.classList.add('sticky');\nstickyLogoContainer.classList.remove('hide');\n} else {\ndocument.body.classList.remove('sticky');\ndocument.body.style.paddingTop = 0;\nstickyLogoContainer.classList.add('hide');\n}\n}\n\nif (width > 767) {\nwindow.addEventListener('scroll', fixNav);\n} else {\nwindow.removeEventListener('scroll', fixNav);\ndocument.body.classList.remove('sticky');\n}\n\n"
-      );
-    })();
-    (function () {
-      "use strict";
-      eval(
-        "\n\nwindow.addEventListener(\"load\", function () {\n// store tabs variable\nvar myTabs = document.querySelectorAll(\".tab-link\");\n\nfunction tabToggle(tabClickEvent) {\nfor (var i = 0; i < myTabs.length; i++) {\nmyTabs[i].classList.remove(\"active\");\nmyTabs[i].setAttribute('aria-selected', false);\n}\n\nvar clickedTab = tabClickEvent.currentTarget;\nclickedTab.classList.add(\"active\");\nclickedTab.setAttribute('aria-selected', true);\ntabClickEvent.preventDefault();\nvar myContentPanes = document.querySelectorAll(\".tab-panel\");\n\nfor (var _i = 0; _i < myContentPanes.length; _i++) {\nmyContentPanes[_i].classList.remove(\"active\");\n\nmyContentPanes[_i].setAttribute('aria-hidden', true);\n}\n\nvar anchorReference = tabClickEvent.target;\nvar activePaneId = anchorReference.getAttribute(\"href\");\nvar activePane = document.querySelector(activePaneId);\nactivePane.classList.add(\"active\");\nactivePane.setAttribute('aria-hidden', false);\n}\n\nfor (var i = 0; i < myTabs.length; i++) {\nmyTabs[i].addEventListener(\"click\", tabToggle);\n}\n});\n\n"
-      );
-    })();
-  </script>
-</body>
-
+      ga("create", "UA-62717208-1", "auto");
+      ga("send", "pageview");
+    </script>
+    <script type="text/javascript">
+      (function () {
+        "use strict";
+        eval(
+          '\n\nvar menu = document.querySelector(".menu");\nvar toggle = document.querySelector(".menu-toggle");\n\nfunction toggleToggle() {\ntoggle.classList.toggle("menu-open");\n}\n\n;\n\nfunction toggleMenu() {\nmenu.classList.toggle("active");\n}\n\n;\n\nfunction removeActive() {\nmenu.classList.remove(\'active\');\n}\n\ntoggle.addEventListener("click", toggleToggle, false);\ntoggle.addEventListener("click", toggleMenu, false);\n\n'
+        );
+      })();
+      (function () {
+        "use strict";
+        eval(
+          "\n\nvar nav = document.querySelector('nav');\nvar menu = document.querySelector('.menu');\nvar menuToggle = document.querySelector('.menu-toggle');\nvar menuContainer = document.querySelector('.menu-container');\nvar mobileLogo = document.querySelector('.mobile-logo');\nvar stickyLogoContainer = document.querySelector('.sticky_logo_container');\nvar topOfNav = offset(nav).top;\n\nfunction offset(el) {\nvar rect = el.getBoundingClientRect(),\nscrollLeft = window.pageXOffset || document.documentElement.scrollLeft,\nscrollTop = window.pageYOffset || document.documentElement.scrollTop;\nreturn {\ntop: rect.top + scrollTop,\nleft: rect.left + scrollLeft\n};\n}\n\nvar width = window.innerWidth;\n\nfunction changeViewPorts() {\ndocument.body.classList.remove('sticky');\n\nif (menuToggle.classList.contains('menu-open')) {\nmenuToggle.classList.toggle('menu-open');\n}\n\nif (menu.classList.contains('active')) {\nmenu.classList.remove('active');\n}\n}\n\nwindow.addEventListener('resize', function () {\nif (width > 767) {\nchangeViewPorts();\n}});\n\nfunction fixNav() {\nif (window.scrollY >= topOfNav) {\ndocument.body.style.paddingTop = nav.offsetHeight + 'px';\ndocument.body.classList.add('sticky');\nstickyLogoContainer.classList.remove('hide');\n} else {\ndocument.body.classList.remove('sticky');\ndocument.body.style.paddingTop = 0;\nstickyLogoContainer.classList.add('hide');\n}\n}\n\nif (width > 767) {\nwindow.addEventListener('scroll', fixNav);\n} else {\nwindow.removeEventListener('scroll', fixNav);\ndocument.body.classList.remove('sticky');\n}\n\n"
+        );
+      })();
+      (function () {
+        "use strict";
+        eval(
+          '\n\nwindow.addEventListener("load", function () {\n// store tabs variable\nvar myTabs = document.querySelectorAll(".tab-link");\n\nfunction tabToggle(tabClickEvent) {\nfor (var i = 0; i < myTabs.length; i++) {\nmyTabs[i].classList.remove("active");\nmyTabs[i].setAttribute(\'aria-selected\', false);\n}\n\nvar clickedTab = tabClickEvent.currentTarget;\nclickedTab.classList.add("active");\nclickedTab.setAttribute(\'aria-selected\', true);\ntabClickEvent.preventDefault();\nvar myContentPanes = document.querySelectorAll(".tab-panel");\n\nfor (var _i = 0; _i < myContentPanes.length; _i++) {\nmyContentPanes[_i].classList.remove("active");\n\nmyContentPanes[_i].setAttribute(\'aria-hidden\', true);\n}\n\nvar anchorReference = tabClickEvent.target;\nvar activePaneId = anchorReference.getAttribute("href");\nvar activePane = document.querySelector(activePaneId);\nactivePane.classList.add("active");\nactivePane.setAttribute(\'aria-hidden\', false);\n}\n\nfor (var i = 0; i < myTabs.length; i++) {\nmyTabs[i].addEventListener("click", tabToggle);\n}\n});\n\n'
+        );
+      })();
+    </script>
+  </body>
 </html>
