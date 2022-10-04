@@ -98,21 +98,74 @@
           Thank you! Your application has been received, Mike or Gene will be in
           touch within 24 hours.
         </h2>
-        <h3>Confirm Tournament Signup</h3>
-        <div class="confirm-submission">
-          <fieldset>
-            <legend>Acceptance Policy</legend>
-            <div class="form-group">
+        <div class="signup-grid">
+          <div class="confirm-submission">
+            <h3>Step 1 - Confirm Tournament Signup</h3>
+            <fieldset>
+              <legend>Acceptance Policy</legend>
+              <div class="form-group">
+                <input
+                  id="acceptance"
+                  type="text"
+                  required=""
+                  type="text"
+                  class="form-control"
+                />
+                <label for="acceptance"><span>Team Manager Name</span></label>
+              </div>
+            </fieldset>
+          </div>
+          <div class="confirm-submission">
+            <h3>Step 2 - Add $500.00 team deposit</h3>
+            <form
+              action="https://www.paypal.com/cgi-bin/webscr"
+              class="paypal-checkout"
+              method="post"
+              target="_top"
+            >
+              <input type="hidden" name="cmd" value="_s-xclick" />
               <input
-                id="acceptance"
-                type="text"
-                required=""
-                type="text"
-                class="form-control"
+                type="hidden"
+                name="hosted_button_id"
+                value="HV2XGQAWBXTPU"
               />
-              <label for="acceptance"><span>Team Manager Name</span></label>
-            </div>
-          </fieldset>
+              <input
+                class="paypal-data"
+                item_name=""
+                item_number=""
+                type="hidden"
+                name="on0"
+                value="DEPOSIT"
+              />
+              <h3>$500.00 Deposit</h3>
+              <input type="hidden" name="currency_code" value="USD" />
+              <input
+                alt="PayPal - The safer, easier way to pay online!"
+                border="0"
+                class="pp-button"
+                name="submit"
+                src="./img/paypal.svg"
+                type="image"
+              />
+              <img
+                alt=""
+                border="0"
+                height="1"
+                src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"
+                width="1"
+              />
+              <svg class="svg-spinner hide">
+                <circle
+                  class="path"
+                  cx="25"
+                  cy="25"
+                  r="20"
+                  fill="none"
+                  stroke-width="5"
+                ></circle>
+              </svg>
+            </form>
+          </div>
         </div>
         <p>
           Submission of this application by e-mail does not constitute

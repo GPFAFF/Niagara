@@ -1155,6 +1155,7 @@ li > .hotel-link:hover {
 .confirm-submission {
   display: flex;
   align-items: center;
+  flex-direction: column;
 }
 .confirm-submission h3 {
   margin-right: 20px;
@@ -1523,4 +1524,15 @@ ul {
 
 .contact-links.links {
   padding-bottom: 40px;
+}
+
+.signup-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 1012px) {
+  .signup-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
