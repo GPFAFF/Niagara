@@ -1531,6 +1531,19 @@ ul {
   grid-template-columns: 1fr;
 }
 
+.bold {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+ol {
+  margin-left: 20px;
+}
+
+.paragraph {
+  padding: 0 20px !important;
+}
+
 @media (min-width: 1012px) {
   .signup-grid {
     grid-template-columns: repeat(2, 1fr);
