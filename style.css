@@ -1549,3 +1549,18 @@ ol {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+.banner {
+  width: 100%;
+  padding: 20px 0;
+  background-color: #c63f3f;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 24px;
+  text-shadow: 2px 2px 2px #000;
+}
+
+.banner > a {
+  color: white;
+  text-decoration: underline;
+}
