@@ -910,6 +910,14 @@ select.form_error {
     background: url(img/doubletree.jpg) 100% / cover no-repeat;
   }
 }
+.holiday-inn-express-hero {
+  background: url(img/holiday-inn-express.jpeg) 50% 100% / cover no-repeat;
+}
+@media (min-width: 768px) {
+  .holiday-inn-express-hero {
+    background: url(img/holiday-inn-express.jpeg) 100% / cover no-repeat;
+  }
+}
 .laquinta-hero {
   background: url(img/laquinta.jpg) 50% 100% / cover no-repeat;
 }
