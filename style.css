@@ -1052,6 +1052,7 @@ select.form_error {
 .hotel-logo.hampton {
   width: 100%;
   height: auto;
+  max-width: 300px
 }
 .hotel-block .hotel-logo.adams,
 .hotel-block .hotel-logo.days,
