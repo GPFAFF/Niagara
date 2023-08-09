@@ -1573,3 +1573,16 @@ ol {
   color: white;
   text-decoration: underline;
 }
+
+.hotel-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  padding-bottom: 40px;
+}
+
+.hotel-grid > img {
+    width: 100%;
+    max-width: 600px;
+}
